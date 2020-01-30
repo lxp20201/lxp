@@ -1,0 +1,23 @@
+current directory: /bitnami/ruby24stack-linux-x64/output/ruby/lib/ruby/gems/2.4.0/gems/github-markdown-0.5.3/ext/markdown
+/bitnami/ruby24stack-linux-x64/output/ruby/bin/ruby -r ./siteconf20200107-31449-s27qof.rb extconf.rb
+creating Makefile
+
+current directory: /bitnami/ruby24stack-linux-x64/output/ruby/lib/ruby/gems/2.4.0/gems/github-markdown-0.5.3/ext/markdown
+make "DESTDIR=" clean
+
+current directory: /bitnami/ruby24stack-linux-x64/output/ruby/lib/ruby/gems/2.4.0/gems/github-markdown-0.5.3/ext/markdown
+make "DESTDIR="
+compiling autolink.c
+compiling buffer.c
+compiling gh-markdown.c
+compiling houdini_href_e.c
+compiling houdini_html_e.c
+compiling html.c
+compiling markdown.c
+compiling plaintext.c
+compiling stack.c
+linking shared-object github/markdown.so
+
+current directory: /bitnami/ruby24stack-linux-x64/output/ruby/lib/ruby/gems/2.4.0/gems/github-markdown-0.5.3/ext/markdown
+make "DESTDIR=" install
+/bin/install -c -m 0755 markdown.so ./.gem.20200107-31449-vvnpyw/github

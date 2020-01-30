@@ -1,3 +1,0 @@
-#!/bin/sh
-. /home/css/edx-edutech/apache2/bin/envvars
-exec /home/css/edx-edutech/apache2/bin/fcgistarter.bin "$@"

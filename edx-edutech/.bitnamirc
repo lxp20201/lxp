@@ -1,0 +1,16 @@
+
+PATH="/home/css/edx-edutech/apps/edx/edx-platform/node_modules/.bin:/home/css/edx-edutech/apps/edx/bin:/home/css/edx-edutech/postgresql/bin:/home/css/edx-edutech/git/bin:/home/css/edx-edutech/perl/bin:/home/css/edx-edutech/nodejs/bin:/home/css/edx-edutech/java/bin:/home/css/edx-edutech/erlang/bin:/home/css/edx-edutech/ruby/bin:/home/css/edx-edutech/python/bin:/home/css/edx-edutech/elasticsearch/bin:/home/css/edx-edutech/memcached/bin:/home/css/edx-edutech/mongodb/bin:/home/css/edx-edutech/sqlite/bin:/home/css/edx-edutech/mysql/bin:/home/css/edx-edutech/letsencrypt/:/home/css/edx-edutech/apache2/bin:/home/css/edx-edutech/common/bin:$PATH"
+BITNAMI_ROOT="/home/css/edx-edutech"
+export BITNAMI_ROOT
+
+
+if [ -s "/home/css/edx-edutech/python/bin/virtualenvwrapper.sh" ]; then
+   export WORKON_HOME="/home/css/edx-edutech/python/.virtualenvs"
+   export VIRTUALENVWRAPPER_PYTHON="/home/css/edx-edutech/python/bin/python"
+   source "/home/css/edx-edutech/python/bin/virtualenvwrapper.sh"
+fi
+
+if [ "$BASH" != "" -a -s "/home/css/edx-edutech/git/scripts/git-completion.bash" ]; then
+    . "/home/css/edx-edutech/git/scripts/git-completion.bash"
+fi
+GIT_PS1_SHOWDIRTYSTATE=true
