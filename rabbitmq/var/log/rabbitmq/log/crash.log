@@ -1,0 +1,30 @@
+2020-01-28 18:56:03 =ERROR REPORT====
+Discarding message {'$gen_cast',{force_event_refresh,#Ref<0.3492352703.2558525442.60233>}} from <0.313.0> to <0.2516.0> in an old incarnation (2) of this node (1)
+
+2020-01-28 18:56:03 =ERROR REPORT====
+Discarding message {'$gen_cast',{force_event_refresh,#Ref<0.3492352703.2558525442.60233>}} from <0.313.0> to <0.2637.0> in an old incarnation (2) of this node (1)
+
+2020-01-28 18:56:03 =ERROR REPORT====
+Discarding message {'$gen_cast',{force_event_refresh,#Ref<0.3492352703.2558525442.60233>}} from <0.313.0> to <0.2520.0> in an old incarnation (2) of this node (1)
+
+2020-01-28 18:56:03 =ERROR REPORT====
+Discarding message {'$gen_cast',{force_event_refresh,#Ref<0.3492352703.2558525442.60233>}} from <0.313.0> to <0.2611.0> in an old incarnation (2) of this node (1)
+
+2020-01-28 18:56:03 =ERROR REPORT====
+Discarding message {'$gen_cast',{force_event_refresh,#Ref<0.3492352703.2558525442.60233>}} from <0.313.0> to <0.2652.0> in an old incarnation (2) of this node (1)
+
+2020-01-29 10:31:41 =ERROR REPORT====
+Discarding message {'$gen_cast',{force_event_refresh,#Ref<0.1922506033.3777232898.162191>}} from <0.296.0> to <0.447.0> in an old incarnation (1) of this node (2)
+
+2020-01-29 10:31:41 =ERROR REPORT====
+Discarding message {'$gen_cast',{force_event_refresh,#Ref<0.1922506033.3777232898.162191>}} from <0.296.0> to <0.450.0> in an old incarnation (1) of this node (2)
+
+2020-01-29 10:31:41 =ERROR REPORT====
+Discarding message {'$gen_cast',{force_event_refresh,#Ref<0.1922506033.3777232898.162191>}} from <0.296.0> to <0.453.0> in an old incarnation (1) of this node (2)
+
+2020-01-29 10:31:41 =ERROR REPORT====
+Discarding message {'$gen_cast',{force_event_refresh,#Ref<0.1922506033.3777232898.162191>}} from <0.296.0> to <0.459.0> in an old incarnation (1) of this node (2)
+
+2020-01-29 10:31:41 =ERROR REPORT====
+Discarding message {'$gen_cast',{force_event_refresh,#Ref<0.1922506033.3777232898.162191>}} from <0.296.0> to <0.456.0> in an old incarnation (1) of this node (2)
+

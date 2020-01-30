@@ -1,0 +1,21 @@
+2020-01-28 06:20:18,088 INFO 8758 [queue.management.commands.run_consumer] run_consumer.py:21 -  [*] Starting queue workers...
+2020-01-28 06:20:18,089 INFO 8758 [queue.management.commands.run_consumer] run_consumer.py:34 -  [edX-Open_DemoX] Starting worker
+2020-01-28 06:20:18,103 INFO 8772 [queue.consumer] consumer.py:110 - Starting consumer for queue edX-Open_DemoX
+2020-01-28 08:25:51,987 INFO 16187 [queue.management.commands.run_consumer] run_consumer.py:21 -  [*] Starting queue workers...
+2020-01-28 08:25:51,987 INFO 16187 [queue.management.commands.run_consumer] run_consumer.py:34 -  [edX-Open_DemoX] Starting worker
+2020-01-28 08:25:52,016 INFO 16228 [queue.consumer] consumer.py:110 - Starting consumer for queue edX-Open_DemoX
+2020-01-29 00:01:10,726 INFO 6755 [queue.management.commands.run_consumer] run_consumer.py:21 -  [*] Starting queue workers...
+2020-01-29 00:01:10,744 INFO 6755 [queue.management.commands.run_consumer] run_consumer.py:34 -  [edX-Open_DemoX] Starting worker
+2020-01-29 00:01:10,767 INFO 6970 [queue.consumer] consumer.py:110 - Starting consumer for queue edX-Open_DemoX
+2020-01-30 00:07:44,224 INFO 8141 [queue.management.commands.run_consumer] run_consumer.py:21 -  [*] Starting queue workers...
+2020-01-30 00:07:44,233 INFO 8141 [queue.management.commands.run_consumer] run_consumer.py:34 -  [edX-Open_DemoX] Starting worker
+2020-01-30 00:07:44,262 INFO 8201 [queue.consumer] consumer.py:110 - Starting consumer for queue edX-Open_DemoX
+2020-01-30 01:53:26,269 INFO 32632 [queue.management.commands.run_consumer] run_consumer.py:21 -  [*] Starting queue workers...
+2020-01-30 01:53:26,269 INFO 32632 [queue.management.commands.run_consumer] run_consumer.py:34 -  [edX-Open_DemoX] Starting worker
+2020-01-30 01:53:26,285 INFO 32668 [queue.consumer] consumer.py:110 - Starting consumer for queue edX-Open_DemoX
+2020-01-30 02:07:16,945 INFO 32632 [queue.management.commands.run_consumer] run_consumer.py:65 -  [edX-Open_DemoX] Worker failed
+2020-01-30 02:07:16,946 INFO 32632 [queue.management.commands.run_consumer] run_consumer.py:71 -  [edX-Open_DemoX] Starting worker
+2020-01-30 02:07:16,953 INFO 12391 [queue.consumer] consumer.py:110 - Starting consumer for queue edX-Open_DemoX
+2020-01-30 02:08:20,419 INFO 14425 [queue.management.commands.run_consumer] run_consumer.py:21 -  [*] Starting queue workers...
+2020-01-30 02:08:20,420 INFO 14425 [queue.management.commands.run_consumer] run_consumer.py:34 -  [edX-Open_DemoX] Starting worker
+2020-01-30 02:08:20,441 INFO 14462 [queue.consumer] consumer.py:110 - Starting consumer for queue edX-Open_DemoX

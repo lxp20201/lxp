@@ -1,0 +1,970 @@
+WARNING:py.warnings:/home/css/edx-edutech/apps/edx/edx-platform/lms/djangoapps/courseware/__init__.py:5: DeprecationWarning: Importing 'lms.djangoapps.courseware' as 'courseware' is no longer supported
+  warnings.warn("Importing 'lms.djangoapps.courseware' as 'courseware' is no longer supported", DeprecationWarning)
+
+2020-01-28 06:20:20,865 WARNING 8589 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-28 06:20:20,865 WARNING 8589 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-28 06:20:26,452 WARNING 8589 [py.warnings] worker.py:161 - /home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/celery/apps/worker.py:161: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+ 
+ -------------- celery@edx.lms.core.high_mem.css-Latitude-E6440 v3.1.25 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-4.15.0-74-generic-x86_64-with-debian-stretch-sid
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         proj:0x7ff1fddd2bd0
+- ** ---------- .> transport:   amqp://bn_edx:**@localhost:5672//
+- ** ---------- .> results:     
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> edx.lms.core.high_mem exchange=edx.lms.core(direct) key=edx.lms.core.high_mem
+                
+
+[tasks]
+  . bulk_email.tasks.send_course_email
+  . celery_utils.tasks.mark_resolved
+  . edx_sga.tasks.zip_student_submissions
+  . email_marketing.tasks.get_email_cookies_via_sailthru
+  . email_marketing.tasks.update_course_enrollment
+  . email_marketing.tasks.update_user
+  . email_marketing.tasks.update_user_email
+  . gating.tasks.task_evaluate_subsection_completion_milestones
+  . integrated_channels.integrated_channel.tasks.transmit_content_metadata
+  . integrated_channels.integrated_channel.tasks.transmit_learner_data
+  . integrated_channels.integrated_channel.tasks.unlink_inactive_learners
+  . lms.djangoapps.certificates.tasks.generate_certificate
+  . lms.djangoapps.discussion.tasks.send_ace_message
+  . lms.djangoapps.discussion.tasks.update_discussions_map
+  . lms.djangoapps.email_marketing.tasks.get_email_cookies_via_sailthru
+  . lms.djangoapps.email_marketing.tasks.update_course_enrollment
+  . lms.djangoapps.email_marketing.tasks.update_user
+  . lms.djangoapps.email_marketing.tasks.update_user_email
+  . lms.djangoapps.grades.tasks.compute_all_grades_for_course
+  . lms.djangoapps.grades.tasks.compute_grades_for_course
+  . lms.djangoapps.grades.tasks.compute_grades_for_course_v2
+  . lms.djangoapps.grades.tasks.recalculate_course_and_subsection_grades_for_user
+  . lms.djangoapps.grades.tasks.recalculate_subsection_grade_v3
+  . lms.djangoapps.instructor_task.tasks.calculate_grades_csv
+  . lms.djangoapps.instructor_task.tasks.calculate_may_enroll_csv
+  . lms.djangoapps.instructor_task.tasks.calculate_problem_grade_report
+  . lms.djangoapps.instructor_task.tasks.calculate_problem_responses_csv
+  . lms.djangoapps.instructor_task.tasks.calculate_students_features_csv
+  . lms.djangoapps.instructor_task.tasks.cohort_students
+  . lms.djangoapps.instructor_task.tasks.course_survey_report_csv
+  . lms.djangoapps.instructor_task.tasks.delete_problem_state
+  . lms.djangoapps.instructor_task.tasks.enrollment_report_features_csv
+  . lms.djangoapps.instructor_task.tasks.exec_summary_report_csv
+  . lms.djangoapps.instructor_task.tasks.export_ora2_data
+  . lms.djangoapps.instructor_task.tasks.generate_certificates
+  . lms.djangoapps.instructor_task.tasks.override_problem_score
+  . lms.djangoapps.instructor_task.tasks.proctored_exam_results_csv
+  . lms.djangoapps.instructor_task.tasks.rescore_problem
+  . lms.djangoapps.instructor_task.tasks.reset_problem_attempts
+  . lms.djangoapps.instructor_task.tasks.send_bulk_course_email
+  . lms.djangoapps.verify_student.tasks.send_verification_status_email
+  . openedx.core.djangoapps.content.block_structure.tasks.get_course_in_cache
+  . openedx.core.djangoapps.content.block_structure.tasks.get_course_in_cache_v2
+  . openedx.core.djangoapps.content.block_structure.tasks.update_course_in_cache
+  . openedx.core.djangoapps.content.block_structure.tasks.update_course_in_cache_v2
+  . openedx.core.djangoapps.coursegraph.tasks.dump_course_to_neo4j
+  . openedx.core.djangoapps.credentials.tasks.v1.tasks.send_grade_to_credentials
+  . openedx.core.djangoapps.programs.tasks.v1.tasks.award_course_certificate
+  . openedx.core.djangoapps.programs.tasks.v1.tasks.award_program_certificates
+  . openedx.core.djangoapps.schedules.tasks.ScheduleCourseUpdate
+  . openedx.core.djangoapps.schedules.tasks.ScheduleMessageBaseTask
+  . openedx.core.djangoapps.schedules.tasks.ScheduleRecurringNudge
+  . openedx.core.djangoapps.schedules.tasks.ScheduleUpgradeReminder
+  . openedx.core.djangoapps.schedules.tasks._course_update_schedule_send
+  . openedx.core.djangoapps.schedule2020-01-28 06:20:26,767 INFO 8589 [celery.worker.consumer] consumer.py:526 - Connected to amqp://bn_edx:**@127.0.0.1:5672//
+2020-01-28 06:20:26,791 INFO 8589 [celery.worker.consumer] consumer.py:614 - mingle: searching for neighbors
+2020-01-28 06:20:27,867 INFO 8589 [celery.worker.consumer] consumer.py:632 - mingle: all alone
+2020-01-28 06:20:27,985 WARNING 8589 [celery.redirected] log.py:282 - celery@edx.lms.core.high_mem.css-Latitude-E6440 ready.
+Killed
+WARNING:py.warnings:/home/css/edx-edutech/apps/edx/edx-platform/lms/djangoapps/courseware/__init__.py:5: DeprecationWarning: Importing 'lms.djangoapps.courseware' as 'courseware' is no longer supported
+  warnings.warn("Importing 'lms.djangoapps.courseware' as 'courseware' is no longer supported", DeprecationWarning)
+
+2020-01-28 08:25:50,176 WARNING 15712 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-28 08:25:50,177 WARNING 15712 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-28 08:25:55,091 WARNING 15712 [py.warnings] worker.py:161 - /home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/celery/apps/worker.py:161: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+ 
+ -------------- celery@edx.lms.core.high_mem.css-Latitude-E6440 v3.1.25 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-4.15.0-74-generic-x86_64-with-debian-stretch-sid
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         proj:0x7fdfdacb3bd0
+- ** ---------- .> transport:   amqp://bn_edx:**@localhost:5672//
+- ** ---------- .> results:     
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> edx.lms.core.high_mem exchange=edx.lms.core(direct) key=edx.lms.core.high_mem
+                
+
+[tasks]
+  . bulk_email.tasks.send_course_email
+  . celery_utils.tasks.mark_resolved
+  . edx_sga.tasks.zip_student_submissions
+  . email_marketing.tasks.get_email_cookies_via_sailthru
+  . email_marketing.tasks.update_course_enrollment
+  . email_marketing.tasks.update_user
+  . email_marketing.tasks.update_user_email
+  . gating.tasks.task_evaluate_subsection_completion_milestones
+  . integrated_channels.integrated_channel.tasks.transmit_content_metadata
+  . integrated_channels.integrated_channel.tasks.transmit_learner_data
+  . integrated_channels.integrated_channel.tasks.unlink_inactive_learners
+  . lms.djangoapps.certificates.tasks.generate_certificate
+  . lms.djangoapps.discussion.tasks.send_ace_message
+  . lms.djangoapps.discussion.tasks.update_discussions_map
+  . lms.djangoapps.email_marketing.tasks.get_email_cookies_via_sailthru
+  . lms.djangoapps.email_marketing.tasks.update_course_enrollment
+  . lms.djangoapps.email_marketing.tasks.update_user
+  . lms.djangoapps.email_marketing.tasks.update_user_email
+  . lms.djangoapps.grades.tasks.compute_all_grades_for_course
+  . lms.djangoapps.grades.tasks.compute_grades_for_course
+  . lms.djangoapps.grades.tasks.compute_grades_for_course_v2
+  . lms.djangoapps.grades.tasks.recalculate_course_and_subsection_grades_for_user
+  . lms.djangoapps.grades.tasks.recalculate_subsection_grade_v3
+  . lms.djangoapps.instructor_task.tasks.calculate_grades_csv
+  . lms.djangoapps.instructor_task.tasks.calculate_may_enroll_csv
+  . lms.djangoapps.instructor_task.tasks.calculate_problem_grade_report
+  . lms.djangoapps.instructor_task.tasks.calculate_problem_responses_csv
+  . lms.djangoapps.instructor_task.tasks.calculate_students_features_csv
+  . lms.djangoapps.instructor_task.tasks.cohort_students
+  . lms.djangoapps.instructor_task.tasks.course_survey_report_csv
+  . lms.djangoapps.instructor_task.tasks.delete_problem_state
+  . lms.djangoapps.instructor_task.tasks.enrollment_report_features_csv
+  . lms.djangoapps.instructor_task.tasks.exec_summary_report_csv
+  . lms.djangoapps.instructor_task.tasks.export_ora2_data
+  . lms.djangoapps.instructor_task.tasks.generate_certificates
+  . lms.djangoapps.instructor_task.tasks.override_problem_score
+  . lms.djangoapps.instructor_task.tasks.proctored_exam_results_csv
+  . lms.djangoapps.instructor_task.tasks.rescore_problem
+  . lms.djangoapps.instructor_task.tasks.reset_problem_attempts
+  . lms.djangoapps.instructor_task.tasks.send_bulk_course_email
+  . lms.djangoapps.verify_student.tasks.send_verification_status_email
+  . openedx.core.djangoapps.content.block_structure.tasks.get_course_in_cache
+  . openedx.core.djangoapps.content.block_structure.tasks.get_course_in_cache_v2
+  . openedx.core.djangoapps.content.block_structure.tasks.update_course_in_cache
+  . openedx.core.djangoapps.content.block_structure.tasks.update_course_in_cache_v2
+  . openedx.core.djangoapps.coursegraph.tasks.dump_course_to_neo4j
+  . openedx.core.djangoapps.credentials.tasks.v1.tasks.send_grade_to_credentials
+  . openedx.core.djangoapps.programs.tasks.v1.tasks.award_course_certificate
+  . openedx.core.djangoapps.programs.tasks.v1.tasks.award_program_certificates
+  . openedx.core.djangoapps.schedules.tasks.ScheduleCourseUpdate
+  . openedx.core.djangoapps.schedules.tasks.ScheduleMessageBaseTask
+  . openedx.core.djangoapps.schedules.tasks.ScheduleRecurringNudge
+  . openedx.core.djangoapps.schedules.tasks.ScheduleUpgradeReminder
+  . openedx.core.djangoapps.schedules.tasks._course_update_schedule_send
+  . openedx.core.djangoapps.schedule2020-01-28 08:25:55,609 ERROR 15712 [celery.worker.consumer] consumer.py:366 - consumer: Cannot connect to amqp://bn_edx:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 2.00 seconds...
+
+2020-01-28 08:25:57,625 ERROR 15712 [celery.worker.consumer] consumer.py:366 - consumer: Cannot connect to amqp://bn_edx:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 4.00 seconds...
+
+2020-01-28 08:26:01,635 ERROR 15712 [celery.worker.consumer] consumer.py:366 - consumer: Cannot connect to amqp://bn_edx:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 6.00 seconds...
+
+2020-01-28 08:26:07,660 INFO 15712 [celery.worker.consumer] consumer.py:526 - Connected to amqp://bn_edx:**@127.0.0.1:5672//
+2020-01-28 08:26:07,673 INFO 15712 [celery.worker.consumer] consumer.py:614 - mingle: searching for neighbors
+2020-01-28 08:26:08,839 INFO 15712 [celery.worker.consumer] consumer.py:632 - mingle: all alone
+2020-01-28 08:26:08,868 WARNING 15712 [celery.redirected] log.py:282 - celery@edx.lms.core.high_mem.css-Latitude-E6440 ready.
+
+Restarting celery worker (./manage.py lms --settings=bitnami celery worker --loglevel=info --queues=edx.lms.core.high_mem --hostname=edx.lms.core.high_mem.%h --concurrency=1)
+
+worker: Warm shutdown (MainProcess)
+s.tasks._recurring_nudge_schedule_send
+  . openedx.core.djangoapps.schedules.tasks._upgrade_reminder_schedule_send
+  . openedx.core.djangoapps.schedules.tasks.update_course_schedules
+  . openedx.core.djangoapps.service_status.tasks.delayed_ping
+  . openedx.core.djangoapps.verified_track_content.tasks.sync_cohort_with_mode
+  . student.tasks.send_activation_email
+  . third_party_auth.fetch_saml_metadata
+
+WARNING:py.warnings:/home/css/edx-edutech/apps/edx/edx-platform/lms/djangoapps/courseware/__init__.py:5: DeprecationWarning: Importing 'lms.djangoapps.courseware' as 'courseware' is no longer supported
+  warnings.warn("Importing 'lms.djangoapps.courseware' as 'courseware' is no longer supported", DeprecationWarning)
+
+2020-01-28 11:00:56,539 WARNING 15712 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-28 11:00:56,540 WARNING 15712 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+Traceback (most recent call last):
+  File "./manage.py", line 123, in <module>
+    execute_from_command_line([sys.argv[0]] + django_args)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/management/__init__.py", line 364, in execute_from_command_line
+    utility.execute()
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/management/__init__.py", line 356, in execute
+    self.fetch_command(subcommand).run_from_argv(self.argv)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/djcelery/management/commands/celery.py", line 21, in run_from_argv
+    ['{0[0]} {0[1]}'.format(argv)] + argv[2:],
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/celery/bin/celery.py", line 793, in execute_from_commandline
+    super(CeleryCommand, self).execute_from_commandline(argv)))
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/celery/bin/base.py", line 311, in execute_from_commandline
+    return self.handle_argv(self.prog_name, argv[1:])
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/celery/bin/celery.py", line 785, in handle_argv
+    return self.execute(command, argv)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/celery/bin/celery.py", line 717, in execute
+    ).run_from_argv(self.prog_name, argv[1:], command=argv[0])
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/celery/bin/worker.py", line 179, in run_from_argv
+    return self(*args, **options)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/celery/bin/base.py", line 274, in __call__
+    ret = self.run(*args, **kwargs)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/celery/bin/worker.py", line 212, in run
+    state_db=self.node_format(state_db, hostname), **kwargs
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/celery/worker/__init__.py", line 95, in __init__
+    self.app.loader.init_worker()
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/celery/loaders/base.py", line 128, in init_worker
+    self.import_default_modules()
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/celery/loaders/base.py", line 116, in import_default_modules
+    signals.import_modules.send(sender=self.app)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/celery/utils/dispatch/signal.py", line 166, in send
+    response = receiver(signal=self, sender=sender, **named)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/celery/fixups/django.py", line 73, in on_import_modules
+    self.worker_fixup.validate_models()
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/celery/fixups/django.py", line 173, in validate_models
+    cmd.check()
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/checks/model_checks.py", line 30, in check_all_models
+    errors.extend(model.check(**kwargs))
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/db/models/base.py", line 1284, in check
+    errors.extend(cls._check_fields(**kwargs))
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/db/models/base.py", line 1359, in _check_fields
+    errors.extend(field.check(**kwargs))
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/db/models/fields/__init__.py", line 913, in check
+    errors = super(AutoField, self).check(**kwargs)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/db/models/fields/__init__.py", line 219, in check
+    errors.extend(self._check_backend_specific_checks(**kwargs))
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/db/models/fields/__init__.py", line 322, in _check_backend_specific_checks
+    return connections[db].validation.check_field(self, **kwargs)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/db/backends/mysql/validation.py", line 49, in check_field
+    field_type = field.db_type(self.connection)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/db/models/fields/__init__.py", line 644, in db_type
+    return connection.data_types[self.get_internal_type()] % data
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 174, in data_types
+    if self.features.supports_microsecond_precision:
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/db/backends/mysql/features.py", line 53, in supports_microsecond_precision
+    return self.connection.mysql_version >= (5, 6, 4) and Database.version_info >= (1, 2, 5)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 385, in mysql_version
+    with self.temporary_connection() as cursor:
+  File "/home/css/edx-edutech/python/lib/python2.7/contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/db/backends/base/base.py", line 591, in temporary_connection
+    cursor = self.cursor()
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/db/backends/base/base.py", line 254, in cursor
+    return self._cursor()
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/db/backends/base/base.py", line 229, in _cursor
+    self.ensure_connection()
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/db/backends/base/base.py", line 213, in ensure_connection
+    self.connect()
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/db/backends/base/base.py", line 213, in ensure_connection
+    self.connect()
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/db/backends/base/base.py", line 189, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 274, in get_new_connection
+    conn = Database.connect(**conn_params)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/MySQLdb/connections.py", line 193, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+django.db.utils.OperationalError: (2002, "Can't connect to local MySQL server through socket '/home/css/edx-edutech/mysql/tmp/mysql.sock' (2)")
+WARNING:py.warnings:/home/css/edx-edutech/apps/edx/edx-platform/lms/djangoapps/courseware/__init__.py:5: DeprecationWarning: Importing 'lms.djangoapps.courseware' as 'courseware' is no longer supported
+  warnings.warn("Importing 'lms.djangoapps.courseware' as 'courseware' is no longer supported", DeprecationWarning)
+
+2020-01-29 00:01:43,298 WARNING 6434 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-29 00:01:43,324 WARNING 6434 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-29 00:01:55,769 WARNING 6434 [py.warnings] worker.py:161 - /home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/celery/apps/worker.py:161: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+ 
+ -------------- celery@edx.lms.core.high_mem.css-Latitude-E6440 v3.1.25 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-4.15.0-74-generic-x86_64-with-debian-stretch-sid
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         proj:0x7ffa7c68fb90
+- ** ---------- .> transport:   amqp://bn_edx:**@localhost:5672//
+- ** ---------- .> results:     
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> edx.lms.core.high_mem exchange=edx.lms.core(direct) key=edx.lms.core.high_mem
+                
+
+[tasks]
+  . bulk_email.tasks.send_course_email
+  . celery_utils.tasks.mark_resolved
+  . edx_sga.tasks.zip_student_submissions
+  . email_marketing.tasks.get_email_cookies_via_sailthru
+  . email_marketing.tasks.update_course_enrollment
+  . email_marketing.tasks.update_user
+  . email_marketing.tasks.update_user_email
+  . gating.tasks.task_evaluate_subsection_completion_milestones
+  . integrated_channels.integrated_channel.tasks.transmit_content_metadata
+  . integrated_channels.integrated_channel.tasks.transmit_learner_data
+  . integrated_channels.integrated_channel.tasks.unlink_inactive_learners
+  . lms.djangoapps.certificates.tasks.generate_certificate
+  . lms.djangoapps.discussion.tasks.send_ace_message
+  . lms.djangoapps.discussion.tasks.update_discussions_map
+  . lms.djangoapps.email_marketing.tasks.get_email_cookies_via_sailthru
+  . lms.djangoapps.email_marketing.tasks.update_course_enrollment
+  . lms.djangoapps.email_marketing.tasks.update_user
+  . lms.djangoapps.email_marketing.tasks.update_user_email
+  . lms.djangoapps.grades.tasks.compute_all_grades_for_course
+  . lms.djangoapps.grades.tasks.compute_grades_for_course
+  . lms.djangoapps.grades.tasks.compute_grades_for_course_v2
+  . lms.djangoapps.grades.tasks.recalculate_course_and_subsection_grades_for_user
+  . lms.djangoapps.grades.tasks.recalculate_subsection_grade_v3
+  . lms.djangoapps.instructor_task.tasks.calculate_grades_csv
+  . lms.djangoapps.instructor_task.tasks.calculate_may_enroll_csv
+  . lms.djangoapps.instructor_task.tasks.calculate_problem_grade_report
+  . lms.djangoapps.instructor_task.tasks.calculate_problem_responses_csv
+  . lms.djangoapps.instructor_task.tasks.calculate_students_features_csv
+  . lms.djangoapps.instructor_task.tasks.cohort_students
+  . lms.djangoapps.instructor_task.tasks.course_survey_report_csv
+  . lms.djangoapps.instructor_task.tasks.delete_problem_state
+  . lms.djangoapps.instructor_task.tasks.enrollment_report_features_csv
+  . lms.djangoapps.instructor_task.tasks.exec_summary_report_csv
+  . lms.djangoapps.instructor_task.tasks.export_ora2_data
+  . lms.djangoapps.instructor_task.tasks.generate_certificates
+  . lms.djangoapps.instructor_task.tasks.override_problem_score
+  . lms.djangoapps.instructor_task.tasks.proctored_exam_results_csv
+  . lms.djangoapps.instructor_task.tasks.rescore_problem
+  . lms.djangoapps.instructor_task.tasks.reset_problem_attempts
+  . lms.djangoapps.instructor_task.tasks.send_bulk_course_email
+  . lms.djangoapps.verify_student.tasks.send_verification_status_email
+  . openedx.core.djangoapps.content.block_structure.tasks.get_course_in_cache
+  . openedx.core.djangoapps.content.block_structure.tasks.get_course_in_cache_v2
+  . openedx.core.djangoapps.content.block_structure.tasks.update_course_in_cache
+  . openedx.core.djangoapps.content.block_structure.tasks.update_course_in_cache_v2
+  . openedx.core.djangoapps.coursegraph.tasks.dump_course_to_neo4j
+  . openedx.core.djangoapps.credentials.tasks.v1.tasks.send_grade_to_credentials
+  . openedx.core.djangoapps.programs.tasks.v1.tasks.award_course_certificate
+  . openedx.core.djangoapps.programs.tasks.v1.tasks.award_program_certificates
+  . openedx.core.djangoapps.schedules.tasks.ScheduleCourseUpdate
+  . openedx.core.djangoapps.schedules.tasks.ScheduleMessageBaseTask
+  . openedx.core.djangoapps.schedules.tasks.ScheduleRecurringNudge
+  . openedx.core.djangoapps.schedules.tasks.ScheduleUpgradeReminder
+  . openedx.core.djangoapps.schedules.tasks._course_update_schedule_send
+  . openedx.core.djangoapps.schedule2020-01-29 00:01:55,955 INFO 6434 [celery.worker.consumer] consumer.py:526 - Connected to amqp://bn_edx:**@127.0.0.1:5672//
+2020-01-29 00:01:55,967 INFO 6434 [celery.worker.consumer] consumer.py:614 - mingle: searching for neighbors
+2020-01-29 00:01:57,046 INFO 6434 [celery.worker.consumer] consumer.py:632 - mingle: all alone
+2020-01-29 00:01:57,069 WARNING 6434 [celery.redirected] log.py:282 - celery@edx.lms.core.high_mem.css-Latitude-E6440 ready.
+Killed
+WARNING:py.warnings:/home/css/edx-edutech/apps/edx/edx-platform/lms/djangoapps/courseware/__init__.py:5: DeprecationWarning: Importing 'lms.djangoapps.courseware' as 'courseware' is no longer supported
+  warnings.warn("Importing 'lms.djangoapps.courseware' as 'courseware' is no longer supported", DeprecationWarning)
+
+2020-01-29 01:55:40,420 WARNING 31744 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-29 01:55:40,421 WARNING 31744 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-29 01:55:45,083 WARNING 31744 [py.warnings] worker.py:161 - /home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/celery/apps/worker.py:161: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+ 
+ -------------- celery@edx.lms.core.high_mem.css-Latitude-E6440 v3.1.25 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-4.15.0-74-generic-x86_64-with-debian-stretch-sid
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         proj:0x7f735b387b90
+- ** ---------- .> transport:   amqp://bn_edx:**@localhost:5672//
+- ** ---------- .> results:     
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> edx.lms.core.high_mem exchange=edx.lms.core(direct) key=edx.lms.core.high_mem
+                
+
+[tasks]
+  . bulk_email.tasks.send_course_email
+  . celery_utils.tasks.mark_resolved
+  . edx_sga.tasks.zip_student_submissions
+  . email_marketing.tasks.get_email_cookies_via_sailthru
+  . email_marketing.tasks.update_course_enrollment
+  . email_marketing.tasks.update_user
+  . email_marketing.tasks.update_user_email
+  . gating.tasks.task_evaluate_subsection_completion_milestones
+  . integrated_channels.integrated_channel.tasks.transmit_content_metadata
+  . integrated_channels.integrated_channel.tasks.transmit_learner_data
+  . integrated_channels.integrated_channel.tasks.unlink_inactive_learners
+  . lms.djangoapps.certificates.tasks.generate_certificate
+  . lms.djangoapps.discussion.tasks.send_ace_message
+  . lms.djangoapps.discussion.tasks.update_discussions_map
+  . lms.djangoapps.email_marketing.tasks.get_email_cookies_via_sailthru
+  . lms.djangoapps.email_marketing.tasks.update_course_enrollment
+  . lms.djangoapps.email_marketing.tasks.update_user
+  . lms.djangoapps.email_marketing.tasks.update_user_email
+  . lms.djangoapps.grades.tasks.compute_all_grades_for_course
+  . lms.djangoapps.grades.tasks.compute_grades_for_course
+  . lms.djangoapps.grades.tasks.compute_grades_for_course_v2
+  . lms.djangoapps.grades.tasks.recalculate_course_and_subsection_grades_for_user
+  . lms.djangoapps.grades.tasks.recalculate_subsection_grade_v3
+  . lms.djangoapps.instructor_task.tasks.calculate_grades_csv
+  . lms.djangoapps.instructor_task.tasks.calculate_may_enroll_csv
+  . lms.djangoapps.instructor_task.tasks.calculate_problem_grade_report
+  . lms.djangoapps.instructor_task.tasks.calculate_problem_responses_csv
+  . lms.djangoapps.instructor_task.tasks.calculate_students_features_csv
+  . lms.djangoapps.instructor_task.tasks.cohort_students
+  . lms.djangoapps.instructor_task.tasks.course_survey_report_csv
+  . lms.djangoapps.instructor_task.tasks.delete_problem_state
+  . lms.djangoapps.instructor_task.tasks.enrollment_report_features_csv
+  . lms.djangoapps.instructor_task.tasks.exec_summary_report_csv
+  . lms.djangoapps.instructor_task.tasks.export_ora2_data
+  . lms.djangoapps.instructor_task.tasks.generate_certificates
+  . lms.djangoapps.instructor_task.tasks.override_problem_score
+  . lms.djangoapps.instructor_task.tasks.proctored_exam_results_csv
+  . lms.djangoapps.instructor_task.tasks.rescore_problem
+  . lms.djangoapps.instructor_task.tasks.reset_problem_attempts
+  . lms.djangoapps.instructor_task.tasks.send_bulk_course_email
+  . lms.djangoapps.verify_student.tasks.send_verification_status_email
+  . openedx.core.djangoapps.content.block_structure.tasks.get_course_in_cache
+  . openedx.core.djangoapps.content.block_structure.tasks.get_course_in_cache_v2
+  . openedx.core.djangoapps.content.block_structure.tasks.update_course_in_cache
+  . openedx.core.djangoapps.content.block_structure.tasks.update_course_in_cache_v2
+  . openedx.core.djangoapps.coursegraph.tasks.dump_course_to_neo4j
+  . openedx.core.djangoapps.credentials.tasks.v1.tasks.send_grade_to_credentials
+  . openedx.core.djangoapps.programs.tasks.v1.tasks.award_course_certificate
+  . openedx.core.djangoapps.programs.tasks.v1.tasks.award_program_certificates
+  . openedx.core.djangoapps.schedules.tasks.ScheduleCourseUpdate
+  . openedx.core.djangoapps.schedules.tasks.ScheduleMessageBaseTask
+  . openedx.core.djangoapps.schedules.tasks.ScheduleRecurringNudge
+  . openedx.core.djangoapps.schedules.tasks.ScheduleUpgradeReminder
+  . openedx.core.djangoapps.schedules.tasks._course_update_schedule_send
+  . openedx.core.djangoapps.schedule2020-01-29 01:55:45,344 INFO 31744 [celery.worker.consumer] consumer.py:526 - Connected to amqp://bn_edx:**@127.0.0.1:5672//
+2020-01-29 01:55:45,378 INFO 31744 [celery.worker.consumer] consumer.py:614 - mingle: searching for neighbors
+2020-01-29 01:55:46,467 INFO 31744 [celery.worker.consumer] consumer.py:620 - mingle: sync with 1 nodes
+2020-01-29 01:55:46,469 INFO 31744 [celery.worker.consumer] consumer.py:630 - mingle: sync complete
+2020-01-29 01:55:46,492 WARNING 31744 [celery.redirected] log.py:282 - celery@edx.lms.core.high_mem.css-Latitude-E6440 ready.
+
+Restarting celery worker (./manage.py lms --settings=bitnami celery worker --loglevel=info --queues=edx.lms.core.high_mem --hostname=edx.lms.core.high_mem.%h --concurrency=1)
+
+worker: Warm shutdown (MainProcess)
+s.tasks._recurring_nudge_schedule_send
+  . openedx.core.djangoapps.schedules.tasks._upgrade_reminder_schedule_send
+  . openedx.core.djangoapps.schedules.tasks.update_course_schedules
+  . openedx.core.djangoapps.service_status.tasks.delayed_ping
+  . openedx.core.djangoapps.verified_track_content.tasks.sync_cohort_with_mode
+  . student.tasks.send_activation_email
+  . third_party_auth.fetch_saml_metadata
+
+WARNING:py.warnings:/home/css/edx-edutech/apps/edx/edx-platform/lms/djangoapps/courseware/__init__.py:5: DeprecationWarning: Importing 'lms.djangoapps.courseware' as 'courseware' is no longer supported
+  warnings.warn("Importing 'lms.djangoapps.courseware' as 'courseware' is no longer supported", DeprecationWarning)
+
+2020-01-29 13:15:25,601 WARNING 31744 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-29 13:15:25,602 WARNING 31744 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+Traceback (most recent call last):
+  File "./manage.py", line 123, in <module>
+    execute_from_command_line([sys.argv[0]] + django_args)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/management/__init__.py", line 364, in execute_from_command_line
+    utility.execute()
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/management/__init__.py", line 356, in execute
+    self.fetch_command(subcommand).run_from_argv(self.argv)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/djcelery/management/commands/celery.py", line 21, in run_from_argv
+    ['{0[0]} {0[1]}'.format(argv)] + argv[2:],
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/celery/bin/celery.py", line 793, in execute_from_commandline
+    super(CeleryCommand, self).execute_from_commandline(argv)))
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/celery/bin/base.py", line 311, in execute_from_commandline
+    return self.handle_argv(self.prog_name, argv[1:])
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/celery/bin/celery.py", line 785, in handle_argv
+    return self.execute(command, argv)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/celery/bin/celery.py", line 717, in execute
+    ).run_from_argv(self.prog_name, argv[1:], command=argv[0])
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/celery/bin/worker.py", line 179, in run_from_argv
+    return self(*args, **options)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/celery/bin/base.py", line 274, in __call__
+    ret = self.run(*args, **kwargs)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/celery/bin/worker.py", line 212, in run
+    state_db=self.node_format(state_db, hostname), **kwargs
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/celery/worker/__init__.py", line 95, in __init__
+    self.app.loader.init_worker()
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/celery/loaders/base.py", line 128, in init_worker
+    self.import_default_modules()
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/celery/loaders/base.py", line 116, in import_default_modules
+    signals.import_modules.send(sender=self.app)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/celery/utils/dispatch/signal.py", line 166, in send
+    response = receiver(signal=self, sender=sender, **named)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/celery/fixups/django.py", line 73, in on_import_modules
+    self.worker_fixup.validate_models()
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/celery/fixups/django.py", line 173, in validate_models
+    cmd.check()
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/management/base.py", line 359, in check
+    include_deployment_checks=include_deployment_checks,
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/management/base.py", line 346, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/checks/registry.py", line 81, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/checks/model_checks.py", line 30, in check_all_models
+    errors.extend(model.check(**kwargs))
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/db/models/base.py", line 1284, in check
+    errors.extend(cls._check_fields(**kwargs))
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/db/models/base.py", line 1359, in _check_fields
+    errors.extend(field.check(**kwargs))
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/db/models/fields/__init__.py", line 913, in check
+    errors = super(AutoField, self).check(**kwargs)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/db/models/fields/__init__.py", line 219, in check
+    errors.extend(self._check_backend_specific_checks(**kwargs))
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/db/models/fields/__init__.py", line 322, in _check_backend_specific_checks
+    return connections[db].validation.check_field(self, **kwargs)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/db/backends/mysql/validation.py", line 49, in check_field
+    field_type = field.db_type(self.connection)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/db/models/fields/__init__.py", line 644, in db_type
+    return connection.data_types[self.get_internal_type()] % data
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 174, in data_types
+    if self.features.supports_microsecond_precision:
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/db/backends/mysql/features.py", line 53, in supports_microsecond_precision
+    return self.connection.mysql_version >= (5, 6, 4) and Database.version_info >= (1, 2, 5)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/utils/functional.py", line 35, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 385, in mysql_version
+    with self.temporary_connection() as cursor:
+  File "/home/css/edx-edutech/python/lib/python2.7/contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/db/backends/base/base.py", line 591, in temporary_connection
+    cursor = self.cursor()
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/db/backends/base/base.py", line 254, in cursor
+    return self._cursor()
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/db/backends/base/base.py", line 229, in _cursor
+    self.ensure_connection()
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/db/backends/base/base.py", line 213, in ensure_connection
+    self.connect()
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/db/utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/db/backends/base/base.py", line 213, in ensure_connection
+    self.connect()
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/db/backends/base/base.py", line 189, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/db/backends/mysql/base.py", line 274, in get_new_connection
+    conn = Database.connect(**conn_params)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/MySQLdb/connections.py", line 193, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+django.db.utils.OperationalError: (2002, "Can't connect to local MySQL server through socket '/home/css/edx-edutech/mysql/tmp/mysql.sock' (2)")
+WARNING:py.warnings:/home/css/edx-edutech/apps/edx/edx-platform/lms/djangoapps/courseware/__init__.py:5: DeprecationWarning: Importing 'lms.djangoapps.courseware' as 'courseware' is no longer supported
+  warnings.warn("Importing 'lms.djangoapps.courseware' as 'courseware' is no longer supported", DeprecationWarning)
+
+2020-01-30 00:07:44,190 WARNING 7869 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-30 00:07:44,190 WARNING 7869 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-30 00:07:49,586 WARNING 7869 [py.warnings] worker.py:161 - /home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/celery/apps/worker.py:161: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+ 
+ -------------- celery@edx.lms.core.high_mem.css-Latitude-E6440 v3.1.25 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-4.15.0-74-generic-x86_64-with-debian-stretch-sid
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         proj:0x7f36e274cb90
+- ** ---------- .> transport:   amqp://bn_edx:**@localhost:5672//
+- ** ---------- .> results:     
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> edx.lms.core.high_mem exchange=edx.lms.core(direct) key=edx.lms.core.high_mem
+                
+
+[tasks]
+  . bulk_email.tasks.send_course_email
+  . celery_utils.tasks.mark_resolved
+  . edx_sga.tasks.zip_student_submissions
+  . email_marketing.tasks.get_email_cookies_via_sailthru
+  . email_marketing.tasks.update_course_enrollment
+  . email_marketing.tasks.update_user
+  . email_marketing.tasks.update_user_email
+  . gating.tasks.task_evaluate_subsection_completion_milestones
+  . integrated_channels.integrated_channel.tasks.transmit_content_metadata
+  . integrated_channels.integrated_channel.tasks.transmit_learner_data
+  . integrated_channels.integrated_channel.tasks.unlink_inactive_learners
+  . lms.djangoapps.certificates.tasks.generate_certificate
+  . lms.djangoapps.discussion.tasks.send_ace_message
+  . lms.djangoapps.discussion.tasks.update_discussions_map
+  . lms.djangoapps.email_marketing.tasks.get_email_cookies_via_sailthru
+  . lms.djangoapps.email_marketing.tasks.update_course_enrollment
+  . lms.djangoapps.email_marketing.tasks.update_user
+  . lms.djangoapps.email_marketing.tasks.update_user_email
+  . lms.djangoapps.grades.tasks.compute_all_grades_for_course
+  . lms.djangoapps.grades.tasks.compute_grades_for_course
+  . lms.djangoapps.grades.tasks.compute_grades_for_course_v2
+  . lms.djangoapps.grades.tasks.recalculate_course_and_subsection_grades_for_user
+  . lms.djangoapps.grades.tasks.recalculate_subsection_grade_v3
+  . lms.djangoapps.instructor_task.tasks.calculate_grades_csv
+  . lms.djangoapps.instructor_task.tasks.calculate_may_enroll_csv
+  . lms.djangoapps.instructor_task.tasks.calculate_problem_grade_report
+  . lms.djangoapps.instructor_task.tasks.calculate_problem_responses_csv
+  . lms.djangoapps.instructor_task.tasks.calculate_students_features_csv
+  . lms.djangoapps.instructor_task.tasks.cohort_students
+  . lms.djangoapps.instructor_task.tasks.course_survey_report_csv
+  . lms.djangoapps.instructor_task.tasks.delete_problem_state
+  . lms.djangoapps.instructor_task.tasks.enrollment_report_features_csv
+  . lms.djangoapps.instructor_task.tasks.exec_summary_report_csv
+  . lms.djangoapps.instructor_task.tasks.export_ora2_data
+  . lms.djangoapps.instructor_task.tasks.generate_certificates
+  . lms.djangoapps.instructor_task.tasks.override_problem_score
+  . lms.djangoapps.instructor_task.tasks.proctored_exam_results_csv
+  . lms.djangoapps.instructor_task.tasks.rescore_problem
+  . lms.djangoapps.instructor_task.tasks.reset_problem_attempts
+  . lms.djangoapps.instructor_task.tasks.send_bulk_course_email
+  . lms.djangoapps.verify_student.tasks.send_verification_status_email
+  . openedx.core.djangoapps.content.block_structure.tasks.get_course_in_cache
+  . openedx.core.djangoapps.content.block_structure.tasks.get_course_in_cache_v2
+  . openedx.core.djangoapps.content.block_structure.tasks.update_course_in_cache
+  . openedx.core.djangoapps.content.block_structure.tasks.update_course_in_cache_v2
+  . openedx.core.djangoapps.coursegraph.tasks.dump_course_to_neo4j
+  . openedx.core.djangoapps.credentials.tasks.v1.tasks.send_grade_to_credentials
+  . openedx.core.djangoapps.programs.tasks.v1.tasks.award_course_certificate
+  . openedx.core.djangoapps.programs.tasks.v1.tasks.award_program_certificates
+  . openedx.core.djangoapps.schedules.tasks.ScheduleCourseUpdate
+  . openedx.core.djangoapps.schedules.tasks.ScheduleMessageBaseTask
+  . openedx.core.djangoapps.schedules.tasks.ScheduleRecurringNudge
+  . openedx.core.djangoapps.schedules.tasks.ScheduleUpgradeReminder
+  . openedx.core.djangoapps.schedules.tasks._course_update_schedule_send
+  . openedx.core.djangoapps.schedule2020-01-30 00:07:49,842 ERROR 7869 [celery.worker.consumer] consumer.py:366 - consumer: Cannot connect to amqp://bn_edx:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 2.00 seconds...
+
+2020-01-30 00:07:51,852 ERROR 7869 [celery.worker.consumer] consumer.py:366 - consumer: Cannot connect to amqp://bn_edx:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 4.00 seconds...
+
+2020-01-30 00:07:55,861 ERROR 7869 [celery.worker.consumer] consumer.py:366 - consumer: Cannot connect to amqp://bn_edx:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 6.00 seconds...
+
+2020-01-30 00:08:01,878 ERROR 7869 [celery.worker.consumer] consumer.py:366 - consumer: Cannot connect to amqp://bn_edx:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 8.00 seconds...
+
+2020-01-30 00:08:09,901 INFO 7869 [celery.worker.consumer] consumer.py:526 - Connected to amqp://bn_edx:**@127.0.0.1:5672//
+2020-01-30 00:08:09,918 INFO 7869 [celery.worker.consumer] consumer.py:614 - mingle: searching for neighbors
+2020-01-30 00:08:10,977 INFO 7869 [celery.worker.consumer] consumer.py:632 - mingle: all alone
+2020-01-30 00:08:11,029 WARNING 7869 [celery.redirected] log.py:282 - celery@edx.lms.core.high_mem.css-Latitude-E6440 ready.
+Killed
+WARNING:py.warnings:/home/css/edx-edutech/apps/edx/edx-platform/lms/djangoapps/courseware/__init__.py:5: DeprecationWarning: Importing 'lms.djangoapps.courseware' as 'courseware' is no longer supported
+  warnings.warn("Importing 'lms.djangoapps.courseware' as 'courseware' is no longer supported", DeprecationWarning)
+
+2020-01-30 01:53:28,490 WARNING 32359 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-30 01:53:28,499 WARNING 32359 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-30 01:53:30,643 INFO 32359 [openedx.core.djangoapps.user_authn.views.register] register.py:70 - 
+Registration/ Form file is Run
+2020-01-30 01:53:32,679 INFO 32359 [openedx.core.djangoapps.user_api.api] api.py:26 - 
+APIIIIIIIIIIIIII/ Form file is Run
+2020-01-30 01:53:32,679 INFO 32359 [openedx.core.djangoapps.user_api.views] views.py:45 - 
+User api/VIEW.Py/ Form file is Run
+2020-01-30 01:53:33,511 WARNING 32359 [py.warnings] worker.py:161 - /home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/celery/apps/worker.py:161: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+ 
+ -------------- celery@edx.lms.core.high_mem.css-Latitude-E6440 v3.1.25 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-4.15.0-74-generic-x86_64-with-debian-stretch-sid
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         proj:0x7f4ce27c3b90
+- ** ---------- .> transport:   amqp://bn_edx:**@localhost:5672//
+- ** ---------- .> results:     
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> edx.lms.core.high_mem exchange=edx.lms.core(direct) key=edx.lms.core.high_mem
+                
+
+[tasks]
+  . bulk_email.tasks.send_course_email
+  . celery_utils.tasks.mark_resolved
+  . edx_sga.tasks.zip_student_submissions
+  . email_marketing.tasks.get_email_cookies_via_sailthru
+  . email_marketing.tasks.update_course_enrollment
+  . email_marketing.tasks.update_user
+  . email_marketing.tasks.update_user_email
+  . gating.tasks.task_evaluate_subsection_completion_milestones
+  . integrated_channels.integrated_channel.tasks.transmit_content_metadata
+  . integrated_channels.integrated_channel.tasks.transmit_learner_data
+  . integrated_channels.integrated_channel.tasks.unlink_inactive_learners
+  . lms.djangoapps.certificates.tasks.generate_certificate
+  . lms.djangoapps.discussion.tasks.send_ace_message
+  . lms.djangoapps.discussion.tasks.update_discussions_map
+  . lms.djangoapps.email_marketing.tasks.get_email_cookies_via_sailthru
+  . lms.djangoapps.email_marketing.tasks.update_course_enrollment
+  . lms.djangoapps.email_marketing.tasks.update_user
+  . lms.djangoapps.email_marketing.tasks.update_user_email
+  . lms.djangoapps.grades.tasks.compute_all_grades_for_course
+  . lms.djangoapps.grades.tasks.compute_grades_for_course
+  . lms.djangoapps.grades.tasks.compute_grades_for_course_v2
+  . lms.djangoapps.grades.tasks.recalculate_course_and_subsection_grades_for_user
+  . lms.djangoapps.grades.tasks.recalculate_subsection_grade_v3
+  . lms.djangoapps.instructor_task.tasks.calculate_grades_csv
+  . lms.djangoapps.instructor_task.tasks.calculate_may_enroll_csv
+  . lms.djangoapps.instructor_task.tasks.calculate_problem_grade_report
+  . lms.djangoapps.instructor_task.tasks.calculate_problem_responses_csv
+  . lms.djangoapps.instructor_task.tasks.calculate_students_features_csv
+  . lms.djangoapps.instructor_task.tasks.cohort_students
+  . lms.djangoapps.instructor_task.tasks.course_survey_report_csv
+  . lms.djangoapps.instructor_task.tasks.delete_problem_state
+  . lms.djangoapps.instructor_task.tasks.enrollment_report_features_csv
+  . lms.djangoapps.instructor_task.tasks.exec_summary_report_csv
+  . lms.djangoapps.instructor_task.tasks.export_ora2_data
+  . lms.djangoapps.instructor_task.tasks.generate_certificates
+  . lms.djangoapps.instructor_task.tasks.override_problem_score
+  . lms.djangoapps.instructor_task.tasks.proctored_exam_results_csv
+  . lms.djangoapps.instructor_task.tasks.rescore_problem
+  . lms.djangoapps.instructor_task.tasks.reset_problem_attempts
+  . lms.djangoapps.instructor_task.tasks.send_bulk_course_email
+  . lms.djangoapps.verify_student.tasks.send_verification_status_email
+  . openedx.core.djangoapps.content.block_structure.tasks.get_course_in_cache
+  . openedx.core.djangoapps.content.block_structure.tasks.get_course_in_cache_v2
+  . openedx.core.djangoapps.content.block_structure.tasks.update_course_in_cache
+  . openedx.core.djangoapps.content.block_structure.tasks.update_course_in_cache_v2
+  . openedx.core.djangoapps.coursegraph.tasks.dump_course_to_neo4j
+  . openedx.core.djangoapps.credentials.tasks.v1.tasks.send_grade_to_credentials
+  . openedx.core.djangoapps.programs.tasks.v1.tasks.award_course_certificate
+  . openedx.core.djangoapps.programs.tasks.v1.tasks.award_program_certificates
+  . openedx.core.djangoapps.schedules.tasks.ScheduleCourseUpdate
+  . openedx.core.djangoapps.schedules.tasks.ScheduleMessageBaseTask
+  . openedx.core.djangoapps.schedules.tasks.ScheduleRecurringNudge
+  . openedx.core.djangoapps.schedules.tasks.ScheduleUpgradeReminder
+  . openedx.core.djangoapps.schedules.tasks._course_update_schedule_send
+  . openedx.core.djangoapps.schedule2020-01-30 01:53:33,771 ERROR 32359 [celery.worker.consumer] consumer.py:366 - consumer: Cannot connect to amqp://bn_edx:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 2.00 seconds...
+
+2020-01-30 01:53:35,784 ERROR 32359 [celery.worker.consumer] consumer.py:366 - consumer: Cannot connect to amqp://bn_edx:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 4.00 seconds...
+
+2020-01-30 01:53:39,793 ERROR 32359 [celery.worker.consumer] consumer.py:366 - consumer: Cannot connect to amqp://bn_edx:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 6.00 seconds...
+
+2020-01-30 01:53:45,818 INFO 32359 [celery.worker.consumer] consumer.py:526 - Connected to amqp://bn_edx:**@127.0.0.1:5672//
+2020-01-30 01:53:45,836 INFO 32359 [celery.worker.consumer] consumer.py:614 - mingle: searching for neighbors
+2020-01-30 01:53:46,934 INFO 32359 [celery.worker.consumer] consumer.py:632 - mingle: all alone
+2020-01-30 01:53:46,956 WARNING 32359 [celery.redirected] log.py:282 - celery@edx.lms.core.high_mem.css-Latitude-E6440 ready.
+Killed
+WARNING:py.warnings:/home/css/edx-edutech/apps/edx/edx-platform/lms/djangoapps/courseware/__init__.py:5: DeprecationWarning: Importing 'lms.djangoapps.courseware' as 'courseware' is no longer supported
+  warnings.warn("Importing 'lms.djangoapps.courseware' as 'courseware' is no longer supported", DeprecationWarning)
+
+2020-01-30 02:08:22,357 WARNING 14154 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-30 02:08:22,357 WARNING 14154 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-30 02:08:24,776 INFO 14154 [student.forms] forms.py:36 - Student/ Form file is Run
+2020-01-30 02:08:24,796 INFO 14154 [openedx.core.djangoapps.user_authn.views.register] register.py:70 - 
+Registration/ Form file is Run
+2020-01-30 02:08:26,725 INFO 14154 [openedx.core.djangoapps.user_api.api] api.py:26 - 
+APIIIIIIIIIIIIII/ Form file is Run
+2020-01-30 02:08:26,726 INFO 14154 [openedx.core.djangoapps.user_api.views] views.py:45 - 
+User api/VIEW.Py/ Form file is Run
+2020-01-30 02:08:27,582 WARNING 14154 [py.warnings] worker.py:161 - /home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/celery/apps/worker.py:161: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+ 
+ -------------- celery@edx.lms.core.high_mem.css-Latitude-E6440 v3.1.25 (Cipater)
+---- **** ----- 
+--- * ***  * -- Linux-4.15.0-74-generic-x86_64-with-debian-stretch-sid
+-- * - **** --- 
+- ** ---------- [config]
+- ** ---------- .> app:         proj:0x7f571c7e2b90
+- ** ---------- .> transport:   amqp://bn_edx:**@localhost:5672//
+- ** ---------- .> results:     
+- *** --- * --- .> concurrency: 1 (prefork)
+-- ******* ---- 
+--- ***** ----- [queues]
+ -------------- .> edx.lms.core.high_mem exchange=edx.lms.core(direct) key=edx.lms.core.high_mem
+                
+
+[tasks]
+  . bulk_email.tasks.send_course_email
+  . celery_utils.tasks.mark_resolved
+  . edx_sga.tasks.zip_student_submissions
+  . email_marketing.tasks.get_email_cookies_via_sailthru
+  . email_marketing.tasks.update_course_enrollment
+  . email_marketing.tasks.update_user
+  . email_marketing.tasks.update_user_email
+  . gating.tasks.task_evaluate_subsection_completion_milestones
+  . integrated_channels.integrated_channel.tasks.transmit_content_metadata
+  . integrated_channels.integrated_channel.tasks.transmit_learner_data
+  . integrated_channels.integrated_channel.tasks.unlink_inactive_learners
+  . lms.djangoapps.certificates.tasks.generate_certificate
+  . lms.djangoapps.discussion.tasks.send_ace_message
+  . lms.djangoapps.discussion.tasks.update_discussions_map
+  . lms.djangoapps.email_marketing.tasks.get_email_cookies_via_sailthru
+  . lms.djangoapps.email_marketing.tasks.update_course_enrollment
+  . lms.djangoapps.email_marketing.tasks.update_user
+  . lms.djangoapps.email_marketing.tasks.update_user_email
+  . lms.djangoapps.grades.tasks.compute_all_grades_for_course
+  . lms.djangoapps.grades.tasks.compute_grades_for_course
+  . lms.djangoapps.grades.tasks.compute_grades_for_course_v2
+  . lms.djangoapps.grades.tasks.recalculate_course_and_subsection_grades_for_user
+  . lms.djangoapps.grades.tasks.recalculate_subsection_grade_v3
+  . lms.djangoapps.instructor_task.tasks.calculate_grades_csv
+  . lms.djangoapps.instructor_task.tasks.calculate_may_enroll_csv
+  . lms.djangoapps.instructor_task.tasks.calculate_problem_grade_report
+  . lms.djangoapps.instructor_task.tasks.calculate_problem_responses_csv
+  . lms.djangoapps.instructor_task.tasks.calculate_students_features_csv
+  . lms.djangoapps.instructor_task.tasks.cohort_students
+  . lms.djangoapps.instructor_task.tasks.course_survey_report_csv
+  . lms.djangoapps.instructor_task.tasks.delete_problem_state
+  . lms.djangoapps.instructor_task.tasks.enrollment_report_features_csv
+  . lms.djangoapps.instructor_task.tasks.exec_summary_report_csv
+  . lms.djangoapps.instructor_task.tasks.export_ora2_data
+  . lms.djangoapps.instructor_task.tasks.generate_certificates
+  . lms.djangoapps.instructor_task.tasks.override_problem_score
+  . lms.djangoapps.instructor_task.tasks.proctored_exam_results_csv
+  . lms.djangoapps.instructor_task.tasks.rescore_problem
+  . lms.djangoapps.instructor_task.tasks.reset_problem_attempts
+  . lms.djangoapps.instructor_task.tasks.send_bulk_course_email
+  . lms.djangoapps.verify_student.tasks.send_verification_status_email
+  . openedx.core.djangoapps.content.block_structure.tasks.get_course_in_cache
+  . openedx.core.djangoapps.content.block_structure.tasks.get_course_in_cache_v2
+  . openedx.core.djangoapps.content.block_structure.tasks.update_course_in_cache
+  . openedx.core.djangoapps.content.block_structure.tasks.update_course_in_cache_v2
+  . openedx.core.djangoapps.coursegraph.tasks.dump_course_to_neo4j
+  . openedx.core.djangoapps.credentials.tasks.v1.tasks.send_grade_to_credentials
+  . openedx.core.djangoapps.programs.tasks.v1.tasks.award_course_certificate
+  . openedx.core.djangoapps.programs.tasks.v1.tasks.award_program_certificates
+  . openedx.core.djangoapps.schedules.tasks.ScheduleCourseUpdate
+  . openedx.core.djangoapps.schedules.tasks.ScheduleMessageBaseTask
+  . openedx.core.djangoapps.schedules.tasks.ScheduleRecurringNudge
+  . openedx.core.djangoapps.schedules.tasks.ScheduleUpgradeReminder
+  . openedx.core.djangoapps.schedules.tasks._course_update_schedule_send
+  . openedx.core.djangoapps.schedule2020-01-30 02:08:28,006 ERROR 14154 [celery.worker.consumer] consumer.py:366 - consumer: Cannot connect to amqp://bn_edx:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 2.00 seconds...
+
+2020-01-30 02:08:30,019 ERROR 14154 [celery.worker.consumer] consumer.py:366 - consumer: Cannot connect to amqp://bn_edx:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 4.00 seconds...
+
+2020-01-30 02:08:34,034 ERROR 14154 [celery.worker.consumer] consumer.py:366 - consumer: Cannot connect to amqp://bn_edx:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 6.00 seconds...
+
+2020-01-30 02:08:40,064 INFO 14154 [celery.worker.consumer] consumer.py:526 - Connected to amqp://bn_edx:**@127.0.0.1:5672//
+2020-01-30 02:08:40,084 INFO 14154 [celery.worker.consumer] consumer.py:614 - mingle: searching for neighbors
+2020-01-30 02:08:41,156 INFO 14154 [celery.worker.consumer] consumer.py:632 - mingle: all alone
+2020-01-30 02:08:41,185 WARNING 14154 [celery.redirected] log.py:282 - celery@edx.lms.core.high_mem.css-Latitude-E6440 ready.
+2020-01-30 02:08:41,359 INFO 14154 [celery.worker.control] control.py:270 - sync with celery@edx.cms.core.default.css-Latitude-E6440
+2020-01-30 02:08:42,213 INFO 14154 [celery.worker.control] control.py:270 - sync with celery@edx.cms.core.high.css-Latitude-E6440

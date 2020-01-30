@@ -1,0 +1,6 @@
+--with-xml2-dir=/bitnami/ruby24stack-linux-x64/output/common
+--with-xslt-dir=/bitnami/ruby24stack-linux-x64/output/common
+--with-xml2-include=/bitnami/ruby24stack-linux-x64/output/common/include/libxml2
+--with-xslt-include=/bitnami/ruby24stack-linux-x64/output/common/include
+--with-xml2-lib=/bitnami/ruby24stack-linux-x64/output/common/lib
+--with-xslt-lib=/bitnami/ruby24stack-linux-x64/output/common/lib

@@ -1,0 +1,17 @@
+current directory: /bitnami/ruby24stack-linux-x64/output/ruby/lib/ruby/gems/2.4.0/gems/fast_xs-0.8.0/ext/fast_xs_extra
+/bitnami/ruby24stack-linux-x64/output/ruby/bin/ruby -r ./siteconf20200107-31118-zjvczs.rb extconf.rb
+checking for assert.h... yes
+checking for gcc.h in ./../fast_xs... yes
+creating Makefile
+
+current directory: /bitnami/ruby24stack-linux-x64/output/ruby/lib/ruby/gems/2.4.0/gems/fast_xs-0.8.0/ext/fast_xs_extra
+make "DESTDIR=" clean
+
+current directory: /bitnami/ruby24stack-linux-x64/output/ruby/lib/ruby/gems/2.4.0/gems/fast_xs-0.8.0/ext/fast_xs_extra
+make "DESTDIR="
+compiling fast_xs_extra.c
+linking shared-object fast_xs_extra.so
+
+current directory: /bitnami/ruby24stack-linux-x64/output/ruby/lib/ruby/gems/2.4.0/gems/fast_xs-0.8.0/ext/fast_xs_extra
+make "DESTDIR=" install
+/bin/install -c -m 0755 fast_xs_extra.so ./.gem.20200107-31118-t0kz9i

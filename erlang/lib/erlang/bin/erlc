@@ -1,0 +1,5 @@
+#!/bin/sh
+
+. /home/css/edx-edutech/scripts/setenv.sh
+
+exec /home/css/edx-edutech/erlang/lib/erlang/bin/.erlc.bin  "$@"

@@ -1,0 +1,15 @@
+current directory: /bitnami/ruby24stack-linux-x64/output/ruby/lib/ruby/gems/2.4.0/gems/websocket-driver-0.6.5/ext/websocket-driver
+/bitnami/ruby24stack-linux-x64/output/ruby/bin/ruby -r ./siteconf20200107-4794-1lgrzvd.rb extconf.rb
+creating Makefile
+
+current directory: /bitnami/ruby24stack-linux-x64/output/ruby/lib/ruby/gems/2.4.0/gems/websocket-driver-0.6.5/ext/websocket-driver
+make "DESTDIR=" clean
+
+current directory: /bitnami/ruby24stack-linux-x64/output/ruby/lib/ruby/gems/2.4.0/gems/websocket-driver-0.6.5/ext/websocket-driver
+make "DESTDIR="
+compiling websocket_mask.c
+linking shared-object websocket_mask.so
+
+current directory: /bitnami/ruby24stack-linux-x64/output/ruby/lib/ruby/gems/2.4.0/gems/websocket-driver-0.6.5/ext/websocket-driver
+make "DESTDIR=" install
+/bin/install -c -m 0755 websocket_mask.so ./.gem.20200107-4794-3xxpow

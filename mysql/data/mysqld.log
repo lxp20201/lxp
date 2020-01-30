@@ -1,0 +1,531 @@
+2020-01-28T10:53:30.133970Z mysqld_safe Logging to '/home/css/edx-edutech/mysql/data/mysqld.log'.
+2020-01-28T10:53:30.176861Z mysqld_safe Starting mysqld.bin daemon with databases from /home/css/edx-edutech/mysql/data
+2020-01-28T10:53:30.363116Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2020-01-28T10:53:30.363185Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2020-01-28T10:53:30.363203Z 0 [Note] /home/css/edx-edutech/mysql/bin/mysqld.bin (mysqld 5.7.28) starting as process 4507 ...
+2020-01-28T10:53:30.367400Z 0 [Note] InnoDB: PUNCH HOLE support available
+2020-01-28T10:53:30.367420Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-01-28T10:53:30.367425Z 0 [Note] InnoDB: Uses event mutexes
+2020-01-28T10:53:30.367429Z 0 [Note] InnoDB: GCC builtin __sync_synchronize() is used for memory barrier
+2020-01-28T10:53:30.367432Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-01-28T10:53:30.367436Z 0 [Note] InnoDB: Using Linux native AIO
+2020-01-28T10:53:30.367643Z 0 [Note] InnoDB: Number of pools: 1
+2020-01-28T10:53:30.367719Z 0 [Note] InnoDB: Using CPU crc32 instructions
+2020-01-28T10:53:30.369010Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2020-01-28T10:53:30.376567Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-01-28T10:53:30.378500Z 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-01-28T10:53:30.390630Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2020-01-28T10:53:30.447158Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-01-28T10:53:30.447234Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-01-28T10:53:30.689835Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-01-28T10:53:30.691115Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2020-01-28T10:53:30.691131Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2020-01-28T10:53:30.691590Z 0 [Note] InnoDB: Waiting for purge to start
+2020-01-28T10:53:30.741902Z 0 [Note] InnoDB: 5.7.28 started; log sequence number 2629588
+2020-01-28T10:53:30.742244Z 0 [Note] InnoDB: Loading buffer pool(s) from /home/css/edx-edutech/mysql/data/ib_buffer_pool
+2020-01-28T10:53:30.742433Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2020-01-28T10:53:30.745541Z 0 [Note] InnoDB: Buffer pool(s) load completed at 200128 16:23:30
+2020-01-28T10:53:30.755467Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2020-01-28T10:53:30.755483Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2020-01-28T10:53:30.756163Z 0 [Warning] CA certificate ca.pem is self signed.
+2020-01-28T10:53:30.756195Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2020-01-28T10:53:30.756298Z 0 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+2020-01-28T10:53:30.756315Z 0 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2020-01-28T10:53:30.756338Z 0 [Note] Server socket created on IP: '127.0.0.1'.
+2020-01-28T10:53:30.811653Z 0 [Note] Event Scheduler: Loaded 0 events
+2020-01-28T10:53:30.811920Z 0 [Note] /home/css/edx-edutech/mysql/bin/mysqld.bin: ready for connections.
+Version: '5.7.28'  socket: '/home/css/edx-edutech/mysql/tmp/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+2020-01-28T10:55:16.045189Z 6 [Note] Got an error reading communication packets
+2020-01-28T10:55:18.380068Z 8 [Note] Got an error reading communication packets
+2020-01-28T10:55:20.632551Z 10 [Note] Got an error reading communication packets
+2020-01-28T10:55:23.252443Z 12 [Note] Got an error reading communication packets
+2020-01-28T10:55:25.604658Z 14 [Note] Got an error reading communication packets
+2020-01-28T10:56:21.000374Z 19 [Note] Got an error reading communication packets
+2020-01-28T10:56:23.359791Z 21 [Note] Got an error reading communication packets
+2020-01-28T10:56:25.724356Z 23 [Note] Got an error reading communication packets
+2020-01-28T10:56:28.380745Z 25 [Note] Got an error reading communication packets
+2020-01-28T10:56:30.756113Z 27 [Note] Got an error reading communication packets
+2020-01-28T10:56:33.728981Z 29 [Note] Got an error reading communication packets
+2020-01-28T10:56:36.100619Z 31 [Note] Got an error reading communication packets
+2020-01-28T10:56:36.661959Z 32 [Warning] Following users were specified in CREATE USER IF NOT EXISTS but they already exist. Corresponding entry in binary log used default authentication plugin 'mysql_native_password' to rewrite authentication information(if any) for them: 'bn_edx'@'localhost'
+
+2020-01-28T10:56:38.372566Z 33 [Note] Got an error reading communication packets
+2020-01-28T10:56:41.043306Z 35 [Note] Got an error reading communication packets
+2020-01-28T10:56:41.603623Z 36 [Warning] Following users were specified in CREATE USER IF NOT EXISTS but they already exist. Corresponding entry in binary log used default authentication plugin 'mysql_native_password' to rewrite authentication information(if any) for them: 'bn_edx'@'127.0.0.1'
+
+2020-01-28T10:56:43.314715Z 37 [Note] Got an error reading communication packets
+2020-01-28T11:19:39.398925Z 53 [Note] Got an error reading communication packets
+2020-01-28T13:24:38.397398Z 0 [Note] Giving 1 client threads a chance to die gracefully
+2020-01-28T13:24:38.397435Z 0 [Note] Shutting down slave threads
+2020-01-28T13:24:40.397554Z 0 [Note] Forcefully disconnecting 1 remaining clients
+2020-01-28T13:24:40.397614Z 0 [Warning] /home/css/edx-edutech/mysql/bin/mysqld.bin: Forcing close of thread 56  user: 'bn_xqueue'
+
+2020-01-28T13:24:40.397680Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2020-01-28T13:24:40.398067Z 0 [Note] Binlog end
+2020-01-28T13:24:40.406270Z 0 [Note] Shutting down plugin 'ngram'
+2020-01-28T13:24:40.406301Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2020-01-28T13:24:40.406311Z 0 [Note] Shutting down plugin 'partition'
+2020-01-28T13:24:40.406319Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2020-01-28T13:24:40.406327Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2020-01-28T13:24:40.406335Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2020-01-28T13:24:40.406343Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2020-01-28T13:24:40.406350Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2020-01-28T13:24:40.406357Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2020-01-28T13:24:40.406364Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2020-01-28T13:24:40.406371Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2020-01-28T13:24:40.406378Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2020-01-28T13:24:40.406385Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2020-01-28T13:24:40.406391Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2020-01-28T13:24:40.406398Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2020-01-28T13:24:40.406404Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2020-01-28T13:24:40.406411Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2020-01-28T13:24:40.406418Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2020-01-28T13:24:40.406425Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2020-01-28T13:24:40.406432Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2020-01-28T13:24:40.406439Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2020-01-28T13:24:40.406445Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2020-01-28T13:24:40.406452Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2020-01-28T13:24:40.406459Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2020-01-28T13:24:40.406466Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2020-01-28T13:24:40.406472Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2020-01-28T13:24:40.406479Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2020-01-28T13:24:40.406501Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2020-01-28T13:24:40.406508Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2020-01-28T13:24:40.406514Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2020-01-28T13:24:40.406520Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2020-01-28T13:24:40.406526Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2020-01-28T13:24:40.406533Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2020-01-28T13:24:40.406539Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2020-01-28T13:24:40.406545Z 0 [Note] Shutting down plugin 'InnoDB'
+2020-01-28T13:24:40.406895Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2020-01-28T13:24:40.407020Z 0 [Note] InnoDB: Starting shutdown...
+2020-01-28T13:24:40.507246Z 0 [Note] InnoDB: Dumping buffer pool(s) to /home/css/edx-edutech/mysql/data/ib_buffer_pool
+2020-01-28T13:24:40.508032Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 200128 18:54:40
+2020-01-28T13:24:42.418382Z 0 [Note] InnoDB: Shutdown completed; log sequence number 37125213
+2020-01-28T13:24:42.419841Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-01-28T13:24:42.419854Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2020-01-28T13:24:42.419873Z 0 [Note] Shutting down plugin 'MEMORY'
+2020-01-28T13:24:42.419877Z 0 [Note] Shutting down plugin 'CSV'
+2020-01-28T13:24:42.419881Z 0 [Note] Shutting down plugin 'MyISAM'
+2020-01-28T13:24:42.419887Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2020-01-28T13:24:42.419890Z 0 [Note] Shutting down plugin 'sha256_password'
+2020-01-28T13:24:42.419893Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2020-01-28T13:24:42.420004Z 0 [Note] Shutting down plugin 'binlog'
+2020-01-28T13:24:42.420571Z 0 [Note] /home/css/edx-edutech/mysql/bin/mysqld.bin: Shutdown complete
+
+2020-01-28T13:24:42.491768Z mysqld_safe mysqld from pid file /home/css/edx-edutech/mysql/data/mysqld.pid ended
+2020-01-28T13:25:07.215627Z mysqld_safe Logging to '/home/css/edx-edutech/mysql/data/mysqld.log'.
+2020-01-28T13:25:07.264837Z mysqld_safe Starting mysqld.bin daemon with databases from /home/css/edx-edutech/mysql/data
+2020-01-28T13:25:07.478290Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2020-01-28T13:25:07.478366Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2020-01-28T13:25:07.478385Z 0 [Note] /home/css/edx-edutech/mysql/bin/mysqld.bin (mysqld 5.7.28) starting as process 14863 ...
+2020-01-28T13:25:07.504870Z 0 [Note] InnoDB: PUNCH HOLE support available
+2020-01-28T13:25:07.504893Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-01-28T13:25:07.504898Z 0 [Note] InnoDB: Uses event mutexes
+2020-01-28T13:25:07.504902Z 0 [Note] InnoDB: GCC builtin __sync_synchronize() is used for memory barrier
+2020-01-28T13:25:07.504906Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-01-28T13:25:07.504909Z 0 [Note] InnoDB: Using Linux native AIO
+2020-01-28T13:25:07.505133Z 0 [Note] InnoDB: Number of pools: 1
+2020-01-28T13:25:07.505218Z 0 [Note] InnoDB: Using CPU crc32 instructions
+2020-01-28T13:25:07.507234Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2020-01-28T13:25:07.521488Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-01-28T13:25:07.527816Z 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-01-28T13:25:07.536546Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2020-01-28T13:25:07.639735Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-01-28T13:25:07.639810Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-01-28T13:25:07.851072Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-01-28T13:25:07.852121Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2020-01-28T13:25:07.852144Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2020-01-28T13:25:07.852546Z 0 [Note] InnoDB: 5.7.28 started; log sequence number 37125213
+2020-01-28T13:25:07.852688Z 0 [Note] InnoDB: Loading buffer pool(s) from /home/css/edx-edutech/mysql/data/ib_buffer_pool
+2020-01-28T13:25:07.852817Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2020-01-28T13:25:07.890040Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2020-01-28T13:25:07.890068Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2020-01-28T13:25:07.891111Z 0 [Warning] CA certificate ca.pem is self signed.
+2020-01-28T13:25:07.891165Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2020-01-28T13:25:07.891318Z 0 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+2020-01-28T13:25:07.891343Z 0 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2020-01-28T13:25:07.891376Z 0 [Note] Server socket created on IP: '127.0.0.1'.
+2020-01-28T13:25:07.893954Z 0 [Note] InnoDB: Buffer pool(s) load completed at 200128 18:55:07
+2020-01-28T13:25:07.968272Z 0 [Note] Event Scheduler: Loaded 0 events
+2020-01-28T13:25:07.968493Z 0 [Note] /home/css/edx-edutech/mysql/bin/mysqld.bin: ready for connections.
+Version: '5.7.28'  socket: '/home/css/edx-edutech/mysql/tmp/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+2020-01-28T16:00:46.809490Z 3 [Note] Aborted connection 3 to db: 'bitnami_xqueue' user: 'bn_xqueue' host: 'localhost' (Got an error reading communication packets)
+2020-01-28T16:00:46.844935Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2020-01-28T16:00:46.844964Z 0 [Note] Shutting down slave threads
+2020-01-28T16:00:46.844977Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2020-01-28T16:00:46.844987Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2020-01-28T16:00:46.847047Z 0 [Note] Binlog end
+2020-01-28T16:00:46.999500Z 0 [Note] Shutting down plugin 'ngram'
+2020-01-28T16:00:46.999529Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2020-01-28T16:00:46.999535Z 0 [Note] Shutting down plugin 'partition'
+2020-01-28T16:00:46.999540Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2020-01-28T16:00:46.999547Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2020-01-28T16:00:46.999553Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2020-01-28T16:00:46.999558Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2020-01-28T16:00:46.999563Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2020-01-28T16:00:46.999568Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2020-01-28T16:00:46.999573Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2020-01-28T16:00:46.999578Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2020-01-28T16:00:46.999582Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2020-01-28T16:00:46.999587Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2020-01-28T16:00:46.999592Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2020-01-28T16:00:46.999597Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2020-01-28T16:00:46.999602Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2020-01-28T16:00:46.999607Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2020-01-28T16:00:46.999612Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2020-01-28T16:00:46.999617Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2020-01-28T16:00:46.999622Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2020-01-28T16:00:46.999626Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2020-01-28T16:00:46.999631Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2020-01-28T16:00:46.999636Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2020-01-28T16:00:46.999641Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2020-01-28T16:00:46.999646Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2020-01-28T16:00:46.999651Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2020-01-28T16:00:46.999669Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2020-01-28T16:00:46.999674Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2020-01-28T16:00:46.999678Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2020-01-28T16:00:46.999683Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2020-01-28T16:00:46.999687Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2020-01-28T16:00:46.999692Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2020-01-28T16:00:46.999696Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2020-01-28T16:00:46.999701Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2020-01-28T16:00:46.999705Z 0 [Note] Shutting down plugin 'InnoDB'
+2020-01-28T16:00:46.999817Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2020-01-28T16:00:46.999961Z 0 [Note] InnoDB: Starting shutdown...
+2020-01-28T16:00:47.101113Z 0 [Note] InnoDB: Dumping buffer pool(s) to /home/css/edx-edutech/mysql/data/ib_buffer_pool
+2020-01-28T16:00:47.198262Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 200128 21:30:47
+2020-01-28T16:00:48.734528Z 0 [Note] InnoDB: Shutdown completed; log sequence number 37125241
+2020-01-28T16:00:48.737193Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-01-28T16:00:48.747063Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2020-01-28T16:00:48.747109Z 0 [Note] Shutting down plugin 'MEMORY'
+2020-01-28T16:00:48.747121Z 0 [Note] Shutting down plugin 'CSV'
+2020-01-28T16:00:48.747131Z 0 [Note] Shutting down plugin 'MyISAM'
+2020-01-28T16:00:48.747146Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2020-01-28T16:00:48.747155Z 0 [Note] Shutting down plugin 'sha256_password'
+2020-01-28T16:00:48.747162Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2020-01-28T16:00:48.747399Z 0 [Note] Shutting down plugin 'binlog'
+2020-01-28T16:00:48.748052Z 0 [Note] /home/css/edx-edutech/mysql/bin/mysqld.bin: Shutdown complete
+
+2020-01-28T16:00:48.904035Z mysqld_safe mysqld from pid file /home/css/edx-edutech/mysql/data/mysqld.pid ended
+2020-01-29T05:00:28.227990Z mysqld_safe Logging to '/home/css/edx-edutech/mysql/data/mysqld.log'.
+2020-01-29T05:00:28.280425Z mysqld_safe Starting mysqld.bin daemon with databases from /home/css/edx-edutech/mysql/data
+2020-01-29T05:00:29.130790Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2020-01-29T05:00:29.130876Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2020-01-29T05:00:29.130896Z 0 [Note] /home/css/edx-edutech/mysql/bin/mysqld.bin (mysqld 5.7.28) starting as process 5837 ...
+2020-01-29T05:00:29.209557Z 0 [Note] InnoDB: PUNCH HOLE support available
+2020-01-29T05:00:29.209588Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-01-29T05:00:29.209594Z 0 [Note] InnoDB: Uses event mutexes
+2020-01-29T05:00:29.209599Z 0 [Note] InnoDB: GCC builtin __sync_synchronize() is used for memory barrier
+2020-01-29T05:00:29.209603Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-01-29T05:00:29.209608Z 0 [Note] InnoDB: Using Linux native AIO
+2020-01-29T05:00:29.209855Z 0 [Note] InnoDB: Number of pools: 1
+2020-01-29T05:00:29.209945Z 0 [Note] InnoDB: Using CPU crc32 instructions
+2020-01-29T05:00:29.211424Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2020-01-29T05:00:29.218710Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-01-29T05:00:29.220713Z 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-01-29T05:00:29.281195Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2020-01-29T05:00:29.647342Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-01-29T05:00:29.647405Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-01-29T05:00:29.926793Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-01-29T05:00:29.927770Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2020-01-29T05:00:29.927793Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2020-01-29T05:00:29.928147Z 0 [Note] InnoDB: Waiting for purge to start
+2020-01-29T05:00:29.978421Z 0 [Note] InnoDB: 5.7.28 started; log sequence number 37125241
+2020-01-29T05:00:29.978675Z 0 [Note] InnoDB: Loading buffer pool(s) from /home/css/edx-edutech/mysql/data/ib_buffer_pool
+2020-01-29T05:00:29.978864Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2020-01-29T05:00:30.742443Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2020-01-29T05:00:30.742465Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2020-01-29T05:00:30.804033Z 0 [Warning] CA certificate ca.pem is self signed.
+2020-01-29T05:00:30.816302Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2020-01-29T05:00:30.817424Z 0 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+2020-01-29T05:00:30.817447Z 0 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2020-01-29T05:00:30.817471Z 0 [Note] Server socket created on IP: '127.0.0.1'.
+2020-01-29T05:00:31.288032Z 0 [Note] InnoDB: Buffer pool(s) load completed at 200129 10:30:31
+2020-01-29T05:00:31.375570Z 0 [Note] Event Scheduler: Loaded 0 events
+2020-01-29T05:00:31.375806Z 0 [Note] /home/css/edx-edutech/mysql/bin/mysqld.bin: ready for connections.
+Version: '5.7.28'  socket: '/home/css/edx-edutech/mysql/tmp/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+2020-01-29T18:15:16.419410Z 3 [Note] Aborted connection 3 to db: 'bitnami_xqueue' user: 'bn_xqueue' host: 'localhost' (Got an error reading communication packets)
+2020-01-29T18:15:16.686255Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2020-01-29T18:15:16.686321Z 0 [Note] Shutting down slave threads
+2020-01-29T18:15:16.686342Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2020-01-29T18:15:16.686354Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2020-01-29T18:15:16.941835Z 0 [Note] Binlog end
+2020-01-29T18:15:16.970452Z 0 [Note] Shutting down plugin 'ngram'
+2020-01-29T18:15:16.970494Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2020-01-29T18:15:16.970507Z 0 [Note] Shutting down plugin 'partition'
+2020-01-29T18:15:16.970516Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2020-01-29T18:15:16.970527Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2020-01-29T18:15:16.970537Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2020-01-29T18:15:16.970546Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2020-01-29T18:15:16.970555Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2020-01-29T18:15:16.970563Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2020-01-29T18:15:16.970570Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2020-01-29T18:15:16.970579Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2020-01-29T18:15:16.970588Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2020-01-29T18:15:16.970596Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2020-01-29T18:15:16.970605Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2020-01-29T18:15:16.970614Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2020-01-29T18:15:16.970623Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2020-01-29T18:15:16.970631Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2020-01-29T18:15:16.970639Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2020-01-29T18:15:16.970647Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2020-01-29T18:15:16.970655Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2020-01-29T18:15:16.970663Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2020-01-29T18:15:16.970671Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2020-01-29T18:15:16.970679Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2020-01-29T18:15:16.970688Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2020-01-29T18:15:16.970697Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2020-01-29T18:15:16.970730Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2020-01-29T18:15:16.970739Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2020-01-29T18:15:16.970747Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2020-01-29T18:15:16.970754Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2020-01-29T18:15:16.970761Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2020-01-29T18:15:16.970768Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2020-01-29T18:15:16.970776Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2020-01-29T18:15:16.970784Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2020-01-29T18:15:16.970791Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2020-01-29T18:15:16.970798Z 0 [Note] Shutting down plugin 'InnoDB'
+2020-01-29T18:15:16.970948Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2020-01-29T18:15:16.971119Z 0 [Note] InnoDB: Starting shutdown...
+2020-01-29T18:15:17.071269Z 0 [Note] InnoDB: Dumping buffer pool(s) to /home/css/edx-edutech/mysql/data/ib_buffer_pool
+2020-01-29T18:15:17.158201Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 200129 23:45:17
+2020-01-29T18:15:18.488103Z 0 [Note] InnoDB: Shutdown completed; log sequence number 37317299
+2020-01-29T18:15:18.490557Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-01-29T18:15:18.490585Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2020-01-29T18:15:18.490614Z 0 [Note] Shutting down plugin 'MEMORY'
+2020-01-29T18:15:18.490623Z 0 [Note] Shutting down plugin 'CSV'
+2020-01-29T18:15:18.490630Z 0 [Note] Shutting down plugin 'MyISAM'
+2020-01-29T18:15:18.490641Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2020-01-29T18:15:18.490648Z 0 [Note] Shutting down plugin 'sha256_password'
+2020-01-29T18:15:18.490653Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2020-01-29T18:15:18.490820Z 0 [Note] Shutting down plugin 'binlog'
+2020-01-29T18:15:18.491257Z 0 [Note] /home/css/edx-edutech/mysql/bin/mysqld.bin: Shutdown complete
+
+2020-01-29T18:15:18.612948Z mysqld_safe mysqld from pid file /home/css/edx-edutech/mysql/data/mysqld.pid ended
+2020-01-30T05:07:03.241390Z mysqld_safe Logging to '/home/css/edx-edutech/mysql/data/mysqld.log'.
+2020-01-30T05:07:03.313629Z mysqld_safe Starting mysqld.bin daemon with databases from /home/css/edx-edutech/mysql/data
+2020-01-30T05:07:04.163799Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2020-01-30T05:07:04.163878Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2020-01-30T05:07:04.163898Z 0 [Note] /home/css/edx-edutech/mysql/bin/mysqld.bin (mysqld 5.7.28) starting as process 6997 ...
+2020-01-30T05:07:04.242248Z 0 [Note] InnoDB: PUNCH HOLE support available
+2020-01-30T05:07:04.242276Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-01-30T05:07:04.242281Z 0 [Note] InnoDB: Uses event mutexes
+2020-01-30T05:07:04.242286Z 0 [Note] InnoDB: GCC builtin __sync_synchronize() is used for memory barrier
+2020-01-30T05:07:04.242290Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-01-30T05:07:04.242294Z 0 [Note] InnoDB: Using Linux native AIO
+2020-01-30T05:07:04.242591Z 0 [Note] InnoDB: Number of pools: 1
+2020-01-30T05:07:04.242697Z 0 [Note] InnoDB: Using CPU crc32 instructions
+2020-01-30T05:07:04.244454Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2020-01-30T05:07:04.253377Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-01-30T05:07:04.255720Z 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-01-30T05:07:04.314218Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2020-01-30T05:07:04.613775Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-01-30T05:07:04.613841Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-01-30T05:07:04.935046Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-01-30T05:07:04.935988Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2020-01-30T05:07:04.935997Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2020-01-30T05:07:04.936386Z 0 [Note] InnoDB: Waiting for purge to start
+2020-01-30T05:07:04.986660Z 0 [Note] InnoDB: 5.7.28 started; log sequence number 37317299
+2020-01-30T05:07:04.986990Z 0 [Note] InnoDB: Loading buffer pool(s) from /home/css/edx-edutech/mysql/data/ib_buffer_pool
+2020-01-30T05:07:04.987037Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2020-01-30T05:07:05.437573Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2020-01-30T05:07:05.437592Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2020-01-30T05:07:05.461261Z 0 [Warning] CA certificate ca.pem is self signed.
+2020-01-30T05:07:05.461307Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2020-01-30T05:07:05.461729Z 0 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+2020-01-30T05:07:05.461750Z 0 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2020-01-30T05:07:05.461774Z 0 [Note] Server socket created on IP: '127.0.0.1'.
+2020-01-30T05:07:06.047996Z 0 [Note] InnoDB: Buffer pool(s) load completed at 200130 10:37:06
+2020-01-30T05:07:06.283637Z 0 [Note] Event Scheduler: Loaded 0 events
+2020-01-30T05:07:06.283961Z 0 [Note] /home/css/edx-edutech/mysql/bin/mysqld.bin: ready for connections.
+Version: '5.7.28'  socket: '/home/css/edx-edutech/mysql/tmp/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+2020-01-30T06:52:23.163774Z 0 [Note] Giving 1 client threads a chance to die gracefully
+2020-01-30T06:52:23.163803Z 0 [Note] Shutting down slave threads
+2020-01-30T06:52:25.163893Z 0 [Note] Forcefully disconnecting 1 remaining clients
+2020-01-30T06:52:25.163932Z 0 [Warning] /home/css/edx-edutech/mysql/bin/mysqld.bin: Forcing close of thread 3  user: 'bn_xqueue'
+
+2020-01-30T06:52:25.163962Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2020-01-30T06:52:25.175331Z 0 [Note] Binlog end
+2020-01-30T06:52:25.177810Z 0 [Note] Shutting down plugin 'ngram'
+2020-01-30T06:52:25.177838Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2020-01-30T06:52:25.177845Z 0 [Note] Shutting down plugin 'partition'
+2020-01-30T06:52:25.177850Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2020-01-30T06:52:25.177856Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2020-01-30T06:52:25.177862Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2020-01-30T06:52:25.177950Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2020-01-30T06:52:25.177958Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2020-01-30T06:52:25.177963Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2020-01-30T06:52:25.177968Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2020-01-30T06:52:25.177973Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2020-01-30T06:52:25.177978Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2020-01-30T06:52:25.177983Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2020-01-30T06:52:25.177989Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2020-01-30T06:52:25.177994Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2020-01-30T06:52:25.177999Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2020-01-30T06:52:25.178004Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2020-01-30T06:52:25.178009Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2020-01-30T06:52:25.178014Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2020-01-30T06:52:25.178019Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2020-01-30T06:52:25.178024Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2020-01-30T06:52:25.178029Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2020-01-30T06:52:25.178034Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2020-01-30T06:52:25.178039Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2020-01-30T06:52:25.178056Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2020-01-30T06:52:25.178061Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2020-01-30T06:52:25.178066Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2020-01-30T06:52:25.178070Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2020-01-30T06:52:25.178075Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2020-01-30T06:52:25.178079Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2020-01-30T06:52:25.178084Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2020-01-30T06:52:25.178088Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2020-01-30T06:52:25.178093Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2020-01-30T06:52:25.178098Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2020-01-30T06:52:25.178102Z 0 [Note] Shutting down plugin 'InnoDB'
+2020-01-30T06:52:25.178156Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2020-01-30T06:52:25.178234Z 0 [Note] InnoDB: Starting shutdown...
+2020-01-30T06:52:25.278374Z 0 [Note] InnoDB: Dumping buffer pool(s) to /home/css/edx-edutech/mysql/data/ib_buffer_pool
+2020-01-30T06:52:25.516190Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 200130 12:22:25
+2020-01-30T06:52:26.981068Z 0 [Note] InnoDB: Shutdown completed; log sequence number 37317327
+2020-01-30T06:52:26.982756Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-01-30T06:52:26.982774Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2020-01-30T06:52:26.982795Z 0 [Note] Shutting down plugin 'MEMORY'
+2020-01-30T06:52:26.982800Z 0 [Note] Shutting down plugin 'CSV'
+2020-01-30T06:52:26.982805Z 0 [Note] Shutting down plugin 'MyISAM'
+2020-01-30T06:52:26.982812Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2020-01-30T06:52:26.982816Z 0 [Note] Shutting down plugin 'sha256_password'
+2020-01-30T06:52:26.982819Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2020-01-30T06:52:26.982943Z 0 [Note] Shutting down plugin 'binlog'
+2020-01-30T06:52:26.983219Z 0 [Note] /home/css/edx-edutech/mysql/bin/mysqld.bin: Shutdown complete
+
+2020-01-30T06:52:27.035579Z mysqld_safe mysqld from pid file /home/css/edx-edutech/mysql/data/mysqld.pid ended
+2020-01-30T06:52:51.334082Z mysqld_safe Logging to '/home/css/edx-edutech/mysql/data/mysqld.log'.
+2020-01-30T06:52:51.369706Z mysqld_safe Starting mysqld.bin daemon with databases from /home/css/edx-edutech/mysql/data
+2020-01-30T06:52:51.568161Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2020-01-30T06:52:51.568245Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2020-01-30T06:52:51.568268Z 0 [Note] /home/css/edx-edutech/mysql/bin/mysqld.bin (mysqld 5.7.28) starting as process 31845 ...
+2020-01-30T06:52:51.574040Z 0 [Note] InnoDB: PUNCH HOLE support available
+2020-01-30T06:52:51.574061Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-01-30T06:52:51.574066Z 0 [Note] InnoDB: Uses event mutexes
+2020-01-30T06:52:51.574069Z 0 [Note] InnoDB: GCC builtin __sync_synchronize() is used for memory barrier
+2020-01-30T06:52:51.574073Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-01-30T06:52:51.574077Z 0 [Note] InnoDB: Using Linux native AIO
+2020-01-30T06:52:51.574295Z 0 [Note] InnoDB: Number of pools: 1
+2020-01-30T06:52:51.574375Z 0 [Note] InnoDB: Using CPU crc32 instructions
+2020-01-30T06:52:51.575763Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2020-01-30T06:52:51.583939Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-01-30T06:52:51.586034Z 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-01-30T06:52:51.597649Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2020-01-30T06:52:51.687390Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-01-30T06:52:51.687478Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-01-30T06:52:51.928620Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-01-30T06:52:51.930121Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2020-01-30T06:52:51.930140Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2020-01-30T06:52:51.930518Z 0 [Note] InnoDB: Waiting for purge to start
+2020-01-30T06:52:51.980692Z 0 [Note] InnoDB: 5.7.28 started; log sequence number 37317327
+2020-01-30T06:52:51.980898Z 0 [Note] InnoDB: Loading buffer pool(s) from /home/css/edx-edutech/mysql/data/ib_buffer_pool
+2020-01-30T06:52:51.980919Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2020-01-30T06:52:51.994246Z 0 [Note] InnoDB: Buffer pool(s) load completed at 200130 12:22:51
+2020-01-30T06:52:52.001232Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2020-01-30T06:52:52.001259Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2020-01-30T06:52:52.002254Z 0 [Warning] CA certificate ca.pem is self signed.
+2020-01-30T06:52:52.002304Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2020-01-30T06:52:52.002459Z 0 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+2020-01-30T06:52:52.002483Z 0 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2020-01-30T06:52:52.002513Z 0 [Note] Server socket created on IP: '127.0.0.1'.
+2020-01-30T06:52:52.054971Z 0 [Note] Event Scheduler: Loaded 0 events
+2020-01-30T06:52:52.055208Z 0 [Note] /home/css/edx-edutech/mysql/bin/mysqld.bin: ready for connections.
+Version: '5.7.28'  socket: '/home/css/edx-edutech/mysql/tmp/mysql.sock'  port: 3306  MySQL Community Server (GPL)
+2020-01-30T07:07:05.531563Z 0 [Note] Giving 1 client threads a chance to die gracefully
+2020-01-30T07:07:05.531594Z 0 [Note] Shutting down slave threads
+2020-01-30T07:07:07.531801Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2020-01-30T07:07:07.531866Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2020-01-30T07:07:07.532035Z 0 [Note] Binlog end
+2020-01-30T07:07:07.535448Z 0 [Note] Shutting down plugin 'ngram'
+2020-01-30T07:07:07.535498Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2020-01-30T07:07:07.535509Z 0 [Note] Shutting down plugin 'partition'
+2020-01-30T07:07:07.535519Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2020-01-30T07:07:07.535531Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2020-01-30T07:07:07.535541Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2020-01-30T07:07:07.535551Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2020-01-30T07:07:07.535560Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2020-01-30T07:07:07.535570Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2020-01-30T07:07:07.535579Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2020-01-30T07:07:07.535588Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2020-01-30T07:07:07.535598Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2020-01-30T07:07:07.535607Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2020-01-30T07:07:07.535616Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2020-01-30T07:07:07.535625Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2020-01-30T07:07:07.535635Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2020-01-30T07:07:07.535644Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2020-01-30T07:07:07.535654Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2020-01-30T07:07:07.535663Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2020-01-30T07:07:07.535672Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2020-01-30T07:07:07.535682Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2020-01-30T07:07:07.535691Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2020-01-30T07:07:07.535700Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2020-01-30T07:07:07.535710Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2020-01-30T07:07:07.535719Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2020-01-30T07:07:07.535751Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2020-01-30T07:07:07.535760Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2020-01-30T07:07:07.535769Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2020-01-30T07:07:07.535778Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2020-01-30T07:07:07.535786Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2020-01-30T07:07:07.535795Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2020-01-30T07:07:07.535803Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2020-01-30T07:07:07.535812Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2020-01-30T07:07:07.535821Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2020-01-30T07:07:07.535829Z 0 [Note] Shutting down plugin 'InnoDB'
+2020-01-30T07:07:07.535934Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2020-01-30T07:07:07.536122Z 0 [Note] InnoDB: Starting shutdown...
+2020-01-30T07:07:07.636454Z 0 [Note] InnoDB: Dumping buffer pool(s) to /home/css/edx-edutech/mysql/data/ib_buffer_pool
+2020-01-30T07:07:07.637212Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 200130 12:37:07
+2020-01-30T07:07:09.395063Z 0 [Note] InnoDB: Shutdown completed; log sequence number 37317355
+2020-01-30T07:07:09.396713Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-01-30T07:07:09.396726Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2020-01-30T07:07:09.396744Z 0 [Note] Shutting down plugin 'MEMORY'
+2020-01-30T07:07:09.396749Z 0 [Note] Shutting down plugin 'CSV'
+2020-01-30T07:07:09.396752Z 0 [Note] Shutting down plugin 'MyISAM'
+2020-01-30T07:07:09.396759Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2020-01-30T07:07:09.396762Z 0 [Note] Shutting down plugin 'sha256_password'
+2020-01-30T07:07:09.396765Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2020-01-30T07:07:09.396877Z 0 [Note] Shutting down plugin 'binlog'
+2020-01-30T07:07:09.397098Z 0 [Note] /home/css/edx-edutech/mysql/bin/mysqld.bin: Shutdown complete
+
+2020-01-30T07:07:09.445751Z mysqld_safe mysqld from pid file /home/css/edx-edutech/mysql/data/mysqld.pid ended
+2020-01-30T07:07:45.491297Z mysqld_safe Logging to '/home/css/edx-edutech/mysql/data/mysqld.log'.
+2020-01-30T07:07:45.532232Z mysqld_safe Starting mysqld.bin daemon with databases from /home/css/edx-edutech/mysql/data
+2020-01-30T07:07:45.751796Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2020-01-30T07:07:45.751873Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2020-01-30T07:07:45.751892Z 0 [Note] /home/css/edx-edutech/mysql/bin/mysqld.bin (mysqld 5.7.28) starting as process 13678 ...
+2020-01-30T07:07:45.756997Z 0 [Note] InnoDB: PUNCH HOLE support available
+2020-01-30T07:07:45.757024Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-01-30T07:07:45.757032Z 0 [Note] InnoDB: Uses event mutexes
+2020-01-30T07:07:45.757039Z 0 [Note] InnoDB: GCC builtin __sync_synchronize() is used for memory barrier
+2020-01-30T07:07:45.757045Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-01-30T07:07:45.757052Z 0 [Note] InnoDB: Using Linux native AIO
+2020-01-30T07:07:45.757369Z 0 [Note] InnoDB: Number of pools: 1
+2020-01-30T07:07:45.757482Z 0 [Note] InnoDB: Using CPU crc32 instructions
+2020-01-30T07:07:45.759429Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2020-01-30T07:07:45.772763Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-01-30T07:07:45.775302Z 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-01-30T07:07:45.787458Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2020-01-30T07:07:45.886402Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-01-30T07:07:45.886474Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-01-30T07:07:46.243900Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-01-30T07:07:46.245196Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2020-01-30T07:07:46.245211Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2020-01-30T07:07:46.245717Z 0 [Note] InnoDB: 5.7.28 started; log sequence number 37317355
+2020-01-30T07:07:46.245843Z 0 [Note] InnoDB: Loading buffer pool(s) from /home/css/edx-edutech/mysql/data/ib_buffer_pool
+2020-01-30T07:07:46.245985Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2020-01-30T07:07:46.248548Z 0 [Note] InnoDB: Buffer pool(s) load completed at 200130 12:37:46
+2020-01-30T07:07:46.254015Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2020-01-30T07:07:46.254033Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2020-01-30T07:07:46.254660Z 0 [Warning] CA certificate ca.pem is self signed.
+2020-01-30T07:07:46.254691Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2020-01-30T07:07:46.254787Z 0 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+2020-01-30T07:07:46.254804Z 0 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2020-01-30T07:07:46.254828Z 0 [Note] Server socket created on IP: '127.0.0.1'.
+2020-01-30T07:07:46.303963Z 0 [Note] Event Scheduler: Loaded 0 events
+2020-01-30T07:07:46.304203Z 0 [Note] /home/css/edx-edutech/mysql/bin/mysqld.bin: ready for connections.
+Version: '5.7.28'  socket: '/home/css/edx-edutech/mysql/tmp/mysql.sock'  port: 3306  MySQL Community Server (GPL)

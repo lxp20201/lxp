@@ -1,0 +1,2068 @@
+2020-01-28 06:12:40,923 WARNING 7534 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-28 06:12:40,923 WARNING 7534 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-28 06:17:59,412 WARNING 8057 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-28 06:17:59,412 WARNING 8057 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-28 06:18:26,460 WARNING 8057 [py.warnings] cursors.py:117 - /home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/db/backends/mysql/base.py:101: Warning: Duplicate index 'coursewarehistoryextended_student_module_id_48320e41_idx' defined on the table 'bitnami_edxapp_csmh.coursewarehistoryextended_studentmodulehistoryextended'. This is deprecated and will be disallowed in a future release.
+  return self.cursor.execute(query, args)
+
+2020-01-28 06:19:35,343 WARNING 8234 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-28 06:19:35,343 WARNING 8234 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-28 06:19:37,514 INFO 8234 [student.models] models.py:746 - User ankit (ankitkachhwaha6@gmail.com) account is successfully activated.
+2020-01-28 06:20:20,101 WARNING 8539 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-28 06:20:20,101 WARNING 8539 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-28 06:20:20,262 WARNING 8564 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-28 06:20:20,262 WARNING 8564 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-28 06:20:20,865 WARNING 8589 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-28 06:20:20,865 WARNING 8589 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-28 06:20:25,415 WARNING 8564 [py.warnings] worker.py:161 - /home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/celery/apps/worker.py:161: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+2020-01-28 06:20:25,418 WARNING 8539 [py.warnings] worker.py:161 - /home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/celery/apps/worker.py:161: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+2020-01-28 06:20:26,013 INFO 8564 [celery.worker.consumer] consumer.py:526 - Connected to amqp://bn_edx:**@127.0.0.1:5672//
+2020-01-28 06:20:26,015 INFO 8539 [celery.worker.consumer] consumer.py:526 - Connected to amqp://bn_edx:**@127.0.0.1:5672//
+2020-01-28 06:20:26,055 INFO 8564 [celery.worker.consumer] consumer.py:614 - mingle: searching for neighbors
+2020-01-28 06:20:26,081 INFO 8539 [celery.worker.consumer] consumer.py:614 - mingle: searching for neighbors
+2020-01-28 06:20:26,452 WARNING 8589 [py.warnings] worker.py:161 - /home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/celery/apps/worker.py:161: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+2020-01-28 06:20:26,767 INFO 8589 [celery.worker.consumer] consumer.py:526 - Connected to amqp://bn_edx:**@127.0.0.1:5672//
+2020-01-28 06:20:26,791 INFO 8589 [celery.worker.consumer] consumer.py:614 - mingle: searching for neighbors
+2020-01-28 06:20:27,149 INFO 8564 [celery.worker.consumer] consumer.py:632 - mingle: all alone
+2020-01-28 06:20:27,250 INFO 8539 [celery.worker.consumer] consumer.py:632 - mingle: all alone
+2020-01-28 06:20:27,450 WARNING 8539 [celery.redirected] log.py:282 - celery@edx.lms.core.default.css-Latitude-E6440 ready.
+2020-01-28 06:20:27,482 WARNING 8564 [celery.redirected] log.py:282 - celery@edx.lms.core.high.css-Latitude-E6440 ready.
+2020-01-28 06:20:27,555 INFO 8539 [celery.worker.control] control.py:270 - sync with celery@edx.cms.core.high.css-Latitude-E6440
+2020-01-28 06:20:27,558 INFO 8564 [celery.worker.control] control.py:270 - sync with celery@edx.cms.core.high.css-Latitude-E6440
+2020-01-28 06:20:27,807 INFO 8539 [celery.worker.control] control.py:270 - sync with celery@edx.cms.core.default.css-Latitude-E6440
+2020-01-28 06:20:27,807 INFO 8564 [celery.worker.control] control.py:270 - sync with celery@edx.cms.core.default.css-Latitude-E6440
+2020-01-28 06:20:27,867 INFO 8589 [celery.worker.consumer] consumer.py:632 - mingle: all alone
+2020-01-28 06:20:27,985 WARNING 8589 [celery.redirected] log.py:282 - celery@edx.lms.core.high_mem.css-Latitude-E6440 ready.
+2020-01-28 06:20:39,768 INFO 8539 [celery.worker.strategy] strategy.py:60 - Received task: openedx.core.djangoapps.content.block_structure.tasks.update_course_in_cache_v2[0da61974-4c15-4adf-95a7-5df32dcb3458] eta:[2020-01-28 06:21:09.705776-05:00]
+2020-01-28 06:20:47,989 INFO 8539 [celery.worker.strategy] strategy.py:60 - Received task: openedx.core.djangoapps.content.block_structure.tasks.update_course_in_cache_v2[5ef45d22-688f-4537-91f8-2f4853d07c0a] eta:[2020-01-28 06:21:17.973540-05:00]
+2020-01-28 06:20:49,822 INFO 8539 [celery.worker.strategy] strategy.py:60 - Received task: openedx.core.djangoapps.content.block_structure.tasks.update_course_in_cache_v2[2f9d2911-de6f-4b44-96da-a82382fd1249] eta:[2020-01-28 06:21:19.804361-05:00]
+2020-01-28 06:21:10,593 WARNING 8998 [py.warnings] __init__.py:1564 - /home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/pkg_resources/__init__.py:1145: DeprecationWarning: Use of .. or absolute path in a resource path is not allowed and will raise exceptions in a future release.
+  self, resource_name
+
+2020-01-28 06:21:12,170 INFO 8998 [openedx.core.djangoapps.content.block_structure.store] store.py:161 - BlockStructure: Added to cache; <openedx.core.djangoapps.content.block_structure.store.StubModel object at 0x7f2a86a6f510>, size: 33010
+2020-01-28 06:21:12,172 INFO 8539 [celery.worker.job] job.py:402 - Task openedx.core.djangoapps.content.block_structure.tasks.update_course_in_cache_v2[0da61974-4c15-4adf-95a7-5df32dcb3458] succeeded in 2.263307297s: None
+2020-01-28 06:21:19,193 INFO 8998 [openedx.core.djangoapps.content.block_structure.store] store.py:161 - BlockStructure: Added to cache; <openedx.core.djangoapps.content.block_structure.store.StubModel object at 0x7f2a867d5cd0>, size: 33010
+2020-01-28 06:21:19,195 INFO 8539 [celery.worker.job] job.py:402 - Task openedx.core.djangoapps.content.block_structure.tasks.update_course_in_cache_v2[5ef45d22-688f-4537-91f8-2f4853d07c0a] succeeded in 1.117594126s: None
+2020-01-28 06:21:20,957 INFO 8998 [openedx.core.djangoapps.content.block_structure.store] store.py:161 - BlockStructure: Added to cache; <openedx.core.djangoapps.content.block_structure.store.StubModel object at 0x7f2a8659d150>, size: 33010
+2020-01-28 06:21:20,960 INFO 8539 [celery.worker.job] job.py:402 - Task openedx.core.djangoapps.content.block_structure.tasks.update_course_in_cache_v2[2f9d2911-de6f-4b44-96da-a82382fd1249] succeeded in 1.049953882s: None
+2020-01-28 06:24:42,115 WARNING 8860 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-28 06:24:42,116 WARNING 8860 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-28 06:24:44,243 WARNING 8860 [openedx.core.djangoapps.catalog.utils] utils.py:103 - Failed to get program UUIDs from the cache for site example.com.
+2020-01-28 06:35:08,822 WARNING 17373 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-28 06:35:08,822 WARNING 17373 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-28 06:35:10,484 WARNING 17373 [openedx.core.djangoapps.catalog.utils] utils.py:103 - Failed to get program UUIDs from the cache for site example.com.
+2020-01-28 06:35:14,868 WARNING 17374 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-28 06:35:14,868 WARNING 17374 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-28 06:35:28,823 INFO 17373 [audit] models.py:2245 - Login success - user.id: 3
+2020-01-28 06:38:20,435 WARNING 21232 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-28 06:38:20,435 WARNING 21232 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-28 06:38:31,137 WARNING 21450 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-28 06:38:31,138 WARNING 21450 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-28 06:40:50,883 WARNING 23237 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-28 06:40:50,883 WARNING 23237 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-28 06:42:43,366 WARNING 24965 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-28 06:42:43,367 WARNING 24965 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-28 06:44:13,851 WARNING 26694 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-28 06:44:13,851 WARNING 26694 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-28 06:44:15,614 WARNING 26694 [openedx.core.djangoapps.catalog.utils] utils.py:103 - Failed to get program UUIDs from the cache for site example.com.
+2020-01-28 06:44:25,501 WARNING 26695 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-28 06:44:25,502 WARNING 26695 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-28 06:46:30,245 WARNING 28812 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-28 06:46:30,246 WARNING 28812 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-28 06:47:48,270 WARNING 28813 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-28 06:47:48,270 WARNING 28813 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-28 06:49:36,166 WARNING 31493 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-28 06:49:36,166 WARNING 31493 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-28 06:50:25,669 WARNING 31494 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-28 06:50:25,669 WARNING 31494 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-28 06:52:14,762 WARNING 1504 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-28 06:52:14,762 WARNING 1504 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-28 06:52:22,575 WARNING 1505 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-28 06:52:22,575 WARNING 1505 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-28 06:52:44,412 WARNING 1504 [openedx.core.djangoapps.catalog.utils] utils.py:103 - Failed to get program UUIDs from the cache for site example.com.
+2020-01-28 06:52:56,275 WARNING 1504 [openedx.core.djangoapps.catalog.utils] utils.py:103 - Failed to get program UUIDs from the cache for site example.com.
+2020-01-28 06:52:57,559 WARNING 1505 [openedx.core.djangoapps.catalog.utils] utils.py:103 - Failed to get program UUIDs from the cache for site example.com.
+2020-01-28 06:53:01,662 INFO 1504 [audit] models.py:2255 - Logout - user.id: 3
+2020-01-28 06:53:01,848 WARNING 1504 [django.template] loader_tags.py:232 - Exception raised while rendering {% include %} for template 'unknown'. Empty string rendered instead.
+Traceback (most recent call last):
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/template/loader_tags.py", line 204, in render
+    template = context.template.engine.get_template(template_name)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/template/engine.py", line 162, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/template/engine.py", line 148, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+TemplateDoesNotExist: head-extra.html
+2020-01-28 06:53:02,095 WARNING 1505 [openedx.core.djangoapps.catalog.utils] utils.py:103 - Failed to get program UUIDs from the cache for site example.com.
+2020-01-28 06:54:23,585 WARNING 3926 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-28 06:54:23,585 WARNING 3926 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-28 06:54:34,778 WARNING 3927 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-28 06:54:34,779 WARNING 3927 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-28 06:55:49,617 WARNING 5545 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-28 06:55:49,618 WARNING 5545 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-28 06:56:00,107 WARNING 5546 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-28 06:56:00,107 WARNING 5546 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-28 06:56:39,119 WARNING 6616 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-28 06:56:39,119 WARNING 6616 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-28 06:56:57,561 WARNING 6617 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-28 06:56:57,562 WARNING 6617 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-28 06:57:06,299 WARNING 6617 [openedx.core.djangoapps.catalog.utils] utils.py:103 - Failed to get program UUIDs from the cache for site example.com.
+2020-01-28 07:01:43,391 WARNING 10631 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-28 07:01:43,391 WARNING 10631 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-28 07:07:40,915 WARNING 10632 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-28 07:07:40,915 WARNING 10632 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-28 07:19:39,848 WARNING 25842 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-28 07:19:39,849 WARNING 25842 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-28 07:51:49,590 WARNING 25841 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-28 07:51:49,590 WARNING 25841 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-28 08:23:20,481 WARNING 11911 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-28 08:23:20,481 WARNING 11911 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-28 08:23:30,984 WARNING 11910 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-28 08:23:30,985 WARNING 11910 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-28 08:23:31,026 WARNING 11911 [openedx.core.djangoapps.catalog.utils] utils.py:103 - Failed to get program UUIDs from the cache for site example.com.
+2020-01-28 08:25:50,141 WARNING 15687 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-28 08:25:50,141 WARNING 15687 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-28 08:25:50,176 WARNING 15712 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-28 08:25:50,177 WARNING 15712 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-28 08:25:50,310 WARNING 15662 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-28 08:25:50,310 WARNING 15662 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-28 08:25:55,091 WARNING 15712 [py.warnings] worker.py:161 - /home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/celery/apps/worker.py:161: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+2020-01-28 08:25:55,581 WARNING 15662 [py.warnings] worker.py:161 - /home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/celery/apps/worker.py:161: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+2020-01-28 08:25:55,609 ERROR 15712 [celery.worker.consumer] consumer.py:366 - consumer: Cannot connect to amqp://bn_edx:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 2.00 seconds...
+
+2020-01-28 08:25:55,784 WARNING 15687 [py.warnings] worker.py:161 - /home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/celery/apps/worker.py:161: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+2020-01-28 08:25:55,884 ERROR 15662 [celery.worker.consumer] consumer.py:366 - consumer: Cannot connect to amqp://bn_edx:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 2.00 seconds...
+
+2020-01-28 08:25:56,118 ERROR 15687 [celery.worker.consumer] consumer.py:366 - consumer: Cannot connect to amqp://bn_edx:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 2.00 seconds...
+
+2020-01-28 08:25:57,625 ERROR 15712 [celery.worker.consumer] consumer.py:366 - consumer: Cannot connect to amqp://bn_edx:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 4.00 seconds...
+
+2020-01-28 08:25:57,900 ERROR 15662 [celery.worker.consumer] consumer.py:366 - consumer: Cannot connect to amqp://bn_edx:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 4.00 seconds...
+
+2020-01-28 08:25:58,127 ERROR 15687 [celery.worker.consumer] consumer.py:366 - consumer: Cannot connect to amqp://bn_edx:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 4.00 seconds...
+
+2020-01-28 08:26:01,635 ERROR 15712 [celery.worker.consumer] consumer.py:366 - consumer: Cannot connect to amqp://bn_edx:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 6.00 seconds...
+
+2020-01-28 08:26:01,909 ERROR 15662 [celery.worker.consumer] consumer.py:366 - consumer: Cannot connect to amqp://bn_edx:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 6.00 seconds...
+
+2020-01-28 08:26:02,141 ERROR 15687 [celery.worker.consumer] consumer.py:366 - consumer: Cannot connect to amqp://bn_edx:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 6.00 seconds...
+
+2020-01-28 08:26:07,660 INFO 15712 [celery.worker.consumer] consumer.py:526 - Connected to amqp://bn_edx:**@127.0.0.1:5672//
+2020-01-28 08:26:07,673 INFO 15712 [celery.worker.consumer] consumer.py:614 - mingle: searching for neighbors
+2020-01-28 08:26:07,935 INFO 15662 [celery.worker.consumer] consumer.py:526 - Connected to amqp://bn_edx:**@127.0.0.1:5672//
+2020-01-28 08:26:07,949 INFO 15662 [celery.worker.consumer] consumer.py:614 - mingle: searching for neighbors
+2020-01-28 08:26:08,159 INFO 15687 [celery.worker.consumer] consumer.py:526 - Connected to amqp://bn_edx:**@127.0.0.1:5672//
+2020-01-28 08:26:08,175 INFO 15687 [celery.worker.consumer] consumer.py:614 - mingle: searching for neighbors
+2020-01-28 08:26:08,839 INFO 15712 [celery.worker.consumer] consumer.py:632 - mingle: all alone
+2020-01-28 08:26:08,868 WARNING 15712 [celery.redirected] log.py:282 - celery@edx.lms.core.high_mem.css-Latitude-E6440 ready.
+2020-01-28 08:26:09,014 INFO 15662 [celery.worker.consumer] consumer.py:632 - mingle: all alone
+2020-01-28 08:26:09,045 WARNING 15662 [celery.redirected] log.py:282 - celery@edx.lms.core.default.css-Latitude-E6440 ready.
+2020-01-28 08:26:09,269 INFO 15687 [celery.worker.consumer] consumer.py:632 - mingle: all alone
+2020-01-28 08:26:09,301 WARNING 15687 [celery.redirected] log.py:282 - celery@edx.lms.core.high.css-Latitude-E6440 ready.
+2020-01-28 08:27:24,207 WARNING 15446 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-28 08:27:24,207 WARNING 15446 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-28 08:27:37,577 WARNING 15445 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-28 08:27:37,577 WARNING 15445 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-28 08:27:37,689 WARNING 15446 [openedx.core.djangoapps.catalog.utils] utils.py:103 - Failed to get program UUIDs from the cache for site example.com.
+2020-01-28 08:38:10,242 WARNING 15445 [openedx.core.djangoapps.catalog.utils] utils.py:103 - Failed to get program UUIDs from the cache for site example.com.
+2020-01-28 11:00:56,178 WARNING 15662 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-28 11:00:56,178 WARNING 15662 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-28 11:00:56,330 WARNING 15687 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-28 11:00:56,330 WARNING 15687 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-28 11:00:56,539 WARNING 15712 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-28 11:00:56,540 WARNING 15712 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-29 00:01:43,298 WARNING 6434 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-29 00:01:43,298 WARNING 6436 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-29 00:01:43,324 WARNING 6436 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-29 00:01:43,324 WARNING 6434 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-29 00:01:43,299 WARNING 6437 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-29 00:01:43,325 WARNING 6437 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-29 00:01:55,588 WARNING 6437 [py.warnings] worker.py:161 - /home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/celery/apps/worker.py:161: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+2020-01-29 00:01:55,733 WARNING 6436 [py.warnings] worker.py:161 - /home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/celery/apps/worker.py:161: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+2020-01-29 00:01:55,766 INFO 6437 [celery.worker.consumer] consumer.py:526 - Connected to amqp://bn_edx:**@127.0.0.1:5672//
+2020-01-29 00:01:55,769 WARNING 6434 [py.warnings] worker.py:161 - /home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/celery/apps/worker.py:161: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+2020-01-29 00:01:55,790 INFO 6437 [celery.worker.consumer] consumer.py:614 - mingle: searching for neighbors
+2020-01-29 00:01:55,927 INFO 6436 [celery.worker.consumer] consumer.py:526 - Connected to amqp://bn_edx:**@127.0.0.1:5672//
+2020-01-29 00:01:55,943 INFO 6436 [celery.worker.consumer] consumer.py:614 - mingle: searching for neighbors
+2020-01-29 00:01:55,955 INFO 6434 [celery.worker.consumer] consumer.py:526 - Connected to amqp://bn_edx:**@127.0.0.1:5672//
+2020-01-29 00:01:55,967 INFO 6434 [celery.worker.consumer] consumer.py:614 - mingle: searching for neighbors
+2020-01-29 00:01:56,879 INFO 6437 [celery.worker.consumer] consumer.py:632 - mingle: all alone
+2020-01-29 00:01:56,899 WARNING 6437 [celery.redirected] log.py:282 - celery@edx.lms.core.high.css-Latitude-E6440 ready.
+2020-01-29 00:01:56,995 INFO 6436 [celery.worker.consumer] consumer.py:632 - mingle: all alone
+2020-01-29 00:01:57,017 WARNING 6436 [celery.redirected] log.py:282 - celery@edx.lms.core.default.css-Latitude-E6440 ready.
+2020-01-29 00:01:57,046 INFO 6434 [celery.worker.consumer] consumer.py:632 - mingle: all alone
+2020-01-29 00:01:57,069 WARNING 6434 [celery.redirected] log.py:282 - celery@edx.lms.core.high_mem.css-Latitude-E6440 ready.
+2020-01-29 00:04:17,104 WARNING 6155 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-29 00:04:17,104 WARNING 6155 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-29 00:04:19,231 WARNING 6155 [openedx.core.djangoapps.catalog.utils] utils.py:103 - Failed to get program UUIDs from the cache for site example.com.
+2020-01-29 00:04:24,480 WARNING 6154 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-29 00:04:24,480 WARNING 6154 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-29 01:48:50,204 WARNING 25161 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-29 01:48:50,204 WARNING 25161 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-29 01:49:00,521 WARNING 25212 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-29 01:49:00,521 WARNING 25212 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-29 01:51:32,517 WARNING 27285 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-29 01:51:32,518 WARNING 27285 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-29 01:53:26,279 WARNING 28990 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-29 01:53:26,280 WARNING 28990 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-29 01:55:06,289 WARNING 30788 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-29 01:55:06,290 WARNING 30788 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-29 01:55:39,746 WARNING 31719 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-29 01:55:39,747 WARNING 31719 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-29 01:55:40,142 WARNING 31693 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-29 01:55:40,143 WARNING 31693 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-29 01:55:40,420 WARNING 31744 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-29 01:55:40,421 WARNING 31744 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-29 01:55:43,609 WARNING 31719 [py.warnings] worker.py:161 - /home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/celery/apps/worker.py:161: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+2020-01-29 01:55:43,880 INFO 31719 [celery.worker.consumer] consumer.py:526 - Connected to amqp://bn_edx:**@127.0.0.1:5672//
+2020-01-29 01:55:43,912 INFO 31719 [celery.worker.consumer] consumer.py:614 - mingle: searching for neighbors
+2020-01-29 01:55:44,565 WARNING 31693 [py.warnings] worker.py:161 - /home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/celery/apps/worker.py:161: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+2020-01-29 01:55:44,952 INFO 31693 [celery.worker.consumer] consumer.py:526 - Connected to amqp://bn_edx:**@127.0.0.1:5672//
+2020-01-29 01:55:44,984 INFO 31693 [celery.worker.consumer] consumer.py:614 - mingle: searching for neighbors
+2020-01-29 01:55:45,024 INFO 31719 [celery.worker.consumer] consumer.py:632 - mingle: all alone
+2020-01-29 01:55:45,069 WARNING 31719 [celery.redirected] log.py:282 - celery@edx.lms.core.high.css-Latitude-E6440 ready.
+2020-01-29 01:55:45,083 WARNING 31744 [py.warnings] worker.py:161 - /home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/celery/apps/worker.py:161: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+2020-01-29 01:55:45,344 INFO 31744 [celery.worker.consumer] consumer.py:526 - Connected to amqp://bn_edx:**@127.0.0.1:5672//
+2020-01-29 01:55:45,378 INFO 31744 [celery.worker.consumer] consumer.py:614 - mingle: searching for neighbors
+2020-01-29 01:55:45,390 INFO 31719 [celery.worker.control] control.py:270 - sync with celery@edx.lms.core.high_mem.css-Latitude-E6440
+2020-01-29 01:55:46,067 INFO 31693 [celery.worker.consumer] consumer.py:632 - mingle: all alone
+2020-01-29 01:55:46,095 WARNING 31693 [celery.redirected] log.py:282 - celery@edx.lms.core.default.css-Latitude-E6440 ready.
+2020-01-29 01:55:46,186 INFO 31693 [celery.worker.control] control.py:270 - sync with celery@edx.cms.core.high.css-Latitude-E6440
+2020-01-29 01:55:46,188 INFO 31719 [celery.worker.control] control.py:270 - sync with celery@edx.cms.core.high.css-Latitude-E6440
+2020-01-29 01:55:46,242 INFO 31719 [celery.worker.control] control.py:270 - sync with celery@edx.cms.core.default.css-Latitude-E6440
+2020-01-29 01:55:46,242 INFO 31693 [celery.worker.control] control.py:270 - sync with celery@edx.cms.core.default.css-Latitude-E6440
+2020-01-29 01:55:46,467 INFO 31744 [celery.worker.consumer] consumer.py:620 - mingle: sync with 1 nodes
+2020-01-29 01:55:46,469 INFO 31744 [celery.worker.consumer] consumer.py:630 - mingle: sync complete
+2020-01-29 01:55:46,492 WARNING 31744 [celery.redirected] log.py:282 - celery@edx.lms.core.high_mem.css-Latitude-E6440 ready.
+2020-01-29 01:55:55,321 WARNING 31960 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-29 01:55:55,321 WARNING 31960 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-29 01:55:56,997 WARNING 31960 [openedx.core.djangoapps.catalog.utils] utils.py:103 - Failed to get program UUIDs from the cache for site example.com.
+2020-01-29 01:56:01,633 WARNING 31961 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-29 01:56:01,633 WARNING 31961 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-29 02:13:57,689 WARNING 14868 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-29 02:13:57,690 WARNING 14868 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-29 02:33:29,090 WARNING 14869 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-29 02:33:29,091 WARNING 14869 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-29 02:33:35,839 INFO 14869 [audit] models.py:2245 - Login success - user.id: 3
+2020-01-29 02:35:26,682 WARNING 370 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-29 02:35:26,682 WARNING 370 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-29 02:35:40,127 WARNING 639 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-29 02:35:40,127 WARNING 639 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-29 02:38:35,897 WARNING 3057 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-29 02:38:35,898 WARNING 3057 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-29 02:41:24,295 WARNING 5814 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-29 02:41:24,295 WARNING 5814 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-29 02:44:37,970 WARNING 8260 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-29 02:44:37,970 WARNING 8260 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-29 02:44:44,083 WARNING 8259 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-29 02:44:44,083 WARNING 8259 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-29 02:44:45,989 WARNING 8259 [openedx.core.djangoapps.catalog.utils] utils.py:103 - Failed to get program UUIDs from the cache for site example.com.
+2020-01-29 02:44:53,687 WARNING 8260 [openedx.core.djangoapps.catalog.utils] utils.py:103 - Failed to get program UUIDs from the cache for site example.com.
+2020-01-29 02:44:59,025 WARNING 8259 [openedx.core.djangoapps.catalog.utils] utils.py:103 - Failed to get program UUIDs from the cache for site example.com.
+2020-01-29 02:48:02,503 WARNING 12198 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-29 02:48:02,503 WARNING 12198 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-29 02:48:14,155 WARNING 12418 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-29 02:48:14,155 WARNING 12418 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-29 02:50:45,485 WARNING 14393 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-29 02:50:45,485 WARNING 14393 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-29 02:53:11,681 WARNING 16465 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-29 02:53:11,681 WARNING 16465 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-29 02:56:48,995 WARNING 19676 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-29 02:56:48,995 WARNING 19676 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-29 02:56:55,080 WARNING 19675 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-29 02:56:55,080 WARNING 19675 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-29 02:56:56,885 WARNING 19675 [openedx.core.djangoapps.catalog.utils] utils.py:103 - Failed to get program UUIDs from the cache for site example.com.
+2020-01-29 02:57:08,312 INFO 19676 [audit] models.py:2255 - Logout - user.id: 3
+2020-01-29 02:57:08,445 WARNING 19676 [django.template] loader_tags.py:232 - Exception raised while rendering {% include %} for template 'unknown'. Empty string rendered instead.
+Traceback (most recent call last):
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/template/loader_tags.py", line 204, in render
+    template = context.template.engine.get_template(template_name)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/template/engine.py", line 162, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/template/engine.py", line 148, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+TemplateDoesNotExist: head-extra.html
+2020-01-29 02:57:09,014 WARNING 19675 [openedx.core.djangoapps.catalog.utils] utils.py:103 - Failed to get program UUIDs from the cache for site example.com.
+2020-01-29 02:58:34,189 INFO 19675 [audit] models.py:2245 - Login success - user.id: 3
+2020-01-29 02:58:40,102 WARNING 19676 [openedx.core.djangoapps.catalog.utils] utils.py:103 - Failed to get program UUIDs from the cache for site example.com.
+2020-01-29 02:58:46,886 WARNING 19676 [py.warnings] __init__.py:1564 - /home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/pkg_resources/__init__.py:1145: DeprecationWarning: Use of .. or absolute path in a resource path is not allowed and will raise exceptions in a future release.
+  self, resource_name
+
+2020-01-29 02:58:53,696 WARNING 19675 [openedx.core.djangoapps.catalog.utils] utils.py:103 - Failed to get program UUIDs from the cache for site example.com.
+2020-01-29 02:58:56,692 INFO 19676 [openedx.core.djangoapps.content.block_structure.store] store.py:174 - BlockStructure: Not found in cache; <openedx.core.djangoapps.content.block_structure.store.StubModel object at 0x7f4316566290>.
+2020-01-29 02:58:57,805 INFO 19676 [openedx.core.djangoapps.content.block_structure.store] store.py:161 - BlockStructure: Added to cache; <openedx.core.djangoapps.content.block_structure.store.StubModel object at 0x7f4316437510>, size: 33057
+2020-01-29 02:59:18,772 WARNING 19675 [openedx.core.djangoapps.catalog.utils] utils.py:103 - Failed to get program UUIDs from the cache for site example.com.
+2020-01-29 02:59:35,602 WARNING 19675 [py.warnings] __init__.py:1564 - /home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/pkg_resources/__init__.py:1145: DeprecationWarning: Use of .. or absolute path in a resource path is not allowed and will raise exceptions in a future release.
+  self, resource_name
+
+2020-01-29 03:00:17,323 WARNING 19675 [openedx.core.djangoapps.catalog.utils] utils.py:103 - Failed to get program UUIDs from the cache for site example.com.
+2020-01-29 04:09:29,255 WARNING 13149 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-29 04:09:29,255 WARNING 13149 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-29 04:09:30,888 WARNING 13149 [openedx.core.djangoapps.catalog.utils] utils.py:103 - Failed to get program UUIDs from the cache for site example.com.
+2020-01-29 04:09:35,716 WARNING 13150 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-29 04:09:35,716 WARNING 13150 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-29 04:09:46,657 WARNING 13149 [openedx.core.djangoapps.catalog.utils] utils.py:103 - Failed to get program UUIDs from the cache for site example.com.
+2020-01-29 04:13:37,660 WARNING 13149 [openedx.core.djangoapps.catalog.utils] utils.py:103 - Failed to get program UUIDs from the cache for site example.com.
+2020-01-29 04:18:23,636 WARNING 20332 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-29 04:18:23,636 WARNING 20332 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-29 04:18:25,265 WARNING 20332 [openedx.core.djangoapps.catalog.utils] utils.py:103 - Failed to get program UUIDs from the cache for site example.com.
+2020-01-29 04:18:30,653 WARNING 20333 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-29 04:18:30,653 WARNING 20333 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-29 04:19:02,900 WARNING 20333 [openedx.core.djangoapps.catalog.utils] utils.py:103 - Failed to get program UUIDs from the cache for site example.com.
+2020-01-29 04:19:21,293 WARNING 21441 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-29 04:19:21,293 WARNING 21441 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-29 04:19:22,927 WARNING 21441 [openedx.core.djangoapps.catalog.utils] utils.py:103 - Failed to get program UUIDs from the cache for site example.com.
+2020-01-29 04:19:27,987 WARNING 21442 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-29 04:19:27,987 WARNING 21442 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-29 04:19:32,512 INFO 21442 [audit] models.py:2255 - Logout - user.id: 3
+2020-01-29 04:19:33,136 WARNING 21442 [django.template] loader_tags.py:232 - Exception raised while rendering {% include %} for template 'unknown'. Empty string rendered instead.
+Traceback (most recent call last):
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/template/loader_tags.py", line 204, in render
+    template = context.template.engine.get_template(template_name)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/template/engine.py", line 162, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/template/engine.py", line 148, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+TemplateDoesNotExist: head-extra.html
+2020-01-29 04:19:33,625 WARNING 21442 [openedx.core.djangoapps.catalog.utils] utils.py:103 - Failed to get program UUIDs from the cache for site example.com.
+2020-01-29 04:20:25,050 INFO 21441 [student.helpers] helpers.py:341 - Redirect to non html content '*/*' detected from 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:72.0) Gecko/20100101 Firefox/72.0' after login page: u'/'
+2020-01-29 04:21:50,249 WARNING 23660 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-29 04:21:50,249 WARNING 23660 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-29 04:24:18,078 WARNING 23661 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-29 04:24:18,078 WARNING 23661 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-29 04:25:31,584 WARNING 23660 [openedx.core.djangoapps.catalog.utils] utils.py:103 - Failed to get program UUIDs from the cache for site example.com.
+2020-01-29 04:27:58,679 WARNING 28461 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-29 04:27:58,679 WARNING 28461 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-29 04:28:04,567 WARNING 28462 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-29 04:28:04,567 WARNING 28462 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-29 04:30:33,374 WARNING 31102 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-29 04:30:33,374 WARNING 31102 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-29 04:30:34,976 WARNING 31102 [openedx.core.djangoapps.catalog.utils] utils.py:103 - Failed to get program UUIDs from the cache for site example.com.
+2020-01-29 04:30:39,898 WARNING 31103 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-29 04:30:39,898 WARNING 31103 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-29 04:32:09,737 WARNING 306 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-29 04:32:09,737 WARNING 306 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-29 04:32:15,789 WARNING 307 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-29 04:32:15,790 WARNING 307 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-29 04:32:30,509 WARNING 1061 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-29 04:32:30,509 WARNING 1061 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-29 04:32:36,313 WARNING 1060 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-29 04:32:36,313 WARNING 1060 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-29 04:33:48,745 WARNING 2110 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-29 04:33:48,745 WARNING 2110 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-29 04:33:50,389 WARNING 2110 [openedx.core.djangoapps.catalog.utils] utils.py:103 - Failed to get program UUIDs from the cache for site example.com.
+2020-01-29 04:34:15,137 WARNING 2111 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-29 04:34:15,138 WARNING 2111 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-29 04:34:16,742 WARNING 2111 [py.warnings] __init__.py:1564 - /home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/pkg_resources/__init__.py:1145: DeprecationWarning: Use of .. or absolute path in a resource path is not allowed and will raise exceptions in a future release.
+  self, resource_name
+
+2020-01-29 04:46:17,873 ERROR 2111 [openedx.core.djangoapps.user_authn.views.login_form] login_form.py:92 - Unknown tpa_hint provider: 'tpa_hint'
+Traceback (most recent call last):
+  File "/home/css/edx-edutech/apps/edx/edx-platform/openedx/core/djangoapps/user_authn/views/login_form.py", line 76, in login_and_registration_form
+    provider_id = next_args['tpa_hint'][0]
+KeyError: 'tpa_hint'
+2020-01-29 04:47:31,364 WARNING 2110 [py.warnings] __init__.py:1564 - /home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/pkg_resources/__init__.py:1145: DeprecationWarning: Use of .. or absolute path in a resource path is not allowed and will raise exceptions in a future release.
+  self, resource_name
+
+2020-01-29 04:47:49,884 WARNING 15157 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-29 04:47:49,885 WARNING 15157 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-29 04:50:34,690 WARNING 17601 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-29 04:50:34,690 WARNING 17601 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-29 04:50:36,449 WARNING 17601 [py.warnings] __init__.py:1564 - /home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/pkg_resources/__init__.py:1145: DeprecationWarning: Use of .. or absolute path in a resource path is not allowed and will raise exceptions in a future release.
+  self, resource_name
+
+2020-01-29 04:50:42,043 WARNING 17602 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-29 04:50:42,043 WARNING 17602 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-29 05:10:07,900 WARNING 17602 [openedx.core.djangoapps.catalog.utils] utils.py:103 - Failed to get program UUIDs from the cache for site example.com.
+2020-01-29 05:17:37,262 WARNING 17601 [openedx.core.djangoapps.catalog.utils] utils.py:103 - Failed to get program UUIDs from the cache for site example.com.
+2020-01-29 05:32:08,820 WARNING 17601 [openedx.core.djangoapps.catalog.utils] utils.py:103 - Failed to get program UUIDs from the cache for site example.com.
+2020-01-29 05:33:45,285 WARNING 20191 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-29 05:33:45,285 WARNING 20191 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-29 05:34:11,715 WARNING 20192 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-29 05:34:11,715 WARNING 20192 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-29 05:37:02,068 WARNING 23306 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-29 05:37:02,068 WARNING 23306 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-29 05:37:04,072 WARNING 23306 [openedx.core.djangoapps.catalog.utils] utils.py:103 - Failed to get program UUIDs from the cache for site example.com.
+2020-01-29 05:37:10,437 WARNING 23306 [py.warnings] __init__.py:1564 - /home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/pkg_resources/__init__.py:1145: DeprecationWarning: Use of .. or absolute path in a resource path is not allowed and will raise exceptions in a future release.
+  self, resource_name
+
+2020-01-29 05:37:16,156 ERROR 23306 [openedx.core.djangoapps.user_authn.views.login_form] login_form.py:92 - Unknown tpa_hint provider: 'tpa_hint'
+Traceback (most recent call last):
+  File "/home/css/edx-edutech/apps/edx/edx-platform/openedx/core/djangoapps/user_authn/views/login_form.py", line 76, in login_and_registration_form
+    provider_id = next_args['tpa_hint'][0]
+KeyError: 'tpa_hint'
+2020-01-29 05:37:16,338 WARNING 23307 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-29 05:37:16,338 WARNING 23307 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-29 05:37:44,209 INFO 23306 [audit] models.py:2245 - Login success - user.id: 4
+2020-01-29 05:37:44,338 INFO 31693 [celery.worker.strategy] strategy.py:60 - Received task: student.tasks.send_activation_email[ea7aa1a9-c32d-4e9e-98c2-cef529071227]
+2020-01-29 05:37:44,451 INFO 23306 [audit] register.py:211 - Login success on new account creation - arpit
+2020-01-29 05:37:45,453 WARNING 23307 [py.warnings] __init__.py:1564 - /home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/pkg_resources/__init__.py:1145: DeprecationWarning: Use of .. or absolute path in a resource path is not allowed and will raise exceptions in a future release.
+  self, resource_name
+
+2020-01-29 05:37:45,493 INFO 23307 [lms.djangoapps.commerce.api.v0.views] views.py:142 - The audit mode for course-v1:edX+DemoX+Demo_Course does not have a SKU. Enrolling arpit directly.
+2020-01-29 05:37:45,966 WARNING 23307 [openedx.core.djangoapps.catalog.utils] utils.py:103 - Failed to get program UUIDs from the cache for site example.com.
+2020-01-29 05:37:46,263 ERROR 32251 [edx.celery.task] tasks.py:48 - Unable to send activation email to user from "ankitkachhwaha6@gmail.com" to "arpit@gmail.com"
+Traceback (most recent call last):
+  File "/home/css/edx-edutech/apps/edx/edx-platform/common/djangoapps/student/tasks.py", line 23, in send_activation_email
+    mail.send_mail(subject, message, from_address, [dest_addr], fail_silently=False)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/mail/__init__.py", line 62, in send_mail
+    return mail.send()
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/mail/message.py", line 348, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/mail/backends/smtp.py", line 104, in send_messages
+    new_conn_created = self.open()
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/mail/backends/smtp.py", line 71, in open
+    self.connection.login(force_str(self.username), force_str(self.password))
+  File "/home/css/edx-edutech/python/lib/python2.7/smtplib.py", line 623, in login
+    raise SMTPAuthenticationError(code, resp)
+SMTPAuthenticationError: (535, '5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials z4sm2225689pfn.42 - gsmtp')
+2020-01-29 05:37:46,269 ERROR 31693 [celery.worker.job] log.py:282 - Task student.tasks.send_activation_email[ea7aa1a9-c32d-4e9e-98c2-cef529071227] raised unexpected: Exception()
+Traceback (most recent call last):
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/celery/app/trace.py", line 240, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/celery/app/trace.py", line 438, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/css/edx-edutech/apps/edx/edx-platform/common/djangoapps/student/tasks.py", line 50, in send_activation_email
+    raise Exception
+Exception
+2020-01-29 05:38:18,363 WARNING 23307 [openedx.core.djangoapps.catalog.utils] utils.py:103 - Failed to get program UUIDs from the cache for site example.com.
+2020-01-29 05:45:53,245 WARNING 31043 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-29 05:45:53,245 WARNING 31043 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-29 05:45:55,716 WARNING 31043 [py.warnings] __init__.py:1564 - /home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/pkg_resources/__init__.py:1145: DeprecationWarning: Use of .. or absolute path in a resource path is not allowed and will raise exceptions in a future release.
+  self, resource_name
+
+2020-01-29 05:46:01,811 WARNING 31044 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-29 05:46:01,812 WARNING 31044 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-29 05:46:41,767 WARNING 31043 [openedx.core.djangoapps.catalog.utils] utils.py:103 - Failed to get program UUIDs from the cache for site example.com.
+2020-01-29 05:51:02,079 WARNING 3108 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-29 05:51:02,079 WARNING 3108 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-29 05:51:03,746 WARNING 3108 [openedx.core.djangoapps.catalog.utils] utils.py:103 - Failed to get program UUIDs from the cache for site example.com.
+2020-01-29 05:51:09,644 WARNING 3109 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-29 05:51:09,644 WARNING 3109 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-29 05:51:15,509 WARNING 3109 [py.warnings] __init__.py:1564 - /home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/pkg_resources/__init__.py:1145: DeprecationWarning: Use of .. or absolute path in a resource path is not allowed and will raise exceptions in a future release.
+  self, resource_name
+
+2020-01-29 05:55:39,338 WARNING 8043 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-29 05:55:39,338 WARNING 8043 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-29 05:55:42,005 WARNING 8043 [openedx.core.djangoapps.catalog.utils] utils.py:103 - Failed to get program UUIDs from the cache for site example.com.
+2020-01-29 05:55:46,870 WARNING 8044 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-29 05:55:46,871 WARNING 8044 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-29 05:55:49,030 WARNING 8044 [py.warnings] __init__.py:1564 - /home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/pkg_resources/__init__.py:1145: DeprecationWarning: Use of .. or absolute path in a resource path is not allowed and will raise exceptions in a future release.
+  self, resource_name
+
+2020-01-29 05:57:29,769 WARNING 10126 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-29 05:57:29,769 WARNING 10126 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-29 05:57:31,433 WARNING 10126 [py.warnings] __init__.py:1564 - /home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/pkg_resources/__init__.py:1145: DeprecationWarning: Use of .. or absolute path in a resource path is not allowed and will raise exceptions in a future release.
+  self, resource_name
+
+2020-01-29 05:57:36,631 WARNING 10127 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-29 05:57:36,631 WARNING 10127 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-29 05:58:46,978 WARNING 10127 [openedx.core.djangoapps.catalog.utils] utils.py:103 - Failed to get program UUIDs from the cache for site example.com.
+2020-01-29 06:04:19,442 WARNING 16380 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-29 06:04:19,443 WARNING 16380 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-29 06:04:21,106 WARNING 16380 [py.warnings] __init__.py:1564 - /home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/pkg_resources/__init__.py:1145: DeprecationWarning: Use of .. or absolute path in a resource path is not allowed and will raise exceptions in a future release.
+  self, resource_name
+
+2020-01-29 06:04:26,477 WARNING 16379 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-29 06:04:26,477 WARNING 16379 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-29 06:04:51,697 WARNING 16380 [openedx.core.djangoapps.catalog.utils] utils.py:103 - Failed to get program UUIDs from the cache for site example.com.
+2020-01-29 06:06:07,377 WARNING 16379 [audit] login.py:184 - Login failed - Account not active for user.id: 4, resending activation
+2020-01-29 06:06:08,854 ERROR 16379 [edx.student] management.py:251 - Unable to send reactivation email from "ankitkachhwaha6@gmail.com" to "arpit@gmail.com"
+Traceback (most recent call last):
+  File "/home/css/edx-edutech/apps/edx/edx-platform/common/djangoapps/student/views/management.py", line 245, in send_reactivation_email_for_user
+    user.email_user(subject, message, from_address)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/contrib/auth/models.py", line 366, in email_user
+    send_mail(subject, message, from_email, [self.email], **kwargs)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/mail/__init__.py", line 62, in send_mail
+    return mail.send()
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/mail/message.py", line 348, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/mail/backends/smtp.py", line 104, in send_messages
+    new_conn_created = self.open()
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/mail/backends/smtp.py", line 71, in open
+    self.connection.login(force_str(self.username), force_str(self.password))
+  File "/home/css/edx-edutech/python/lib/python2.7/smtplib.py", line 623, in login
+    raise SMTPAuthenticationError(code, resp)
+SMTPAuthenticationError: (535, '5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials d26sm2058425pgv.66 - gsmtp')
+2020-01-29 06:06:08,858 ERROR 16379 [edx.student] login.py:377 - {'value': u'In order to sign in, you need to activate your account.<br /><br />We just sent an activation link to <strong>arpit@gmail.com</strong>.  If you do not receive an email, check your spam folders or <a href="{}">contact Your Platform Name Here Support</a>.', 'success': False}
+Traceback (most recent call last):
+  File "/home/css/edx-edutech/apps/edx/edx-platform/openedx/core/djangoapps/user_authn/views/login.py", line 359, in login_user
+    _handle_failed_authentication(email_user)
+  File "/home/css/edx-edutech/apps/edx/edx-platform/openedx/core/djangoapps/user_authn/views/login.py", line 226, in _handle_failed_authentication
+    _log_and_raise_inactive_user_auth_error(user)
+  File "/home/css/edx-edutech/apps/edx/edx-platform/openedx/core/djangoapps/user_authn/views/login.py", line 192, in _log_and_raise_inactive_user_auth_error
+    raise AuthFailedError(_generate_not_activated_message(unauthenticated_user))
+AuthFailedError
+2020-01-29 06:06:15,793 WARNING 16380 [audit] login.py:184 - Login failed - Account not active for user.id: 4, resending activation
+2020-01-29 06:06:17,659 ERROR 16380 [edx.student] management.py:251 - Unable to send reactivation email from "ankitkachhwaha6@gmail.com" to "arpit@gmail.com"
+Traceback (most recent call last):
+  File "/home/css/edx-edutech/apps/edx/edx-platform/common/djangoapps/student/views/management.py", line 245, in send_reactivation_email_for_user
+    user.email_user(subject, message, from_address)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/contrib/auth/models.py", line 366, in email_user
+    send_mail(subject, message, from_email, [self.email], **kwargs)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/mail/__init__.py", line 62, in send_mail
+    return mail.send()
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/mail/message.py", line 348, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/mail/backends/smtp.py", line 104, in send_messages
+    new_conn_created = self.open()
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/mail/backends/smtp.py", line 71, in open
+    self.connection.login(force_str(self.username), force_str(self.password))
+  File "/home/css/edx-edutech/python/lib/python2.7/smtplib.py", line 623, in login
+    raise SMTPAuthenticationError(code, resp)
+SMTPAuthenticationError: (535, '5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials x65sm2426165pfb.171 - gsmtp')
+2020-01-29 06:06:17,661 ERROR 16380 [edx.student] login.py:377 - {'value': u'In order to sign in, you need to activate your account.<br /><br />We just sent an activation link to <strong>arpit@gmail.com</strong>.  If you do not receive an email, check your spam folders or <a href="{}">contact Your Platform Name Here Support</a>.', 'success': False}
+Traceback (most recent call last):
+  File "/home/css/edx-edutech/apps/edx/edx-platform/openedx/core/djangoapps/user_authn/views/login.py", line 359, in login_user
+    _handle_failed_authentication(email_user)
+  File "/home/css/edx-edutech/apps/edx/edx-platform/openedx/core/djangoapps/user_authn/views/login.py", line 226, in _handle_failed_authentication
+    _log_and_raise_inactive_user_auth_error(user)
+  File "/home/css/edx-edutech/apps/edx/edx-platform/openedx/core/djangoapps/user_authn/views/login.py", line 192, in _log_and_raise_inactive_user_auth_error
+    raise AuthFailedError(_generate_not_activated_message(unauthenticated_user))
+AuthFailedError
+2020-01-29 06:08:10,039 WARNING 16379 [openedx.core.djangoapps.catalog.utils] utils.py:103 - Failed to get program UUIDs from the cache for site example.com.
+2020-01-29 06:10:35,618 WARNING 22230 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-29 06:10:35,618 WARNING 22230 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-29 06:10:41,591 WARNING 22231 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-29 06:10:41,591 WARNING 22231 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-29 06:11:04,944 WARNING 22231 [openedx.core.djangoapps.catalog.utils] utils.py:103 - Failed to get program UUIDs from the cache for site example.com.
+2020-01-29 06:11:16,987 WARNING 22231 [py.warnings] __init__.py:1564 - /home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/pkg_resources/__init__.py:1145: DeprecationWarning: Use of .. or absolute path in a resource path is not allowed and will raise exceptions in a future release.
+  self, resource_name
+
+2020-01-29 06:11:23,176 WARNING 22231 [openedx.core.djangoapps.catalog.utils] utils.py:103 - Failed to get program UUIDs from the cache for site example.com.
+2020-01-29 06:11:53,048 WARNING 22230 [openedx.core.djangoapps.catalog.utils] utils.py:103 - Failed to get program UUIDs from the cache for site example.com.
+2020-01-29 06:12:00,240 WARNING 22230 [openedx.core.djangoapps.catalog.utils] utils.py:103 - Failed to get program UUIDs from the cache for site example.com.
+2020-01-29 06:12:38,558 WARNING 22231 [openedx.core.djangoapps.catalog.utils] utils.py:103 - Failed to get program UUIDs from the cache for site example.com.
+2020-01-29 06:14:16,456 WARNING 25748 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-29 06:14:16,456 WARNING 25748 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-29 06:14:22,632 WARNING 25749 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-29 06:14:22,633 WARNING 25749 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-29 06:14:27,694 WARNING 25748 [openedx.core.djangoapps.catalog.utils] utils.py:103 - Failed to get program UUIDs from the cache for site example.com.
+2020-01-29 06:14:59,824 ERROR 25748 [openedx.core.djangoapps.user_api.accounts.settings_views] settings_views.py:72 - Error fetching order history from Otto.
+Traceback (most recent call last):
+  File "/home/css/edx-edutech/apps/edx/edx-platform/openedx/core/djangoapps/user_api/accounts/settings_views.py", line 70, in account_settings_context
+    user_orders = get_user_orders(user)
+  File "/home/css/edx-edutech/apps/edx/edx-platform/openedx/core/djangoapps/user_api/accounts/settings_views.py", line 164, in get_user_orders
+    api = ecommerce_api_client(user)
+  File "/home/css/edx-edutech/apps/edx/edx-platform/openedx/core/djangoapps/commerce/utils.py", line 41, in ecommerce_api_client
+    session=session
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/edx_rest_api_client/client.py", line 157, in __init__
+    raise ValueError('An API url must be supplied!')
+ValueError: An API url must be supplied!
+2020-01-29 06:15:00,533 WARNING 25749 [edx_rest_framework_extensions.auth.jwt.middleware] middleware.py:62 - The view AccountViewSet allows Jwt Authentication but needs to include the NotJwtRestrictedApplication permission class (adding it for you)
+2020-01-29 06:15:07,158 ERROR 25748 [edx_ace.channel.django_email] django_email.py:94 - (535, '5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials p24sm2267832pff.69 - gsmtp')
+Traceback (most recent call last):
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/edx_ace/channel/django_email.py", line 91, in deliver
+    html_message=rendered_template,
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/mail/__init__.py", line 62, in send_mail
+    return mail.send()
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/mail/message.py", line 348, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/mail/backends/smtp.py", line 104, in send_messages
+    new_conn_created = self.open()
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/mail/backends/smtp.py", line 71, in open
+    self.connection.login(force_str(self.username), force_str(self.password))
+  File "/home/css/edx-edutech/python/lib/python2.7/smtplib.py", line 623, in login
+    raise SMTPAuthenticationError(code, resp)
+SMTPAuthenticationError: (535, '5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials p24sm2267832pff.69 - gsmtp')
+2020-01-29 06:15:30,434 WARNING 25749 [openedx.core.djangoapps.catalog.utils] utils.py:103 - Failed to get program UUIDs from the cache for site example.com.
+2020-01-29 06:15:36,272 WARNING 25748 [py.warnings] __init__.py:1564 - /home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/pkg_resources/__init__.py:1145: DeprecationWarning: Use of .. or absolute path in a resource path is not allowed and will raise exceptions in a future release.
+  self, resource_name
+
+2020-01-29 06:15:40,751 WARNING 25749 [py.warnings] __init__.py:1564 - /home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/pkg_resources/__init__.py:1145: DeprecationWarning: Use of .. or absolute path in a resource path is not allowed and will raise exceptions in a future release.
+  self, resource_name
+
+2020-01-29 06:15:53,753 WARNING 25748 [openedx.core.djangoapps.catalog.utils] utils.py:103 - Failed to get program UUIDs from the cache for site example.com.
+2020-01-29 06:15:58,374 WARNING 25748 [openedx.core.djangoapps.catalog.utils] utils.py:103 - Failed to get program UUIDs from the cache for site example.com.
+2020-01-29 06:16:09,044 WARNING 25748 [openedx.core.djangoapps.catalog.utils] utils.py:103 - Failed to get program UUIDs from the cache for site example.com.
+2020-01-29 06:32:58,228 WARNING 25748 [py.warnings] locations.py:26 - /home/css/edx-edutech/python/lib/python2.7/json/__init__.py:251: DeprecationWarning: locations.i4xEncoder.default is deprecated! Please use keys.i4xEncoder.default
+  sort_keys=sort_keys, **kw).encode(obj)
+
+2020-01-29 06:33:52,404 WARNING 25749 [py.warnings] locations.py:26 - /home/css/edx-edutech/python/lib/python2.7/json/__init__.py:251: DeprecationWarning: locations.i4xEncoder.default is deprecated! Please use keys.i4xEncoder.default
+  sort_keys=sort_keys, **kw).encode(obj)
+
+2020-01-29 06:34:06,577 INFO 25748 [lms.djangoapps.grades.course_grade_factory] course_grade_factory.py:210 - Grades: Update, Course: course_key: course-v1:edX+DemoX+Demo_Course, version: 5e3019110901442377a17682, edited_on: 2020-01-28 11:20:49.705000+00:00, grading_policy: 2HDb6cWz6xgUQ8b9YhsgN5sukP0=, User: 4, Course Grade: percent: 0.0, letter_grade: None, passed: False, persisted: False
+2020-01-29 06:34:37,988 WARNING 25748 [openedx.core.djangoapps.catalog.utils] utils.py:103 - Failed to get program UUIDs from the cache for site example.com.
+2020-01-29 06:35:16,567 INFO 25749 [audit] models.py:2255 - Logout - user.id: 4
+2020-01-29 06:35:16,660 WARNING 25749 [django.template] loader_tags.py:232 - Exception raised while rendering {% include %} for template 'unknown'. Empty string rendered instead.
+Traceback (most recent call last):
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/template/loader_tags.py", line 204, in render
+    template = context.template.engine.get_template(template_name)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/template/engine.py", line 162, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/template/engine.py", line 148, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+TemplateDoesNotExist: head-extra.html
+2020-01-29 06:46:17,870 WARNING 25749 [openedx.core.djangoapps.catalog.utils] utils.py:103 - Failed to get program UUIDs from the cache for site example.com.
+2020-01-29 06:46:36,307 WARNING 25749 [openedx.core.djangoapps.catalog.utils] utils.py:103 - Failed to get program UUIDs from the cache for site example.com.
+2020-01-29 07:27:24,318 WARNING 20090 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-29 07:27:24,319 WARNING 20090 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-29 07:27:26,109 WARNING 20090 [openedx.core.djangoapps.catalog.utils] utils.py:103 - Failed to get program UUIDs from the cache for site example.com.
+2020-01-29 07:27:45,318 WARNING 20091 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-29 07:27:45,318 WARNING 20091 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-29 07:34:59,228 WARNING 27302 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-29 07:34:59,228 WARNING 27302 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-29 07:35:15,976 WARNING 27301 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-29 07:35:15,976 WARNING 27301 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-29 07:48:52,073 WARNING 27301 [openedx.core.djangoapps.catalog.utils] utils.py:103 - Failed to get program UUIDs from the cache for site example.com.
+2020-01-29 08:36:33,968 WARNING 12059 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-29 08:36:33,969 WARNING 12059 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-29 08:36:35,785 WARNING 12059 [openedx.core.djangoapps.catalog.utils] utils.py:103 - Failed to get program UUIDs from the cache for site example.com.
+2020-01-29 08:36:40,812 WARNING 12058 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-29 08:36:40,812 WARNING 12058 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-29 08:36:46,297 ERROR 12058 [root] signals.py:21 - Uncaught exception from None
+Traceback (most recent call last):
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/handlers/base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/utils/decorators.py", line 185, in inner
+    return func(*args, **kwargs)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/views/decorators/http.py", line 40, in inner
+    return func(request, *args, **kwargs)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/css/edx-edutech/apps/edx/edx-platform/common/djangoapps/third_party_auth/decorators.py", line 23, in wrapped_view
+    resp = view_func(request, *args, **kwargs)
+  File "/home/css/edx-edutech/apps/edx/edx-platform/openedx/core/djangoapps/user_authn/views/login_form.py", line 68, in login_and_registration_form
+    form_descriptions = _get_form_descriptions(request)
+  File "/home/css/edx-edutech/apps/edx/edx-platform/openedx/core/djangoapps/user_authn/views/login_form.py", line 182, in _get_form_descriptions
+    'registration': RegistrationFormFactory().get_registration_form(request).to_json()
+  File "/home/css/edx-edutech/apps/edx/edx-platform/openedx/core/djangoapps/user_api/api.py", line 345, in get_registration_form
+    self.field_handlers[field_name](form_desc, required=True)
+  File "/home/css/edx-edutech/apps/edx/edx-platform/openedx/core/djangoapps/user_api/api.py", line 435, in _add_username_field
+    form_desc.add_field(
+TypeError: add_field() takes at least 2 arguments (1 given)
+2020-01-29 08:36:46,299 ERROR 12058 [django.request] exception.py:135 - Internal Server Error: /register
+Traceback (most recent call last):
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/handlers/base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/utils/decorators.py", line 185, in inner
+    return func(*args, **kwargs)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/views/decorators/http.py", line 40, in inner
+    return func(request, *args, **kwargs)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/css/edx-edutech/apps/edx/edx-platform/common/djangoapps/third_party_auth/decorators.py", line 23, in wrapped_view
+    resp = view_func(request, *args, **kwargs)
+  File "/home/css/edx-edutech/apps/edx/edx-platform/openedx/core/djangoapps/user_authn/views/login_form.py", line 68, in login_and_registration_form
+    form_descriptions = _get_form_descriptions(request)
+  File "/home/css/edx-edutech/apps/edx/edx-platform/openedx/core/djangoapps/user_authn/views/login_form.py", line 182, in _get_form_descriptions
+    'registration': RegistrationFormFactory().get_registration_form(request).to_json()
+  File "/home/css/edx-edutech/apps/edx/edx-platform/openedx/core/djangoapps/user_api/api.py", line 345, in get_registration_form
+    self.field_handlers[field_name](form_desc, required=True)
+  File "/home/css/edx-edutech/apps/edx/edx-platform/openedx/core/djangoapps/user_api/api.py", line 435, in _add_username_field
+    form_desc.add_field(
+TypeError: add_field() takes at least 2 arguments (1 given)
+2020-01-29 08:37:02,742 ERROR 12058 [root] signals.py:21 - Uncaught exception from None
+Traceback (most recent call last):
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/handlers/base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/utils/decorators.py", line 185, in inner
+    return func(*args, **kwargs)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/views/decorators/http.py", line 40, in inner
+    return func(request, *args, **kwargs)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/css/edx-edutech/apps/edx/edx-platform/common/djangoapps/third_party_auth/decorators.py", line 23, in wrapped_view
+    resp = view_func(request, *args, **kwargs)
+  File "/home/css/edx-edutech/apps/edx/edx-platform/openedx/core/djangoapps/user_authn/views/login_form.py", line 68, in login_and_registration_form
+    form_descriptions = _get_form_descriptions(request)
+  File "/home/css/edx-edutech/apps/edx/edx-platform/openedx/core/djangoapps/user_authn/views/login_form.py", line 182, in _get_form_descriptions
+    'registration': RegistrationFormFactory().get_registration_form(request).to_json()
+  File "/home/css/edx-edutech/apps/edx/edx-platform/openedx/core/djangoapps/user_api/api.py", line 345, in get_registration_form
+    self.field_handlers[field_name](form_desc, required=True)
+  File "/home/css/edx-edutech/apps/edx/edx-platform/openedx/core/djangoapps/user_api/api.py", line 435, in _add_username_field
+    form_desc.add_field(
+TypeError: add_field() takes at least 2 arguments (1 given)
+2020-01-29 08:37:02,742 ERROR 12058 [django.request] exception.py:135 - Internal Server Error: /register
+Traceback (most recent call last):
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/handlers/base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/utils/decorators.py", line 185, in inner
+    return func(*args, **kwargs)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/views/decorators/http.py", line 40, in inner
+    return func(request, *args, **kwargs)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/css/edx-edutech/apps/edx/edx-platform/common/djangoapps/third_party_auth/decorators.py", line 23, in wrapped_view
+    resp = view_func(request, *args, **kwargs)
+  File "/home/css/edx-edutech/apps/edx/edx-platform/openedx/core/djangoapps/user_authn/views/login_form.py", line 68, in login_and_registration_form
+    form_descriptions = _get_form_descriptions(request)
+  File "/home/css/edx-edutech/apps/edx/edx-platform/openedx/core/djangoapps/user_authn/views/login_form.py", line 182, in _get_form_descriptions
+    'registration': RegistrationFormFactory().get_registration_form(request).to_json()
+  File "/home/css/edx-edutech/apps/edx/edx-platform/openedx/core/djangoapps/user_api/api.py", line 345, in get_registration_form
+    self.field_handlers[field_name](form_desc, required=True)
+  File "/home/css/edx-edutech/apps/edx/edx-platform/openedx/core/djangoapps/user_api/api.py", line 435, in _add_username_field
+    form_desc.add_field(
+TypeError: add_field() takes at least 2 arguments (1 given)
+2020-01-29 08:37:35,563 WARNING 13598 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-29 08:37:35,563 WARNING 13598 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-29 08:38:12,100 WARNING 14480 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-29 08:38:12,100 WARNING 14480 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-29 08:38:51,753 WARNING 15411 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-29 08:38:51,754 WARNING 15411 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-29 08:38:54,066 ERROR 15411 [root] signals.py:21 - Uncaught exception from None
+Traceback (most recent call last):
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/handlers/base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/utils/decorators.py", line 185, in inner
+    return func(*args, **kwargs)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/views/decorators/http.py", line 40, in inner
+    return func(request, *args, **kwargs)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/css/edx-edutech/apps/edx/edx-platform/common/djangoapps/third_party_auth/decorators.py", line 23, in wrapped_view
+    resp = view_func(request, *args, **kwargs)
+  File "/home/css/edx-edutech/apps/edx/edx-platform/openedx/core/djangoapps/user_authn/views/login_form.py", line 68, in login_and_registration_form
+    form_descriptions = _get_form_descriptions(request)
+  File "/home/css/edx-edutech/apps/edx/edx-platform/openedx/core/djangoapps/user_authn/views/login_form.py", line 182, in _get_form_descriptions
+    'registration': RegistrationFormFactory().get_registration_form(request).to_json()
+  File "/home/css/edx-edutech/apps/edx/edx-platform/openedx/core/djangoapps/user_api/api.py", line 345, in get_registration_form
+    self.field_handlers[field_name](form_desc, required=True)
+  File "/home/css/edx-edutech/apps/edx/edx-platform/openedx/core/djangoapps/user_api/api.py", line 445, in _add_username_field
+    form_desc.add_field(
+TypeError: add_field() takes at least 2 arguments (1 given)
+2020-01-29 08:38:54,068 ERROR 15411 [django.request] exception.py:135 - Internal Server Error: /register
+Traceback (most recent call last):
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/handlers/base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/utils/decorators.py", line 185, in inner
+    return func(*args, **kwargs)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/views/decorators/http.py", line 40, in inner
+    return func(request, *args, **kwargs)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/css/edx-edutech/apps/edx/edx-platform/common/djangoapps/third_party_auth/decorators.py", line 23, in wrapped_view
+    resp = view_func(request, *args, **kwargs)
+  File "/home/css/edx-edutech/apps/edx/edx-platform/openedx/core/djangoapps/user_authn/views/login_form.py", line 68, in login_and_registration_form
+    form_descriptions = _get_form_descriptions(request)
+  File "/home/css/edx-edutech/apps/edx/edx-platform/openedx/core/djangoapps/user_authn/views/login_form.py", line 182, in _get_form_descriptions
+    'registration': RegistrationFormFactory().get_registration_form(request).to_json()
+  File "/home/css/edx-edutech/apps/edx/edx-platform/openedx/core/djangoapps/user_api/api.py", line 345, in get_registration_form
+    self.field_handlers[field_name](form_desc, required=True)
+  File "/home/css/edx-edutech/apps/edx/edx-platform/openedx/core/djangoapps/user_api/api.py", line 445, in _add_username_field
+    form_desc.add_field(
+TypeError: add_field() takes at least 2 arguments (1 given)
+2020-01-29 08:38:58,480 WARNING 15410 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-29 08:38:58,480 WARNING 15410 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-29 08:39:39,757 WARNING 16347 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-29 08:39:39,757 WARNING 16347 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-29 08:40:20,994 WARNING 17199 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-29 08:40:20,995 WARNING 17199 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-29 08:40:23,273 ERROR 17199 [root] signals.py:21 - Uncaught exception from None
+Traceback (most recent call last):
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/handlers/base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/utils/decorators.py", line 185, in inner
+    return func(*args, **kwargs)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/views/decorators/http.py", line 40, in inner
+    return func(request, *args, **kwargs)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/css/edx-edutech/apps/edx/edx-platform/common/djangoapps/third_party_auth/decorators.py", line 23, in wrapped_view
+    resp = view_func(request, *args, **kwargs)
+  File "/home/css/edx-edutech/apps/edx/edx-platform/openedx/core/djangoapps/user_authn/views/login_form.py", line 68, in login_and_registration_form
+    form_descriptions = _get_form_descriptions(request)
+  File "/home/css/edx-edutech/apps/edx/edx-platform/openedx/core/djangoapps/user_authn/views/login_form.py", line 182, in _get_form_descriptions
+    'registration': RegistrationFormFactory().get_registration_form(request).to_json()
+  File "/home/css/edx-edutech/apps/edx/edx-platform/openedx/core/djangoapps/user_api/api.py", line 267, in __init__
+    handler = getattr(self, "_add_{field_name}_field".format(field_name=field_name))
+AttributeError: 'RegistrationFormFactory' object has no attribute '_add_username_field'
+2020-01-29 08:40:23,274 ERROR 17199 [django.request] exception.py:135 - Internal Server Error: /register
+Traceback (most recent call last):
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/handlers/base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/utils/decorators.py", line 185, in inner
+    return func(*args, **kwargs)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/views/decorators/http.py", line 40, in inner
+    return func(request, *args, **kwargs)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/css/edx-edutech/apps/edx/edx-platform/common/djangoapps/third_party_auth/decorators.py", line 23, in wrapped_view
+    resp = view_func(request, *args, **kwargs)
+  File "/home/css/edx-edutech/apps/edx/edx-platform/openedx/core/djangoapps/user_authn/views/login_form.py", line 68, in login_and_registration_form
+    form_descriptions = _get_form_descriptions(request)
+  File "/home/css/edx-edutech/apps/edx/edx-platform/openedx/core/djangoapps/user_authn/views/login_form.py", line 182, in _get_form_descriptions
+    'registration': RegistrationFormFactory().get_registration_form(request).to_json()
+  File "/home/css/edx-edutech/apps/edx/edx-platform/openedx/core/djangoapps/user_api/api.py", line 267, in __init__
+    handler = getattr(self, "_add_{field_name}_field".format(field_name=field_name))
+AttributeError: 'RegistrationFormFactory' object has no attribute '_add_username_field'
+2020-01-29 08:41:08,092 WARNING 18191 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-29 08:41:08,092 WARNING 18191 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-29 08:41:23,115 WARNING 18190 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-29 08:41:23,115 WARNING 18190 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-29 08:44:23,331 WARNING 21154 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-29 08:44:23,331 WARNING 21154 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-29 08:44:43,505 WARNING 21155 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-29 08:44:43,505 WARNING 21155 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-29 08:46:50,766 INFO 21155 [audit] models.py:2245 - Login success - user.id: 5
+2020-01-29 08:46:51,305 INFO 31693 [celery.worker.strategy] strategy.py:60 - Received task: student.tasks.send_activation_email[985ee474-2473-43e8-829d-478f730fbf91]
+2020-01-29 08:46:51,443 INFO 21155 [audit] register.py:211 - Login success on new account creation - dffgdfg
+2020-01-29 08:46:51,561 WARNING 21154 [openedx.core.djangoapps.catalog.utils] utils.py:103 - Failed to get program UUIDs from the cache for site example.com.
+2020-01-29 08:46:53,117 ERROR 32251 [edx.celery.task] tasks.py:48 - Unable to send activation email to user from "ankitkachhwaha6@gmail.com" to "ac@cintanatech.com"
+Traceback (most recent call last):
+  File "/home/css/edx-edutech/apps/edx/edx-platform/common/djangoapps/student/tasks.py", line 23, in send_activation_email
+    mail.send_mail(subject, message, from_address, [dest_addr], fail_silently=False)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/mail/__init__.py", line 62, in send_mail
+    return mail.send()
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/mail/message.py", line 348, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/mail/backends/smtp.py", line 104, in send_messages
+    new_conn_created = self.open()
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/mail/backends/smtp.py", line 71, in open
+    self.connection.login(force_str(self.username), force_str(self.password))
+  File "/home/css/edx-edutech/python/lib/python2.7/smtplib.py", line 623, in login
+    raise SMTPAuthenticationError(code, resp)
+SMTPAuthenticationError: (535, '5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials c68sm2865806pfc.156 - gsmtp')
+2020-01-29 08:46:53,123 ERROR 31693 [celery.worker.job] log.py:282 - Task student.tasks.send_activation_email[985ee474-2473-43e8-829d-478f730fbf91] raised unexpected: Exception()
+Traceback (most recent call last):
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/celery/app/trace.py", line 240, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/celery/app/trace.py", line 438, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/css/edx-edutech/apps/edx/edx-platform/common/djangoapps/student/tasks.py", line 50, in send_activation_email
+    raise Exception
+Exception
+2020-01-29 08:46:56,318 INFO 21154 [audit] models.py:2255 - Logout - user.id: 5
+2020-01-29 08:46:56,460 WARNING 21154 [django.template] loader_tags.py:232 - Exception raised while rendering {% include %} for template 'unknown'. Empty string rendered instead.
+Traceback (most recent call last):
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/template/loader_tags.py", line 204, in render
+    template = context.template.engine.get_template(template_name)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/template/engine.py", line 162, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/template/engine.py", line 148, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+TemplateDoesNotExist: head-extra.html
+2020-01-29 08:46:57,048 WARNING 21155 [openedx.core.djangoapps.catalog.utils] utils.py:103 - Failed to get program UUIDs from the cache for site example.com.
+2020-01-29 13:15:25,378 WARNING 31719 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-29 13:15:25,378 WARNING 31719 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-29 13:15:25,601 WARNING 31744 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-29 13:15:25,602 WARNING 31744 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-29 13:15:26,810 WARNING 31693 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-29 13:15:26,811 WARNING 31693 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-29 23:57:18,661 WARNING 5305 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-29 23:57:18,680 WARNING 5305 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-30 00:06:37,218 INFO 5305 [contracts] enabling.py:13 - All contracts checking disabled.
+2020-01-30 00:07:44,066 WARNING 7872 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-30 00:07:44,067 WARNING 7872 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-30 00:07:44,190 WARNING 7869 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-30 00:07:44,190 WARNING 7869 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-30 00:07:44,698 WARNING 7871 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-30 00:07:44,699 WARNING 7871 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-30 00:07:49,555 WARNING 7871 [py.warnings] worker.py:161 - /home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/celery/apps/worker.py:161: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+2020-01-30 00:07:49,571 WARNING 7872 [py.warnings] worker.py:161 - /home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/celery/apps/worker.py:161: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+2020-01-30 00:07:49,586 WARNING 7869 [py.warnings] worker.py:161 - /home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/celery/apps/worker.py:161: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+2020-01-30 00:07:49,842 ERROR 7869 [celery.worker.consumer] consumer.py:366 - consumer: Cannot connect to amqp://bn_edx:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 2.00 seconds...
+
+2020-01-30 00:07:49,843 ERROR 7872 [celery.worker.consumer] consumer.py:366 - consumer: Cannot connect to amqp://bn_edx:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 2.00 seconds...
+
+2020-01-30 00:07:49,898 ERROR 7871 [celery.worker.consumer] consumer.py:366 - consumer: Cannot connect to amqp://bn_edx:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 2.00 seconds...
+
+2020-01-30 00:07:51,852 ERROR 7869 [celery.worker.consumer] consumer.py:366 - consumer: Cannot connect to amqp://bn_edx:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 4.00 seconds...
+
+2020-01-30 00:07:51,856 ERROR 7872 [celery.worker.consumer] consumer.py:366 - consumer: Cannot connect to amqp://bn_edx:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 4.00 seconds...
+
+2020-01-30 00:07:51,906 ERROR 7871 [celery.worker.consumer] consumer.py:366 - consumer: Cannot connect to amqp://bn_edx:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 4.00 seconds...
+
+2020-01-30 00:07:55,861 ERROR 7869 [celery.worker.consumer] consumer.py:366 - consumer: Cannot connect to amqp://bn_edx:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 6.00 seconds...
+
+2020-01-30 00:07:55,866 ERROR 7872 [celery.worker.consumer] consumer.py:366 - consumer: Cannot connect to amqp://bn_edx:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 6.00 seconds...
+
+2020-01-30 00:07:55,917 ERROR 7871 [celery.worker.consumer] consumer.py:366 - consumer: Cannot connect to amqp://bn_edx:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 6.00 seconds...
+
+2020-01-30 00:08:01,878 ERROR 7869 [celery.worker.consumer] consumer.py:366 - consumer: Cannot connect to amqp://bn_edx:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 8.00 seconds...
+
+2020-01-30 00:08:01,881 ERROR 7872 [celery.worker.consumer] consumer.py:366 - consumer: Cannot connect to amqp://bn_edx:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 8.00 seconds...
+
+2020-01-30 00:08:01,932 ERROR 7871 [celery.worker.consumer] consumer.py:366 - consumer: Cannot connect to amqp://bn_edx:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 8.00 seconds...
+
+2020-01-30 00:08:09,901 INFO 7869 [celery.worker.consumer] consumer.py:526 - Connected to amqp://bn_edx:**@127.0.0.1:5672//
+2020-01-30 00:08:09,907 INFO 7872 [celery.worker.consumer] consumer.py:526 - Connected to amqp://bn_edx:**@127.0.0.1:5672//
+2020-01-30 00:08:09,918 INFO 7869 [celery.worker.consumer] consumer.py:614 - mingle: searching for neighbors
+2020-01-30 00:08:09,927 INFO 7872 [celery.worker.consumer] consumer.py:614 - mingle: searching for neighbors
+2020-01-30 00:08:09,951 INFO 7871 [celery.worker.consumer] consumer.py:526 - Connected to amqp://bn_edx:**@127.0.0.1:5672//
+2020-01-30 00:08:09,965 INFO 7871 [celery.worker.consumer] consumer.py:614 - mingle: searching for neighbors
+2020-01-30 00:08:10,977 INFO 7869 [celery.worker.consumer] consumer.py:632 - mingle: all alone
+2020-01-30 00:08:11,028 INFO 7872 [celery.worker.consumer] consumer.py:632 - mingle: all alone
+2020-01-30 00:08:11,029 WARNING 7869 [celery.redirected] log.py:282 - celery@edx.lms.core.high_mem.css-Latitude-E6440 ready.
+2020-01-30 00:08:11,052 WARNING 7872 [celery.redirected] log.py:282 - celery@edx.lms.core.default.css-Latitude-E6440 ready.
+2020-01-30 00:08:11,061 INFO 7871 [celery.worker.consumer] consumer.py:632 - mingle: all alone
+2020-01-30 00:08:11,082 WARNING 7871 [celery.redirected] log.py:282 - celery@edx.lms.core.high.css-Latitude-E6440 ready.
+2020-01-30 00:08:13,864 WARNING 7584 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-30 00:08:13,864 WARNING 7584 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-30 00:08:16,108 WARNING 7584 [openedx.core.djangoapps.catalog.utils] utils.py:103 - Failed to get program UUIDs from the cache for site example.com.
+2020-01-30 00:08:21,579 WARNING 7583 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-30 00:08:21,579 WARNING 7583 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-30 00:12:01,559 WARNING 12037 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-30 00:12:01,559 WARNING 12037 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-30 00:12:11,983 WARNING 12290 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-30 00:12:11,983 WARNING 12290 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-30 00:16:36,103 WARNING 15215 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-30 00:16:36,103 WARNING 15215 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-30 00:16:37,689 WARNING 15215 [student.helpers] helpers.py:332 - Unsafe redirect parameter detected after login page: u'http://localhost:18010/'
+2020-01-30 01:39:29,444 WARNING 18634 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-30 01:39:29,445 WARNING 18634 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-30 01:39:31,188 WARNING 18634 [openedx.core.djangoapps.catalog.utils] utils.py:103 - Failed to get program UUIDs from the cache for site example.com.
+2020-01-30 01:39:36,096 ERROR 18634 [root] signals.py:21 - Uncaught exception from None
+Traceback (most recent call last):
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/handlers/base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/utils/decorators.py", line 185, in inner
+    return func(*args, **kwargs)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/views/decorators/http.py", line 40, in inner
+    return func(request, *args, **kwargs)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/css/edx-edutech/apps/edx/edx-platform/common/djangoapps/third_party_auth/decorators.py", line 23, in wrapped_view
+    resp = view_func(request, *args, **kwargs)
+  File "/home/css/edx-edutech/apps/edx/edx-platform/openedx/core/djangoapps/user_authn/views/login_form.py", line 68, in login_and_registration_form
+    form_descriptions = _get_form_descriptions(request)
+  File "/home/css/edx-edutech/apps/edx/edx-platform/openedx/core/djangoapps/user_authn/views/login_form.py", line 182, in _get_form_descriptions
+    'registration': RegistrationFormFactory().get_registration_form(request).to_json()
+  File "/home/css/edx-edutech/apps/edx/edx-platform/openedx/core/djangoapps/user_api/api.py", line 345, in get_registration_form
+    self.field_handlers[field_name](form_desc, required=True)
+  File "/home/css/edx-edutech/apps/edx/edx-platform/openedx/core/djangoapps/user_api/api.py", line 449, in _add_username_field
+    options=options,
+NameError: global name 'options' is not defined
+2020-01-30 01:39:36,169 ERROR 18634 [django.request] exception.py:135 - Internal Server Error: /register
+Traceback (most recent call last):
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/handlers/base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/utils/decorators.py", line 185, in inner
+    return func(*args, **kwargs)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/views/decorators/http.py", line 40, in inner
+    return func(request, *args, **kwargs)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/css/edx-edutech/apps/edx/edx-platform/common/djangoapps/third_party_auth/decorators.py", line 23, in wrapped_view
+    resp = view_func(request, *args, **kwargs)
+  File "/home/css/edx-edutech/apps/edx/edx-platform/openedx/core/djangoapps/user_authn/views/login_form.py", line 68, in login_and_registration_form
+    form_descriptions = _get_form_descriptions(request)
+  File "/home/css/edx-edutech/apps/edx/edx-platform/openedx/core/djangoapps/user_authn/views/login_form.py", line 182, in _get_form_descriptions
+    'registration': RegistrationFormFactory().get_registration_form(request).to_json()
+  File "/home/css/edx-edutech/apps/edx/edx-platform/openedx/core/djangoapps/user_api/api.py", line 345, in get_registration_form
+    self.field_handlers[field_name](form_desc, required=True)
+  File "/home/css/edx-edutech/apps/edx/edx-platform/openedx/core/djangoapps/user_api/api.py", line 449, in _add_username_field
+    options=options,
+NameError: global name 'options' is not defined
+2020-01-30 01:39:36,546 WARNING 18633 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-30 01:39:36,546 WARNING 18633 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-30 01:41:38,385 WARNING 20767 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-30 01:41:38,385 WARNING 20767 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-30 01:41:41,343 ERROR 20767 [root] signals.py:21 - Uncaught exception from None
+Traceback (most recent call last):
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/handlers/base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/utils/decorators.py", line 185, in inner
+    return func(*args, **kwargs)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/views/decorators/http.py", line 40, in inner
+    return func(request, *args, **kwargs)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/css/edx-edutech/apps/edx/edx-platform/common/djangoapps/third_party_auth/decorators.py", line 23, in wrapped_view
+    resp = view_func(request, *args, **kwargs)
+  File "/home/css/edx-edutech/apps/edx/edx-platform/openedx/core/djangoapps/user_authn/views/login_form.py", line 68, in login_and_registration_form
+    form_descriptions = _get_form_descriptions(request)
+  File "/home/css/edx-edutech/apps/edx/edx-platform/openedx/core/djangoapps/user_authn/views/login_form.py", line 182, in _get_form_descriptions
+    'registration': RegistrationFormFactory().get_registration_form(request).to_json()
+  File "/home/css/edx-edutech/apps/edx/edx-platform/openedx/core/djangoapps/user_api/api.py", line 345, in get_registration_form
+    self.field_handlers[field_name](form_desc, required=True)
+  File "/home/css/edx-edutech/apps/edx/edx-platform/openedx/core/djangoapps/user_api/api.py", line 449, in _add_username_field
+    options=options,
+NameError: global name 'options' is not defined
+2020-01-30 01:41:41,345 ERROR 20767 [django.request] exception.py:135 - Internal Server Error: /register
+Traceback (most recent call last):
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/handlers/base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/utils/decorators.py", line 185, in inner
+    return func(*args, **kwargs)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/views/decorators/http.py", line 40, in inner
+    return func(request, *args, **kwargs)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/css/edx-edutech/apps/edx/edx-platform/common/djangoapps/third_party_auth/decorators.py", line 23, in wrapped_view
+    resp = view_func(request, *args, **kwargs)
+  File "/home/css/edx-edutech/apps/edx/edx-platform/openedx/core/djangoapps/user_authn/views/login_form.py", line 68, in login_and_registration_form
+    form_descriptions = _get_form_descriptions(request)
+  File "/home/css/edx-edutech/apps/edx/edx-platform/openedx/core/djangoapps/user_authn/views/login_form.py", line 182, in _get_form_descriptions
+    'registration': RegistrationFormFactory().get_registration_form(request).to_json()
+  File "/home/css/edx-edutech/apps/edx/edx-platform/openedx/core/djangoapps/user_api/api.py", line 345, in get_registration_form
+    self.field_handlers[field_name](form_desc, required=True)
+  File "/home/css/edx-edutech/apps/edx/edx-platform/openedx/core/djangoapps/user_api/api.py", line 449, in _add_username_field
+    options=options,
+NameError: global name 'options' is not defined
+2020-01-30 01:41:47,925 WARNING 20768 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-30 01:41:47,925 WARNING 20768 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-30 01:41:53,675 ERROR 20768 [root] signals.py:21 - Uncaught exception from None
+Traceback (most recent call last):
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/handlers/base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/utils/decorators.py", line 185, in inner
+    return func(*args, **kwargs)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/views/decorators/http.py", line 40, in inner
+    return func(request, *args, **kwargs)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/css/edx-edutech/apps/edx/edx-platform/common/djangoapps/third_party_auth/decorators.py", line 23, in wrapped_view
+    resp = view_func(request, *args, **kwargs)
+  File "/home/css/edx-edutech/apps/edx/edx-platform/openedx/core/djangoapps/user_authn/views/login_form.py", line 68, in login_and_registration_form
+    form_descriptions = _get_form_descriptions(request)
+  File "/home/css/edx-edutech/apps/edx/edx-platform/openedx/core/djangoapps/user_authn/views/login_form.py", line 182, in _get_form_descriptions
+    'registration': RegistrationFormFactory().get_registration_form(request).to_json()
+  File "/home/css/edx-edutech/apps/edx/edx-platform/openedx/core/djangoapps/user_api/api.py", line 345, in get_registration_form
+    self.field_handlers[field_name](form_desc, required=True)
+  File "/home/css/edx-edutech/apps/edx/edx-platform/openedx/core/djangoapps/user_api/api.py", line 449, in _add_username_field
+    options=options,
+NameError: global name 'options' is not defined
+2020-01-30 01:41:53,677 ERROR 20768 [django.request] exception.py:135 - Internal Server Error: /register
+Traceback (most recent call last):
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/handlers/base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/utils/decorators.py", line 185, in inner
+    return func(*args, **kwargs)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/views/decorators/http.py", line 40, in inner
+    return func(request, *args, **kwargs)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/css/edx-edutech/apps/edx/edx-platform/common/djangoapps/third_party_auth/decorators.py", line 23, in wrapped_view
+    resp = view_func(request, *args, **kwargs)
+  File "/home/css/edx-edutech/apps/edx/edx-platform/openedx/core/djangoapps/user_authn/views/login_form.py", line 68, in login_and_registration_form
+    form_descriptions = _get_form_descriptions(request)
+  File "/home/css/edx-edutech/apps/edx/edx-platform/openedx/core/djangoapps/user_authn/views/login_form.py", line 182, in _get_form_descriptions
+    'registration': RegistrationFormFactory().get_registration_form(request).to_json()
+  File "/home/css/edx-edutech/apps/edx/edx-platform/openedx/core/djangoapps/user_api/api.py", line 345, in get_registration_form
+    self.field_handlers[field_name](form_desc, required=True)
+  File "/home/css/edx-edutech/apps/edx/edx-platform/openedx/core/djangoapps/user_api/api.py", line 449, in _add_username_field
+    options=options,
+NameError: global name 'options' is not defined
+2020-01-30 01:41:56,402 ERROR 20768 [root] signals.py:21 - Uncaught exception from None
+Traceback (most recent call last):
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/handlers/base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/utils/decorators.py", line 185, in inner
+    return func(*args, **kwargs)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/views/decorators/http.py", line 40, in inner
+    return func(request, *args, **kwargs)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/css/edx-edutech/apps/edx/edx-platform/common/djangoapps/third_party_auth/decorators.py", line 23, in wrapped_view
+    resp = view_func(request, *args, **kwargs)
+  File "/home/css/edx-edutech/apps/edx/edx-platform/openedx/core/djangoapps/user_authn/views/login_form.py", line 68, in login_and_registration_form
+    form_descriptions = _get_form_descriptions(request)
+  File "/home/css/edx-edutech/apps/edx/edx-platform/openedx/core/djangoapps/user_authn/views/login_form.py", line 182, in _get_form_descriptions
+    'registration': RegistrationFormFactory().get_registration_form(request).to_json()
+  File "/home/css/edx-edutech/apps/edx/edx-platform/openedx/core/djangoapps/user_api/api.py", line 345, in get_registration_form
+    self.field_handlers[field_name](form_desc, required=True)
+  File "/home/css/edx-edutech/apps/edx/edx-platform/openedx/core/djangoapps/user_api/api.py", line 449, in _add_username_field
+    options=options,
+NameError: global name 'options' is not defined
+2020-01-30 01:41:56,403 ERROR 20768 [django.request] exception.py:135 - Internal Server Error: /login
+Traceback (most recent call last):
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/handlers/base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/utils/decorators.py", line 185, in inner
+    return func(*args, **kwargs)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/views/decorators/http.py", line 40, in inner
+    return func(request, *args, **kwargs)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/css/edx-edutech/apps/edx/edx-platform/common/djangoapps/third_party_auth/decorators.py", line 23, in wrapped_view
+    resp = view_func(request, *args, **kwargs)
+  File "/home/css/edx-edutech/apps/edx/edx-platform/openedx/core/djangoapps/user_authn/views/login_form.py", line 68, in login_and_registration_form
+    form_descriptions = _get_form_descriptions(request)
+  File "/home/css/edx-edutech/apps/edx/edx-platform/openedx/core/djangoapps/user_authn/views/login_form.py", line 182, in _get_form_descriptions
+    'registration': RegistrationFormFactory().get_registration_form(request).to_json()
+  File "/home/css/edx-edutech/apps/edx/edx-platform/openedx/core/djangoapps/user_api/api.py", line 345, in get_registration_form
+    self.field_handlers[field_name](form_desc, required=True)
+  File "/home/css/edx-edutech/apps/edx/edx-platform/openedx/core/djangoapps/user_api/api.py", line 449, in _add_username_field
+    options=options,
+NameError: global name 'options' is not defined
+2020-01-30 01:41:58,957 ERROR 20767 [root] signals.py:21 - Uncaught exception from None
+Traceback (most recent call last):
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/handlers/base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/utils/decorators.py", line 185, in inner
+    return func(*args, **kwargs)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/views/decorators/http.py", line 40, in inner
+    return func(request, *args, **kwargs)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/css/edx-edutech/apps/edx/edx-platform/common/djangoapps/third_party_auth/decorators.py", line 23, in wrapped_view
+    resp = view_func(request, *args, **kwargs)
+  File "/home/css/edx-edutech/apps/edx/edx-platform/openedx/core/djangoapps/user_authn/views/login_form.py", line 68, in login_and_registration_form
+    form_descriptions = _get_form_descriptions(request)
+  File "/home/css/edx-edutech/apps/edx/edx-platform/openedx/core/djangoapps/user_authn/views/login_form.py", line 182, in _get_form_descriptions
+    'registration': RegistrationFormFactory().get_registration_form(request).to_json()
+  File "/home/css/edx-edutech/apps/edx/edx-platform/openedx/core/djangoapps/user_api/api.py", line 345, in get_registration_form
+    self.field_handlers[field_name](form_desc, required=True)
+  File "/home/css/edx-edutech/apps/edx/edx-platform/openedx/core/djangoapps/user_api/api.py", line 449, in _add_username_field
+    options=options,
+NameError: global name 'options' is not defined
+2020-01-30 01:41:58,958 ERROR 20767 [django.request] exception.py:135 - Internal Server Error: /register
+Traceback (most recent call last):
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/handlers/base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/utils/decorators.py", line 185, in inner
+    return func(*args, **kwargs)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/views/decorators/http.py", line 40, in inner
+    return func(request, *args, **kwargs)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/css/edx-edutech/apps/edx/edx-platform/common/djangoapps/third_party_auth/decorators.py", line 23, in wrapped_view
+    resp = view_func(request, *args, **kwargs)
+  File "/home/css/edx-edutech/apps/edx/edx-platform/openedx/core/djangoapps/user_authn/views/login_form.py", line 68, in login_and_registration_form
+    form_descriptions = _get_form_descriptions(request)
+  File "/home/css/edx-edutech/apps/edx/edx-platform/openedx/core/djangoapps/user_authn/views/login_form.py", line 182, in _get_form_descriptions
+    'registration': RegistrationFormFactory().get_registration_form(request).to_json()
+  File "/home/css/edx-edutech/apps/edx/edx-platform/openedx/core/djangoapps/user_api/api.py", line 345, in get_registration_form
+    self.field_handlers[field_name](form_desc, required=True)
+  File "/home/css/edx-edutech/apps/edx/edx-platform/openedx/core/djangoapps/user_api/api.py", line 449, in _add_username_field
+    options=options,
+NameError: global name 'options' is not defined
+2020-01-30 01:42:04,396 ERROR 20768 [root] signals.py:21 - Uncaught exception from None
+Traceback (most recent call last):
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/handlers/base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/utils/decorators.py", line 185, in inner
+    return func(*args, **kwargs)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/views/decorators/http.py", line 40, in inner
+    return func(request, *args, **kwargs)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/css/edx-edutech/apps/edx/edx-platform/common/djangoapps/third_party_auth/decorators.py", line 23, in wrapped_view
+    resp = view_func(request, *args, **kwargs)
+  File "/home/css/edx-edutech/apps/edx/edx-platform/openedx/core/djangoapps/user_authn/views/login_form.py", line 68, in login_and_registration_form
+    form_descriptions = _get_form_descriptions(request)
+  File "/home/css/edx-edutech/apps/edx/edx-platform/openedx/core/djangoapps/user_authn/views/login_form.py", line 182, in _get_form_descriptions
+    'registration': RegistrationFormFactory().get_registration_form(request).to_json()
+  File "/home/css/edx-edutech/apps/edx/edx-platform/openedx/core/djangoapps/user_api/api.py", line 345, in get_registration_form
+    self.field_handlers[field_name](form_desc, required=True)
+  File "/home/css/edx-edutech/apps/edx/edx-platform/openedx/core/djangoapps/user_api/api.py", line 449, in _add_username_field
+    options=options,
+NameError: global name 'options' is not defined
+2020-01-30 01:42:04,397 ERROR 20768 [django.request] exception.py:135 - Internal Server Error: /register
+Traceback (most recent call last):
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/handlers/base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/utils/decorators.py", line 185, in inner
+    return func(*args, **kwargs)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/views/decorators/http.py", line 40, in inner
+    return func(request, *args, **kwargs)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/css/edx-edutech/apps/edx/edx-platform/common/djangoapps/third_party_auth/decorators.py", line 23, in wrapped_view
+    resp = view_func(request, *args, **kwargs)
+  File "/home/css/edx-edutech/apps/edx/edx-platform/openedx/core/djangoapps/user_authn/views/login_form.py", line 68, in login_and_registration_form
+    form_descriptions = _get_form_descriptions(request)
+  File "/home/css/edx-edutech/apps/edx/edx-platform/openedx/core/djangoapps/user_authn/views/login_form.py", line 182, in _get_form_descriptions
+    'registration': RegistrationFormFactory().get_registration_form(request).to_json()
+  File "/home/css/edx-edutech/apps/edx/edx-platform/openedx/core/djangoapps/user_api/api.py", line 345, in get_registration_form
+    self.field_handlers[field_name](form_desc, required=True)
+  File "/home/css/edx-edutech/apps/edx/edx-platform/openedx/core/djangoapps/user_api/api.py", line 449, in _add_username_field
+    options=options,
+NameError: global name 'options' is not defined
+2020-01-30 01:42:19,347 ERROR 20767 [root] signals.py:21 - Uncaught exception from None
+Traceback (most recent call last):
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/handlers/base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/utils/decorators.py", line 185, in inner
+    return func(*args, **kwargs)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/views/decorators/http.py", line 40, in inner
+    return func(request, *args, **kwargs)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/css/edx-edutech/apps/edx/edx-platform/common/djangoapps/third_party_auth/decorators.py", line 23, in wrapped_view
+    resp = view_func(request, *args, **kwargs)
+  File "/home/css/edx-edutech/apps/edx/edx-platform/openedx/core/djangoapps/user_authn/views/login_form.py", line 68, in login_and_registration_form
+    form_descriptions = _get_form_descriptions(request)
+  File "/home/css/edx-edutech/apps/edx/edx-platform/openedx/core/djangoapps/user_authn/views/login_form.py", line 182, in _get_form_descriptions
+    'registration': RegistrationFormFactory().get_registration_form(request).to_json()
+  File "/home/css/edx-edutech/apps/edx/edx-platform/openedx/core/djangoapps/user_api/api.py", line 345, in get_registration_form
+    self.field_handlers[field_name](form_desc, required=True)
+  File "/home/css/edx-edutech/apps/edx/edx-platform/openedx/core/djangoapps/user_api/api.py", line 449, in _add_username_field
+    options=options,
+NameError: global name 'options' is not defined
+2020-01-30 01:42:19,347 ERROR 20767 [django.request] exception.py:135 - Internal Server Error: /register
+Traceback (most recent call last):
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/handlers/exception.py", line 41, in inner
+    response = get_response(request)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/handlers/base.py", line 249, in _legacy_get_response
+    response = self._get_response(request)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/handlers/base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/handlers/base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/utils/decorators.py", line 185, in inner
+    return func(*args, **kwargs)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/views/decorators/http.py", line 40, in inner
+    return func(request, *args, **kwargs)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/utils/decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/home/css/edx-edutech/apps/edx/edx-platform/common/djangoapps/third_party_auth/decorators.py", line 23, in wrapped_view
+    resp = view_func(request, *args, **kwargs)
+  File "/home/css/edx-edutech/apps/edx/edx-platform/openedx/core/djangoapps/user_authn/views/login_form.py", line 68, in login_and_registration_form
+    form_descriptions = _get_form_descriptions(request)
+  File "/home/css/edx-edutech/apps/edx/edx-platform/openedx/core/djangoapps/user_authn/views/login_form.py", line 182, in _get_form_descriptions
+    'registration': RegistrationFormFactory().get_registration_form(request).to_json()
+  File "/home/css/edx-edutech/apps/edx/edx-platform/openedx/core/djangoapps/user_api/api.py", line 345, in get_registration_form
+    self.field_handlers[field_name](form_desc, required=True)
+  File "/home/css/edx-edutech/apps/edx/edx-platform/openedx/core/djangoapps/user_api/api.py", line 449, in _add_username_field
+    options=options,
+NameError: global name 'options' is not defined
+2020-01-30 01:43:04,030 WARNING 22170 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-30 01:43:04,030 WARNING 22170 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-30 01:45:42,180 WARNING 24576 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-30 01:45:42,181 WARNING 24576 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-30 01:45:55,569 WARNING 24577 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-30 01:45:55,569 WARNING 24577 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-30 01:53:27,594 WARNING 32309 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-30 01:53:27,594 WARNING 32309 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-30 01:53:28,490 WARNING 32359 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-30 01:53:28,499 WARNING 32359 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-30 01:53:28,503 WARNING 32334 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-30 01:53:28,504 WARNING 32334 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-30 01:53:30,043 INFO 32309 [openedx.core.djangoapps.user_authn.views.register] register.py:70 - 
+Registration/ Form file is Run
+2020-01-30 01:53:30,601 INFO 32334 [openedx.core.djangoapps.user_authn.views.register] register.py:70 - 
+Registration/ Form file is Run
+2020-01-30 01:53:30,643 INFO 32359 [openedx.core.djangoapps.user_authn.views.register] register.py:70 - 
+Registration/ Form file is Run
+2020-01-30 01:53:32,597 INFO 32309 [openedx.core.djangoapps.user_api.api] api.py:26 - 
+APIIIIIIIIIIIIII/ Form file is Run
+2020-01-30 01:53:32,603 INFO 32309 [openedx.core.djangoapps.user_api.views] views.py:45 - 
+User api/VIEW.Py/ Form file is Run
+2020-01-30 01:53:32,619 INFO 32334 [openedx.core.djangoapps.user_api.api] api.py:26 - 
+APIIIIIIIIIIIIII/ Form file is Run
+2020-01-30 01:53:32,619 INFO 32334 [openedx.core.djangoapps.user_api.views] views.py:45 - 
+User api/VIEW.Py/ Form file is Run
+2020-01-30 01:53:32,679 INFO 32359 [openedx.core.djangoapps.user_api.api] api.py:26 - 
+APIIIIIIIIIIIIII/ Form file is Run
+2020-01-30 01:53:32,679 INFO 32359 [openedx.core.djangoapps.user_api.views] views.py:45 - 
+User api/VIEW.Py/ Form file is Run
+2020-01-30 01:53:33,466 WARNING 32334 [py.warnings] worker.py:161 - /home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/celery/apps/worker.py:161: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+2020-01-30 01:53:33,511 WARNING 32359 [py.warnings] worker.py:161 - /home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/celery/apps/worker.py:161: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+2020-01-30 01:53:33,738 ERROR 32334 [celery.worker.consumer] consumer.py:366 - consumer: Cannot connect to amqp://bn_edx:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 2.00 seconds...
+
+2020-01-30 01:53:33,742 WARNING 32309 [py.warnings] worker.py:161 - /home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/celery/apps/worker.py:161: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+2020-01-30 01:53:33,771 ERROR 32359 [celery.worker.consumer] consumer.py:366 - consumer: Cannot connect to amqp://bn_edx:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 2.00 seconds...
+
+2020-01-30 01:53:34,124 ERROR 32309 [celery.worker.consumer] consumer.py:366 - consumer: Cannot connect to amqp://bn_edx:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 2.00 seconds...
+
+2020-01-30 01:53:35,750 ERROR 32334 [celery.worker.consumer] consumer.py:366 - consumer: Cannot connect to amqp://bn_edx:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 4.00 seconds...
+
+2020-01-30 01:53:35,784 ERROR 32359 [celery.worker.consumer] consumer.py:366 - consumer: Cannot connect to amqp://bn_edx:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 4.00 seconds...
+
+2020-01-30 01:53:36,136 ERROR 32309 [celery.worker.consumer] consumer.py:366 - consumer: Cannot connect to amqp://bn_edx:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 4.00 seconds...
+
+2020-01-30 01:53:39,760 ERROR 32334 [celery.worker.consumer] consumer.py:366 - consumer: Cannot connect to amqp://bn_edx:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 6.00 seconds...
+
+2020-01-30 01:53:39,793 ERROR 32359 [celery.worker.consumer] consumer.py:366 - consumer: Cannot connect to amqp://bn_edx:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 6.00 seconds...
+
+2020-01-30 01:53:40,150 ERROR 32309 [celery.worker.consumer] consumer.py:366 - consumer: Cannot connect to amqp://bn_edx:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 6.00 seconds...
+
+2020-01-30 01:53:45,786 INFO 32334 [celery.worker.consumer] consumer.py:526 - Connected to amqp://bn_edx:**@127.0.0.1:5672//
+2020-01-30 01:53:45,799 INFO 32334 [celery.worker.consumer] consumer.py:614 - mingle: searching for neighbors
+2020-01-30 01:53:45,818 INFO 32359 [celery.worker.consumer] consumer.py:526 - Connected to amqp://bn_edx:**@127.0.0.1:5672//
+2020-01-30 01:53:45,836 INFO 32359 [celery.worker.consumer] consumer.py:614 - mingle: searching for neighbors
+2020-01-30 01:53:46,172 INFO 32309 [celery.worker.consumer] consumer.py:526 - Connected to amqp://bn_edx:**@127.0.0.1:5672//
+2020-01-30 01:53:46,185 INFO 32309 [celery.worker.consumer] consumer.py:614 - mingle: searching for neighbors
+2020-01-30 01:53:46,901 INFO 32334 [celery.worker.consumer] consumer.py:632 - mingle: all alone
+2020-01-30 01:53:46,921 WARNING 32334 [celery.redirected] log.py:282 - celery@edx.lms.core.high.css-Latitude-E6440 ready.
+2020-01-30 01:53:46,934 INFO 32359 [celery.worker.consumer] consumer.py:632 - mingle: all alone
+2020-01-30 01:53:46,956 WARNING 32359 [celery.redirected] log.py:282 - celery@edx.lms.core.high_mem.css-Latitude-E6440 ready.
+2020-01-30 01:53:47,235 INFO 32309 [celery.worker.consumer] consumer.py:632 - mingle: all alone
+2020-01-30 01:53:47,255 WARNING 32309 [celery.redirected] log.py:282 - celery@edx.lms.core.default.css-Latitude-E6440 ready.
+2020-01-30 01:57:52,977 WARNING 32093 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-30 01:57:52,977 WARNING 32093 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-30 01:57:54,024 INFO 32093 [openedx.core.djangoapps.user_authn.views.register] register.py:70 - 
+Registration/ Form file is Run
+2020-01-30 01:57:54,995 INFO 32093 [openedx.core.djangoapps.user_api.api] api.py:26 - 
+APIIIIIIIIIIIIII/ Form file is Run
+2020-01-30 01:57:54,996 INFO 32093 [openedx.core.djangoapps.user_api.views] views.py:45 - 
+User api/VIEW.Py/ Form file is Run
+2020-01-30 01:57:55,275 WARNING 32093 [openedx.core.djangoapps.catalog.utils] utils.py:103 - Failed to get program UUIDs from the cache for site example.com.
+2020-01-30 01:57:57,430 WARNING 32094 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-30 01:57:57,431 WARNING 32094 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-30 01:57:58,251 INFO 32094 [openedx.core.djangoapps.user_authn.views.register] register.py:70 - 
+Registration/ Form file is Run
+2020-01-30 01:57:59,044 INFO 32094 [openedx.core.djangoapps.user_api.api] api.py:26 - 
+APIIIIIIIIIIIIII/ Form file is Run
+2020-01-30 01:57:59,044 INFO 32094 [openedx.core.djangoapps.user_api.views] views.py:45 - 
+User api/VIEW.Py/ Form file is Run
+2020-01-30 01:58:01,446 INFO 32093 [openedx.core.djangoapps.user_api.api] api.py:352 - ELse Condition Inside
+2020-01-30 01:58:01,446 INFO 32093 [openedx.core.djangoapps.user_api.api] api.py:355 - field_name email
+2020-01-30 01:58:01,447 INFO 32093 [openedx.core.djangoapps.user_api.api] api.py:359 - _is_field_visible honor_code
+2020-01-30 02:01:14,504 INFO 32093 [openedx.core.djangoapps.user_api.views] views.py:114 - POST MATHOD IS CALLING
+2020-01-30 02:01:14,504 INFO 32093 [openedx.core.djangoapps.user_api.views] views.py:133 - datadatadata <QueryDict: {u'username': [u''], u'name': [u''], u'gender': [u''], u'year_of_birth': [u''], u'level_of_education': [u''], u'goals': [u''], u'mailing_address': [u''], u'password': [u''], u'email': [u'akki@gmail.com']}>
+2020-01-30 02:01:14,505 INFO 32093 [openedx.core.djangoapps.user_api.views] views.py:140 - custom_password jwouxizpyg
+2020-01-30 02:01:14,510 INFO 32093 [openedx.core.djangoapps.user_api.views] views.py:146 - 
+conflicts []
+2020-01-30 02:01:14,511 INFO 32093 [openedx.core.djangoapps.user_authn.views.register] register.py:111 - 
+create_account_with_params
+2020-01-30 02:01:14,511 INFO 32093 [openedx.core.djangoapps.user_authn.views.register] register.py:153 - paramsparamsparamsparams {u'username': u'akki@gmail.comusername', u'name': u'akki@gmail.comname', u'gender': u'', u'year_of_birth': u'', u'level_of_education': u'', u'goals': u'', u'mailing_address': u'', u'password': u'jwouxizpyg', u'email': u'akki@gmail.com'}
+2020-01-30 02:01:14,515 INFO 32093 [openedx.core.djangoapps.user_authn.views.register] register.py:162 - custom_formcustom_formcustom_formNone
+2020-01-30 02:01:14,569 INFO 32093 [openedx.core.djangoapps.user_api.views] views.py:183 - Errorrrrrrrrrrrrrr {'username': [{'user_message': u'Usernames can only contain letters (A-Z, a-z), numerals (0-9), underscores (_), and hyphens (-).'}], 'email': [{'user_message': u'Unauthorized email address.'}], u'honor_code': [{'user_message': u'To enroll, you must follow the honor code.'}], 'terms_of_service': [{'user_message': u'You must accept the terms of service.'}]}
+2020-01-30 02:08:22,078 WARNING 14104 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-30 02:08:22,078 WARNING 14104 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-30 02:08:22,127 WARNING 14129 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-30 02:08:22,128 WARNING 14129 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-30 02:08:22,357 WARNING 14154 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-30 02:08:22,357 WARNING 14154 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-30 02:08:24,552 INFO 14104 [student.forms] forms.py:36 - Student/ Form file is Run
+2020-01-30 02:08:24,572 INFO 14104 [openedx.core.djangoapps.user_authn.views.register] register.py:70 - 
+Registration/ Form file is Run
+2020-01-30 02:08:24,776 INFO 14154 [student.forms] forms.py:36 - Student/ Form file is Run
+2020-01-30 02:08:24,796 INFO 14154 [openedx.core.djangoapps.user_authn.views.register] register.py:70 - 
+Registration/ Form file is Run
+2020-01-30 02:08:24,984 INFO 14129 [student.forms] forms.py:36 - Student/ Form file is Run
+2020-01-30 02:08:25,023 INFO 14129 [openedx.core.djangoapps.user_authn.views.register] register.py:70 - 
+Registration/ Form file is Run
+2020-01-30 02:08:26,423 INFO 14104 [openedx.core.djangoapps.user_api.api] api.py:26 - 
+APIIIIIIIIIIIIII/ Form file is Run
+2020-01-30 02:08:26,423 INFO 14104 [openedx.core.djangoapps.user_api.views] views.py:45 - 
+User api/VIEW.Py/ Form file is Run
+2020-01-30 02:08:26,642 INFO 14129 [openedx.core.djangoapps.user_api.api] api.py:26 - 
+APIIIIIIIIIIIIII/ Form file is Run
+2020-01-30 02:08:26,643 INFO 14129 [openedx.core.djangoapps.user_api.views] views.py:45 - 
+User api/VIEW.Py/ Form file is Run
+2020-01-30 02:08:26,725 INFO 14154 [openedx.core.djangoapps.user_api.api] api.py:26 - 
+APIIIIIIIIIIIIII/ Form file is Run
+2020-01-30 02:08:26,726 INFO 14154 [openedx.core.djangoapps.user_api.views] views.py:45 - 
+User api/VIEW.Py/ Form file is Run
+2020-01-30 02:08:27,188 WARNING 14104 [py.warnings] worker.py:161 - /home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/celery/apps/worker.py:161: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+2020-01-30 02:08:27,549 ERROR 14104 [celery.worker.consumer] consumer.py:366 - consumer: Cannot connect to amqp://bn_edx:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 2.00 seconds...
+
+2020-01-30 02:08:27,582 WARNING 14154 [py.warnings] worker.py:161 - /home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/celery/apps/worker.py:161: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+2020-01-30 02:08:27,987 WARNING 14129 [py.warnings] worker.py:161 - /home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/celery/apps/worker.py:161: CDeprecationWarning: 
+Starting from version 3.2 Celery will refuse to accept pickle by default.
+
+The pickle serializer is a security concern as it may give attackers
+the ability to execute any command.  It's important to secure
+your broker from unauthorized access when using pickle, so we think
+that enabling pickle should require a deliberate action and not be
+the default choice.
+
+If you depend on pickle then you should set a setting to disable this
+warning and to be sure that everything will continue working
+when you upgrade to Celery 3.2::
+
+    CELERY_ACCEPT_CONTENT = ['pickle', 'json', 'msgpack', 'yaml']
+
+You must only enable the serializers that you will actually use.
+
+
+  warnings.warn(CDeprecationWarning(W_PICKLE_DEPRECATED))
+
+2020-01-30 02:08:28,006 ERROR 14154 [celery.worker.consumer] consumer.py:366 - consumer: Cannot connect to amqp://bn_edx:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 2.00 seconds...
+
+2020-01-30 02:08:28,536 ERROR 14129 [celery.worker.consumer] consumer.py:366 - consumer: Cannot connect to amqp://bn_edx:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 2.00 seconds...
+
+2020-01-30 02:08:29,560 ERROR 14104 [celery.worker.consumer] consumer.py:366 - consumer: Cannot connect to amqp://bn_edx:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 4.00 seconds...
+
+2020-01-30 02:08:30,019 ERROR 14154 [celery.worker.consumer] consumer.py:366 - consumer: Cannot connect to amqp://bn_edx:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 4.00 seconds...
+
+2020-01-30 02:08:30,547 ERROR 14129 [celery.worker.consumer] consumer.py:366 - consumer: Cannot connect to amqp://bn_edx:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 4.00 seconds...
+
+2020-01-30 02:08:33,576 ERROR 14104 [celery.worker.consumer] consumer.py:366 - consumer: Cannot connect to amqp://bn_edx:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 6.00 seconds...
+
+2020-01-30 02:08:34,034 ERROR 14154 [celery.worker.consumer] consumer.py:366 - consumer: Cannot connect to amqp://bn_edx:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 6.00 seconds...
+
+2020-01-30 02:08:34,565 ERROR 14129 [celery.worker.consumer] consumer.py:366 - consumer: Cannot connect to amqp://bn_edx:**@127.0.0.1:5672//: [Errno 111] Connection refused.
+Trying again in 6.00 seconds...
+
+2020-01-30 02:08:39,615 INFO 14104 [celery.worker.consumer] consumer.py:526 - Connected to amqp://bn_edx:**@127.0.0.1:5672//
+2020-01-30 02:08:39,630 INFO 14104 [celery.worker.consumer] consumer.py:614 - mingle: searching for neighbors
+2020-01-30 02:08:40,064 INFO 14154 [celery.worker.consumer] consumer.py:526 - Connected to amqp://bn_edx:**@127.0.0.1:5672//
+2020-01-30 02:08:40,084 INFO 14154 [celery.worker.consumer] consumer.py:614 - mingle: searching for neighbors
+2020-01-30 02:08:40,587 INFO 14129 [celery.worker.consumer] consumer.py:526 - Connected to amqp://bn_edx:**@127.0.0.1:5672//
+2020-01-30 02:08:40,609 INFO 14129 [celery.worker.consumer] consumer.py:614 - mingle: searching for neighbors
+2020-01-30 02:08:40,696 INFO 14104 [celery.worker.consumer] consumer.py:632 - mingle: all alone
+2020-01-30 02:08:40,726 WARNING 14104 [celery.redirected] log.py:282 - celery@edx.lms.core.default.css-Latitude-E6440 ready.
+2020-01-30 02:08:41,156 INFO 14154 [celery.worker.consumer] consumer.py:632 - mingle: all alone
+2020-01-30 02:08:41,185 WARNING 14154 [celery.redirected] log.py:282 - celery@edx.lms.core.high_mem.css-Latitude-E6440 ready.
+2020-01-30 02:08:41,359 INFO 14154 [celery.worker.control] control.py:270 - sync with celery@edx.cms.core.default.css-Latitude-E6440
+2020-01-30 02:08:41,359 INFO 14104 [celery.worker.control] control.py:270 - sync with celery@edx.cms.core.default.css-Latitude-E6440
+2020-01-30 02:08:41,733 INFO 14129 [celery.worker.consumer] consumer.py:632 - mingle: all alone
+2020-01-30 02:08:41,759 WARNING 14129 [celery.redirected] log.py:282 - celery@edx.lms.core.high.css-Latitude-E6440 ready.
+2020-01-30 02:08:42,213 INFO 14104 [celery.worker.control] control.py:270 - sync with celery@edx.cms.core.high.css-Latitude-E6440
+2020-01-30 02:08:42,213 INFO 14154 [celery.worker.control] control.py:270 - sync with celery@edx.cms.core.high.css-Latitude-E6440
+2020-01-30 02:08:42,213 INFO 14129 [celery.worker.control] control.py:270 - sync with celery@edx.cms.core.high.css-Latitude-E6440
+2020-01-30 02:17:34,334 WARNING 13887 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-30 02:17:34,334 WARNING 13887 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-30 02:17:35,179 INFO 13887 [student.forms] forms.py:36 - Student/ Form file is Run
+2020-01-30 02:17:35,194 INFO 13887 [openedx.core.djangoapps.user_authn.views.register] register.py:70 - 
+Registration/ Form file is Run
+2020-01-30 02:17:35,949 INFO 13887 [openedx.core.djangoapps.user_api.api] api.py:26 - 
+APIIIIIIIIIIIIII/ Form file is Run
+2020-01-30 02:17:35,950 INFO 13887 [openedx.core.djangoapps.user_api.views] views.py:45 - 
+User api/VIEW.Py/ Form file is Run
+2020-01-30 02:17:36,684 INFO 13887 [openedx.core.djangoapps.user_api.api] api.py:352 - ELse Condition Inside
+2020-01-30 02:17:36,684 INFO 13887 [openedx.core.djangoapps.user_api.api] api.py:355 - field_name email
+2020-01-30 02:17:36,684 INFO 13887 [openedx.core.djangoapps.user_api.api] api.py:359 - _is_field_visible honor_code
+2020-01-30 02:17:40,505 INFO 13887 [openedx.core.djangoapps.user_api.views] views.py:114 - POST MATHOD IS CALLING
+2020-01-30 02:17:40,506 INFO 13887 [openedx.core.djangoapps.user_api.views] views.py:133 - datadatadata <QueryDict: {u'username': [u''], u'name': [u''], u'gender': [u''], u'year_of_birth': [u''], u'level_of_education': [u''], u'goals': [u''], u'mailing_address': [u''], u'password': [u''], u'email': [u'akki@gmail.com']}>
+2020-01-30 02:17:40,510 INFO 13887 [openedx.core.djangoapps.user_api.views] views.py:140 - custom_password cdmcsxhofv
+2020-01-30 02:17:40,543 INFO 13887 [openedx.core.djangoapps.user_api.views] views.py:146 - 
+conflicts []
+2020-01-30 02:17:40,543 INFO 13887 [openedx.core.djangoapps.user_authn.views.register] register.py:111 - 
+create_account_with_params
+2020-01-30 02:17:40,544 INFO 13887 [openedx.core.djangoapps.user_authn.views.register] register.py:153 - paramsparamsparamsparams {u'username': u'akki@', u'name': u'akki@name', u'gender': u'', u'year_of_birth': u'', u'level_of_education': u'', u'goals': u'', u'mailing_address': u'', u'password': u'cdmcsxhofv', u'email': u'akki@gmail.com'}
+2020-01-30 02:17:40,545 INFO 13887 [student.forms] forms.py:344 - field_name city and hidden
+2020-01-30 02:17:40,545 INFO 13887 [student.forms] forms.py:345 - self.fields OrderedDict([('username', <student.forms.UsernameField object at 0x7fb708135f50>), ('email', <django.forms.fields.EmailField object at 0x7fb708135e50>), ('password', <django.forms.fields.CharField object at 0x7fb708135d50>), ('name', <django.forms.fields.CharField object at 0x7fb708135cd0>)])
+2020-01-30 02:17:40,545 INFO 13887 [student.forms] forms.py:357 - ELSE@@@@@@@@@@@@@@@@ city , False
+2020-01-30 02:17:40,546 INFO 13887 [student.forms] forms.py:344 - field_name confirm_email and hidden
+2020-01-30 02:17:40,546 INFO 13887 [student.forms] forms.py:345 - self.fields OrderedDict([('username', <student.forms.UsernameField object at 0x7fb708135f50>), ('email', <django.forms.fields.EmailField object at 0x7fb708135e50>), ('password', <django.forms.fields.CharField object at 0x7fb708135d50>), ('name', <django.forms.fields.CharField object at 0x7fb708135cd0>)])
+2020-01-30 02:17:40,546 INFO 13887 [student.forms] forms.py:357 - ELSE@@@@@@@@@@@@@@@@ confirm_email , False
+2020-01-30 02:17:40,546 INFO 13887 [student.forms] forms.py:344 - field_name gender and hidden
+2020-01-30 02:17:40,547 INFO 13887 [student.forms] forms.py:345 - self.fields OrderedDict([('username', <student.forms.UsernameField object at 0x7fb708135f50>), ('email', <django.forms.fields.EmailField object at 0x7fb708135e50>), ('password', <django.forms.fields.CharField object at 0x7fb708135d50>), ('name', <django.forms.fields.CharField object at 0x7fb708135cd0>)])
+2020-01-30 02:17:40,547 INFO 13887 [student.forms] forms.py:357 - ELSE@@@@@@@@@@@@@@@@ gender , False
+2020-01-30 02:17:40,548 INFO 13887 [student.forms] forms.py:344 - field_name year_of_birth and hidden
+2020-01-30 02:17:40,548 INFO 13887 [student.forms] forms.py:345 - self.fields OrderedDict([('username', <student.forms.UsernameField object at 0x7fb708135f50>), ('email', <django.forms.fields.EmailField object at 0x7fb708135e50>), ('password', <django.forms.fields.CharField object at 0x7fb708135d50>), ('name', <django.forms.fields.CharField object at 0x7fb708135cd0>)])
+2020-01-30 02:17:40,548 INFO 13887 [student.forms] forms.py:357 - ELSE@@@@@@@@@@@@@@@@ year_of_birth , False
+2020-01-30 02:17:40,549 INFO 13887 [student.forms] forms.py:344 - field_name level_of_education and hidden
+2020-01-30 02:17:40,549 INFO 13887 [student.forms] forms.py:345 - self.fields OrderedDict([('username', <student.forms.UsernameField object at 0x7fb708135f50>), ('email', <django.forms.fields.EmailField object at 0x7fb708135e50>), ('password', <django.forms.fields.CharField object at 0x7fb708135d50>), ('name', <django.forms.fields.CharField object at 0x7fb708135cd0>)])
+2020-01-30 02:17:40,549 INFO 13887 [student.forms] forms.py:357 - ELSE@@@@@@@@@@@@@@@@ level_of_education , False
+2020-01-30 02:17:40,549 INFO 13887 [student.forms] forms.py:344 - field_name goals and hidden
+2020-01-30 02:17:40,550 INFO 13887 [student.forms] forms.py:345 - self.fields OrderedDict([('username', <student.forms.UsernameField object at 0x7fb708135f50>), ('email', <django.forms.fields.EmailField object at 0x7fb708135e50>), ('password', <django.forms.fields.CharField object at 0x7fb708135d50>), ('name', <django.forms.fields.CharField object at 0x7fb708135cd0>)])
+2020-01-30 02:17:40,550 INFO 13887 [student.forms] forms.py:357 - ELSE@@@@@@@@@@@@@@@@ goals , False
+2020-01-30 02:17:40,550 INFO 13887 [student.forms] forms.py:344 - field_name honor_code and required
+2020-01-30 02:17:40,550 INFO 13887 [student.forms] forms.py:345 - self.fields OrderedDict([('username', <student.forms.UsernameField object at 0x7fb708135f50>), ('email', <django.forms.fields.EmailField object at 0x7fb708135e50>), ('password', <django.forms.fields.CharField object at 0x7fb708135d50>), ('name', <django.forms.fields.CharField object at 0x7fb708135cd0>)])
+2020-01-30 02:17:40,551 INFO 13887 [student.forms] forms.py:344 - field_name terms_of_service and hidden
+2020-01-30 02:17:40,551 INFO 13887 [student.forms] forms.py:345 - self.fields OrderedDict([('username', <student.forms.UsernameField object at 0x7fb708135f50>), ('email', <django.forms.fields.EmailField object at 0x7fb708135e50>), ('password', <django.forms.fields.CharField object at 0x7fb708135d50>), ('name', <django.forms.fields.CharField object at 0x7fb708135cd0>)])
+2020-01-30 02:17:40,551 INFO 13887 [student.forms] forms.py:357 - ELSE@@@@@@@@@@@@@@@@ terms_of_service , False
+2020-01-30 02:17:40,552 INFO 13887 [student.forms] forms.py:344 - field_name country and hidden
+2020-01-30 02:17:40,552 INFO 13887 [student.forms] forms.py:345 - self.fields OrderedDict([('username', <student.forms.UsernameField object at 0x7fb708135f50>), ('email', <django.forms.fields.EmailField object at 0x7fb708135e50>), ('password', <django.forms.fields.CharField object at 0x7fb708135d50>), ('name', <django.forms.fields.CharField object at 0x7fb708135cd0>)])
+2020-01-30 02:17:40,552 INFO 13887 [student.forms] forms.py:357 - ELSE@@@@@@@@@@@@@@@@ country , False
+2020-01-30 02:17:40,553 INFO 13887 [student.forms] forms.py:344 - field_name mailing_address and hidden
+2020-01-30 02:17:40,553 INFO 13887 [student.forms] forms.py:345 - self.fields OrderedDict([('username', <student.forms.UsernameField object at 0x7fb708135f50>), ('email', <django.forms.fields.EmailField object at 0x7fb708135e50>), ('password', <django.forms.fields.CharField object at 0x7fb708135d50>), ('name', <django.forms.fields.CharField object at 0x7fb708135cd0>)])
+2020-01-30 02:17:40,553 INFO 13887 [student.forms] forms.py:357 - ELSE@@@@@@@@@@@@@@@@ mailing_address , False
+2020-01-30 02:17:40,553 INFO 13887 [openedx.core.djangoapps.user_authn.views.register] register.py:162 - custom_formcustom_formcustom_formNone
+2020-01-30 02:17:40,582 INFO 13887 [openedx.core.djangoapps.user_api.views] views.py:183 - Errorrrrrrrrrrrrrr {'email': [{'user_message': u'Unauthorized email address.'}]}
+2020-01-30 02:17:43,990 WARNING 13886 [enterprise.utils] utils.py:50 - Could not import Registry from third_party_auth.provider
+2020-01-30 02:17:43,991 WARNING 13886 [enterprise.utils] utils.py:51 - cannot import name _LTI_BACKENDS
+2020-01-30 02:17:44,691 INFO 13886 [student.forms] forms.py:36 - Student/ Form file is Run
+2020-01-30 02:17:44,702 INFO 13886 [openedx.core.djangoapps.user_authn.views.register] register.py:70 - 
+Registration/ Form file is Run
+2020-01-30 02:17:45,381 INFO 13886 [openedx.core.djangoapps.user_api.api] api.py:26 - 
+APIIIIIIIIIIIIII/ Form file is Run
+2020-01-30 02:17:45,382 INFO 13886 [openedx.core.djangoapps.user_api.views] views.py:45 - 
+User api/VIEW.Py/ Form file is Run
+2020-01-30 02:17:49,327 INFO 13886 [openedx.core.djangoapps.user_api.views] views.py:114 - POST MATHOD IS CALLING
+2020-01-30 02:17:49,328 INFO 13886 [openedx.core.djangoapps.user_api.views] views.py:133 - datadatadata <QueryDict: {u'username': [u''], u'name': [u''], u'gender': [u''], u'year_of_birth': [u''], u'level_of_education': [u''], u'goals': [u''], u'mailing_address': [u''], u'password': [u''], u'email': [u'akki@cintanatech.com']}>
+2020-01-30 02:17:49,328 INFO 13886 [openedx.core.djangoapps.user_api.views] views.py:140 - custom_password wnmhnpbepm
+2020-01-30 02:17:49,336 INFO 13886 [openedx.core.djangoapps.user_api.views] views.py:146 - 
+conflicts []
+2020-01-30 02:17:49,337 INFO 13886 [openedx.core.djangoapps.user_authn.views.register] register.py:111 - 
+create_account_with_params
+2020-01-30 02:17:49,337 INFO 13886 [openedx.core.djangoapps.user_authn.views.register] register.py:153 - paramsparamsparamsparams {u'username': u'akki@', u'name': u'akki@name', u'gender': u'', u'year_of_birth': u'', u'level_of_education': u'', u'goals': u'', u'mailing_address': u'', u'password': u'wnmhnpbepm', u'email': u'akki@cintanatech.com'}
+2020-01-30 02:17:49,338 INFO 13886 [student.forms] forms.py:344 - field_name city and hidden
+2020-01-30 02:17:49,338 INFO 13886 [student.forms] forms.py:345 - self.fields OrderedDict([('username', <student.forms.UsernameField object at 0x7fb708722f10>), ('email', <django.forms.fields.EmailField object at 0x7fb708722fd0>), ('password', <django.forms.fields.CharField object at 0x7fb708729110>), ('name', <django.forms.fields.CharField object at 0x7fb708729150>)])
+2020-01-30 02:17:49,338 INFO 13886 [student.forms] forms.py:357 - ELSE@@@@@@@@@@@@@@@@ city , False
+2020-01-30 02:17:49,338 INFO 13886 [student.forms] forms.py:344 - field_name confirm_email and hidden
+2020-01-30 02:17:49,338 INFO 13886 [student.forms] forms.py:345 - self.fields OrderedDict([('username', <student.forms.UsernameField object at 0x7fb708722f10>), ('email', <django.forms.fields.EmailField object at 0x7fb708722fd0>), ('password', <django.forms.fields.CharField object at 0x7fb708729110>), ('name', <django.forms.fields.CharField object at 0x7fb708729150>)])
+2020-01-30 02:17:49,339 INFO 13886 [student.forms] forms.py:357 - ELSE@@@@@@@@@@@@@@@@ confirm_email , False
+2020-01-30 02:17:49,339 INFO 13886 [student.forms] forms.py:344 - field_name gender and hidden
+2020-01-30 02:17:49,339 INFO 13886 [student.forms] forms.py:345 - self.fields OrderedDict([('username', <student.forms.UsernameField object at 0x7fb708722f10>), ('email', <django.forms.fields.EmailField object at 0x7fb708722fd0>), ('password', <django.forms.fields.CharField object at 0x7fb708729110>), ('name', <django.forms.fields.CharField object at 0x7fb708729150>)])
+2020-01-30 02:17:49,339 INFO 13886 [student.forms] forms.py:357 - ELSE@@@@@@@@@@@@@@@@ gender , False
+2020-01-30 02:17:49,339 INFO 13886 [student.forms] forms.py:344 - field_name year_of_birth and hidden
+2020-01-30 02:17:49,339 INFO 13886 [student.forms] forms.py:345 - self.fields OrderedDict([('username', <student.forms.UsernameField object at 0x7fb708722f10>), ('email', <django.forms.fields.EmailField object at 0x7fb708722fd0>), ('password', <django.forms.fields.CharField object at 0x7fb708729110>), ('name', <django.forms.fields.CharField object at 0x7fb708729150>)])
+2020-01-30 02:17:49,339 INFO 13886 [student.forms] forms.py:357 - ELSE@@@@@@@@@@@@@@@@ year_of_birth , False
+2020-01-30 02:17:49,340 INFO 13886 [student.forms] forms.py:344 - field_name level_of_education and hidden
+2020-01-30 02:17:49,340 INFO 13886 [student.forms] forms.py:345 - self.fields OrderedDict([('username', <student.forms.UsernameField object at 0x7fb708722f10>), ('email', <django.forms.fields.EmailField object at 0x7fb708722fd0>), ('password', <django.forms.fields.CharField object at 0x7fb708729110>), ('name', <django.forms.fields.CharField object at 0x7fb708729150>)])
+2020-01-30 02:17:49,340 INFO 13886 [student.forms] forms.py:357 - ELSE@@@@@@@@@@@@@@@@ level_of_education , False
+2020-01-30 02:17:49,340 INFO 13886 [student.forms] forms.py:344 - field_name goals and hidden
+2020-01-30 02:17:49,340 INFO 13886 [student.forms] forms.py:345 - self.fields OrderedDict([('username', <student.forms.UsernameField object at 0x7fb708722f10>), ('email', <django.forms.fields.EmailField object at 0x7fb708722fd0>), ('password', <django.forms.fields.CharField object at 0x7fb708729110>), ('name', <django.forms.fields.CharField object at 0x7fb708729150>)])
+2020-01-30 02:17:49,340 INFO 13886 [student.forms] forms.py:357 - ELSE@@@@@@@@@@@@@@@@ goals , False
+2020-01-30 02:17:49,340 INFO 13886 [student.forms] forms.py:344 - field_name honor_code and required
+2020-01-30 02:17:49,340 INFO 13886 [student.forms] forms.py:345 - self.fields OrderedDict([('username', <student.forms.UsernameField object at 0x7fb708722f10>), ('email', <django.forms.fields.EmailField object at 0x7fb708722fd0>), ('password', <django.forms.fields.CharField object at 0x7fb708729110>), ('name', <django.forms.fields.CharField object at 0x7fb708729150>)])
+2020-01-30 02:17:49,341 INFO 13886 [student.forms] forms.py:344 - field_name terms_of_service and hidden
+2020-01-30 02:17:49,341 INFO 13886 [student.forms] forms.py:345 - self.fields OrderedDict([('username', <student.forms.UsernameField object at 0x7fb708722f10>), ('email', <django.forms.fields.EmailField object at 0x7fb708722fd0>), ('password', <django.forms.fields.CharField object at 0x7fb708729110>), ('name', <django.forms.fields.CharField object at 0x7fb708729150>)])
+2020-01-30 02:17:49,341 INFO 13886 [student.forms] forms.py:357 - ELSE@@@@@@@@@@@@@@@@ terms_of_service , False
+2020-01-30 02:17:49,341 INFO 13886 [student.forms] forms.py:344 - field_name country and hidden
+2020-01-30 02:17:49,341 INFO 13886 [student.forms] forms.py:345 - self.fields OrderedDict([('username', <student.forms.UsernameField object at 0x7fb708722f10>), ('email', <django.forms.fields.EmailField object at 0x7fb708722fd0>), ('password', <django.forms.fields.CharField object at 0x7fb708729110>), ('name', <django.forms.fields.CharField object at 0x7fb708729150>)])
+2020-01-30 02:17:49,341 INFO 13886 [student.forms] forms.py:357 - ELSE@@@@@@@@@@@@@@@@ country , False
+2020-01-30 02:17:49,341 INFO 13886 [student.forms] forms.py:344 - field_name mailing_address and hidden
+2020-01-30 02:17:49,341 INFO 13886 [student.forms] forms.py:345 - self.fields OrderedDict([('username', <student.forms.UsernameField object at 0x7fb708722f10>), ('email', <django.forms.fields.EmailField object at 0x7fb708722fd0>), ('password', <django.forms.fields.CharField object at 0x7fb708729110>), ('name', <django.forms.fields.CharField object at 0x7fb708729150>)])
+2020-01-30 02:17:49,342 INFO 13886 [student.forms] forms.py:357 - ELSE@@@@@@@@@@@@@@@@ mailing_address , False
+2020-01-30 02:17:49,342 INFO 13886 [openedx.core.djangoapps.user_authn.views.register] register.py:162 - custom_formcustom_formcustom_formNone
+2020-01-30 02:17:49,492 INFO 13886 [audit] models.py:2245 - Login success - user.id: 6
+2020-01-30 02:17:50,040 INFO 14104 [celery.worker.strategy] strategy.py:60 - Received task: student.tasks.send_activation_email[a58aebd7-eb4e-4417-a633-0a77385c879b]
+2020-01-30 02:17:50,151 INFO 13886 [audit] register.py:215 - Login success on new account creation - akki@
+2020-01-30 02:17:50,246 WARNING 13887 [openedx.core.djangoapps.catalog.utils] utils.py:103 - Failed to get program UUIDs from the cache for site example.com.
+2020-01-30 02:17:52,245 ERROR 14870 [edx.celery.task] tasks.py:48 - Unable to send activation email to user from "ankitkachhwaha6@gmail.com" to "akki@cintanatech.com"
+Traceback (most recent call last):
+  File "/home/css/edx-edutech/apps/edx/edx-platform/common/djangoapps/student/tasks.py", line 23, in send_activation_email
+    mail.send_mail(subject, message, from_address, [dest_addr], fail_silently=False)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/mail/__init__.py", line 62, in send_mail
+    return mail.send()
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/mail/message.py", line 348, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/mail/backends/smtp.py", line 104, in send_messages
+    new_conn_created = self.open()
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/core/mail/backends/smtp.py", line 71, in open
+    self.connection.login(force_str(self.username), force_str(self.password))
+  File "/home/css/edx-edutech/python/lib/python2.7/smtplib.py", line 623, in login
+    raise SMTPAuthenticationError(code, resp)
+SMTPAuthenticationError: (535, '5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials l8sm4928220pjy.24 - gsmtp')
+2020-01-30 02:17:52,256 ERROR 14104 [celery.worker.job] log.py:282 - Task student.tasks.send_activation_email[a58aebd7-eb4e-4417-a633-0a77385c879b] raised unexpected: Exception()
+Traceback (most recent call last):
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/celery/app/trace.py", line 240, in trace_task
+    R = retval = fun(*args, **kwargs)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/celery/app/trace.py", line 438, in __protected_call__
+    return self.run(*args, **kwargs)
+  File "/home/css/edx-edutech/apps/edx/edx-platform/common/djangoapps/student/tasks.py", line 50, in send_activation_email
+    raise Exception
+Exception
+2020-01-30 02:18:01,402 INFO 13887 [audit] models.py:2255 - Logout - user.id: 6
+2020-01-30 02:18:01,583 WARNING 13887 [django.template] loader_tags.py:232 - Exception raised while rendering {% include %} for template 'unknown'. Empty string rendered instead.
+Traceback (most recent call last):
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/template/loader_tags.py", line 204, in render
+    template = context.template.engine.get_template(template_name)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/template/engine.py", line 162, in get_template
+    template, origin = self.find_template(template_name)
+  File "/home/css/edx-edutech/apps/edx/venvs/edxapp/lib/python2.7/site-packages/django/template/engine.py", line 148, in find_template
+    raise TemplateDoesNotExist(name, tried=tried)
+TemplateDoesNotExist: head-extra.html
+2020-01-30 02:18:01,869 WARNING 13887 [openedx.core.djangoapps.catalog.utils] utils.py:103 - Failed to get program UUIDs from the cache for site example.com.

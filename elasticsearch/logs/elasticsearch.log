@@ -1,0 +1,41 @@
+[2020-01-30 10:38:02,828][INFO ][node                     ] [Crimson] version[1.5.2], pid[8812], build[62ff986/2015-04-27T09:21:06Z]
+[2020-01-30 10:38:02,829][INFO ][node                     ] [Crimson] initializing ...
+[2020-01-30 10:38:02,834][INFO ][plugins                  ] [Crimson] loaded [], sites []
+[2020-01-30 10:38:08,696][INFO ][node                     ] [Crimson] initialized
+[2020-01-30 10:38:08,697][INFO ][node                     ] [Crimson] starting ...
+[2020-01-30 10:38:09,038][INFO ][transport                ] [Crimson] bound_address {inet[/127.0.0.1:9300]}, publish_address {inet[/127.0.0.1:9300]}
+[2020-01-30 10:38:09,070][INFO ][discovery                ] [Crimson] elasticsearch/RZtGxC2OR3Cao6qwNMVWiw
+[2020-01-30 10:38:12,855][INFO ][cluster.service          ] [Crimson] new_master [Crimson][RZtGxC2OR3Cao6qwNMVWiw][css-Latitude-E6440][inet[/127.0.0.1:9300]], reason: zen-disco-join (elected_as_master)
+[2020-01-30 10:38:12,917][INFO ][http                     ] [Crimson] bound_address {inet[/127.0.0.1:9200]}, publish_address {inet[/127.0.0.1:9200]}
+[2020-01-30 10:38:12,918][INFO ][node                     ] [Crimson] started
+[2020-01-30 10:38:13,040][INFO ][gateway                  ] [Crimson] recovered [0] indices into cluster_state
+[2020-01-30 12:22:45,942][INFO ][node                     ] [Crimson] stopping ...
+[2020-01-30 12:22:45,997][INFO ][node                     ] [Crimson] stopped
+[2020-01-30 12:22:45,997][INFO ][node                     ] [Crimson] closing ...
+[2020-01-30 12:22:46,002][INFO ][node                     ] [Crimson] closed
+[2020-01-30 12:23:35,661][INFO ][node                     ] [Siena Blaze] version[1.5.2], pid[700], build[62ff986/2015-04-27T09:21:06Z]
+[2020-01-30 12:23:35,662][INFO ][node                     ] [Siena Blaze] initializing ...
+[2020-01-30 12:23:35,666][INFO ][plugins                  ] [Siena Blaze] loaded [], sites []
+[2020-01-30 12:23:38,511][INFO ][node                     ] [Siena Blaze] initialized
+[2020-01-30 12:23:38,512][INFO ][node                     ] [Siena Blaze] starting ...
+[2020-01-30 12:23:38,777][INFO ][transport                ] [Siena Blaze] bound_address {inet[/127.0.0.1:9300]}, publish_address {inet[/127.0.0.1:9300]}
+[2020-01-30 12:23:38,845][INFO ][discovery                ] [Siena Blaze] elasticsearch/CVcp9ej9T1yxIMjywtwQVQ
+[2020-01-30 12:23:42,638][INFO ][cluster.service          ] [Siena Blaze] new_master [Siena Blaze][CVcp9ej9T1yxIMjywtwQVQ][css-Latitude-E6440][inet[/127.0.0.1:9300]], reason: zen-disco-join (elected_as_master)
+[2020-01-30 12:23:42,698][INFO ][http                     ] [Siena Blaze] bound_address {inet[/127.0.0.1:9200]}, publish_address {inet[/127.0.0.1:9200]}
+[2020-01-30 12:23:42,698][INFO ][node                     ] [Siena Blaze] started
+[2020-01-30 12:23:42,741][INFO ][gateway                  ] [Siena Blaze] recovered [0] indices into cluster_state
+[2020-01-30 12:37:27,513][INFO ][node                     ] [Siena Blaze] stopping ...
+[2020-01-30 12:37:27,544][INFO ][node                     ] [Siena Blaze] stopped
+[2020-01-30 12:37:27,544][INFO ][node                     ] [Siena Blaze] closing ...
+[2020-01-30 12:37:27,549][INFO ][node                     ] [Siena Blaze] closed
+[2020-01-30 12:38:29,996][INFO ][node                     ] [Frank Payne] version[1.5.2], pid[14933], build[62ff986/2015-04-27T09:21:06Z]
+[2020-01-30 12:38:29,997][INFO ][node                     ] [Frank Payne] initializing ...
+[2020-01-30 12:38:30,003][INFO ][plugins                  ] [Frank Payne] loaded [], sites []
+[2020-01-30 12:38:33,518][INFO ][node                     ] [Frank Payne] initialized
+[2020-01-30 12:38:33,534][INFO ][node                     ] [Frank Payne] starting ...
+[2020-01-30 12:38:33,876][INFO ][transport                ] [Frank Payne] bound_address {inet[/127.0.0.1:9300]}, publish_address {inet[/127.0.0.1:9300]}
+[2020-01-30 12:38:33,944][INFO ][discovery                ] [Frank Payne] elasticsearch/eF9OXuKXRYi0Ha8QF-euuQ
+[2020-01-30 12:38:37,740][INFO ][cluster.service          ] [Frank Payne] new_master [Frank Payne][eF9OXuKXRYi0Ha8QF-euuQ][css-Latitude-E6440][inet[/127.0.0.1:9300]], reason: zen-disco-join (elected_as_master)
+[2020-01-30 12:38:37,799][INFO ][http                     ] [Frank Payne] bound_address {inet[/127.0.0.1:9200]}, publish_address {inet[/127.0.0.1:9200]}
+[2020-01-30 12:38:37,799][INFO ][node                     ] [Frank Payne] started
+[2020-01-30 12:38:37,865][INFO ][gateway                  ] [Frank Payne] recovered [0] indices into cluster_state

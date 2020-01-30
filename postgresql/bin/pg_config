@@ -1,0 +1,3 @@
+#!/bin/sh
+. /home/css/edx-edutech/postgresql/bin/setenv.sh
+exec /home/css/edx-edutech/postgresql/bin/pg_config.bin "$@"

@@ -1,0 +1,316 @@
+============ CHANGELOG =============
+
+Version ironwood.2-4      2020-01-12
+* Updated Node.js to 10.18.0
+* Updated RabbitMQ to 3.8.2
+
+Version ironwood.2-3      2019-11-30
+* Maintenance release
+* Updated Python to 2.7.17
+* Updated OpenJDK to 1.8.0_232
+* Updated lego to 3.2.0
+* Updated Memcached to 1.5.20
+* Updated MySQL to 5.7.28
+* Updated Node.js to 10.17.0
+* Updated RabbitMQ to 3.8.1
+* Updated SQLite to 3.30.1.
+
+Version ironwood.2-2      2019-10-15
+* Maintenance release
+* Updated Apache to 2.4.41
+* Updated Erlang to 22.1
+* Updated lego to 3.1.0
+* Updated Memcached to 1.5.19
+* Updated MongoDB to 3.2.22
+* Updated Node.js to 10.16.3
+* Updated OpenSSL to 1.1.1d
+* Updated RabbitMQ to 3.8.0
+* Updated Ruby to 2.4.9
+* Updated SQLite to 3.30.0.
+
+Version ironwood.2-1      2019-08-07
+* Maintenance release
+* Updated Ghostscript to 9.05
+* Updated OpenJDK to 1.8.0_222
+* Updated lego to 2.7.2
+* Updated MySQL to 5.7.27
+* Updated RabbitMQ to 3.7.17
+* Updated SQLite to 3.29.0.
+
+Version ironwood.2-0      2019-06-10
+* Updated Open edX to ironwood.2
+
+Version ironwood.1-2      2019-06-04
+* Maintenance release
+* Updated lego to 2.6.0
+* Updated Memcached to 1.5.16
+* Updated Node.js to 10.16.0
+* Updated OpenSSL to 1.0.2s
+
+Version ironwood.1-1      2019-05-25
+* Maintenance release
+* Add Bitnami HTTPS Configuration Tool (bncert)
+* Updated Erlang to 22.0
+* Updated OpenJDK to 1.8.0_212
+* Updated lego to 2.5.0
+* Updated Memcached to 1.5.15
+* Updated MySQL to 5.7.26
+* Updated Node.js to 10.15.3
+* Updated RabbitMQ to 3.7.15
+* Updated SQLite to 3.28.0
+
+Version ironwood.1-0      2019-04-13
+* Updated Open edX to ironwood.1
+
+Version hawthorn.2-6      2019-04-09
+* Fix Apache Carpe Diem vulnerability CVE-2019-0211
+* Updated Python to 2.7.16
+* Updated Apache to 2.4.39
+* Updated Erlang to 21.3
+* Updated lego to 2.4.0
+* Updated RabbitMQ to 3.7.14
+* Updated Ruby to 2.4.6
+
+Version hawthorn.2-5      2019-03-05
+* Maintenance release
+* Updated Apache to 2.4.38
+* Updated OpenJDK to 1.8.0_201
+* Updated lego to 2.2.0
+* Updated MongoDB to 3.2.16
+* Updated MySQL to 5.7.25
+* Updated Node.js to 8.15.1
+* Updated OpenSSL to 1.0.2r
+* Updated RabbitMQ to 3.7.12
+* Updated SQLite to 3.27.2
+
+Version hawthorn.2-4      2019-01-02
+* Updated Erlang to 21.2
+* Updated OpenJDK to 1.8.0_191
+* Updated Memcached to 1.5.12
+* Updated Node.js to 8.15.0
+* Updated OpenSSL to 1.0.2q
+* Updated RabbitMQ to 3.7.9
+
+Version hawthorn.2-3      2018-11-07
+* Fixed SpectreRSB Vulnerability (CVE-2018-15572)
+* Updated Apache to 2.4.37
+* Updated lego to 1.2.1
+* Updated Memcached to 1.5.11
+* Updated MySQL to 5.7.24
+* Updated Ruby to 2.4.5
+
+Version hawthorn.2-2      2018-10-09
+* Updated Erlang to 21.1
+* Updated Git to 2.19.1
+
+Version hawthorn.2-1      2018-09-28
+* Use Bitnami customized settings file for edX Celery workers
+* Updated Apache to 2.4.35
+
+Version hawthorn.2-0      2018-09-27
+* Added Lego tool for configuring Let's encrypt with Apache
+* Updated Open edX to hawthorn.2
+* Updated Elasticsearch to 1.5.2
+* Updated lego to 1.0.1
+* Updated Memcached to 1.5.10
+* Updated MongoDB to 3.2.16
+* Updated MySQL to 5.7.23
+* Updated Node.js to 8.12.0
+* Updated OpenSSL to 1.0.2p
+* Updated RabbitMQ to 3.7.8
+* Updated Ruby to 2.4.4
+
+Version ginkgo.2-7      2018-08-01
+* edX Critical Security Fix: Recommender xblock
+* Updated MySQL to 5.6.41
+
+Version ginkgo.2-6      2018-07-27
+* edX Critical Security Fix: Chemical Equation Advanced Problems
+* Updated Apache to 2.4.34
+* Updated Erlang to 21.0
+* Updated Java to 1.8.0_181
+* Updated Memcached to 1.5.9
+* Updated Node.js to 6.14.3
+* Updated RabbitMQ to 3.7.7
+
+Version ginkgo.2-5      2018-06-01
+* Updated Git to 2.17.1 (Security release CVE-2018-11235)
+* Updated Python to 2.7.15
+* Updated Node.js to 6.14.2
+* Updated RabbitMQ to 3.7.5
+* Updated SQLite to 3.18.0
+
+Version ginkgo.2-4      2018-05-04
+* Update edX httpd-vhosts.conf file when changing domain with Bnconfig tool
+* Updated Apache to 2.4.33
+* Updated Memcached to 1.5.7
+* Updated MySQL to 5.6.40
+* Updated Node.js to 6.14.1
+* Updated OpenSSL to 1.0.2o
+* Updated RabbitMQ to 3.7.4
+* Updated Ruby to 2.3.7
+
+Version ginkgo.2-2      2018-03-07
+* Generate the SSL certificates at installation time
+(boot time in the cloud images and virtual machines)
+* Updated Java to 1.8.0_161
+* Updated Memcached to 1.5.5
+* Updated MySQL to 5.6.39
+* Updated Node.js to 6.13.0
+* Updated RabbitMQ to 3.7.3
+
+Version ginkgo.2-1      2018-01-15
+* Updated Memcached to 1.5.4
+
+Version ginkgo.2-0      2018-01-03
+* Updated Open edX to ginkgo.2
+* Updated Node.js to 6.12.2
+* Updated OpenSSL to 1.0.2n
+* Updated RabbitMQ to 3.7.2
+* Updated Ruby to 2.3.6
+
+Version ginkgo.1-1      2017-11-28
+* Fix user avatar upload in Open edX
+* Fix report generation download in Open edX
+
+Version ginkgo.1-0      2017-11-15
+* Add edX bnsupport metadata
+* Add bnsupport tool
+* Fixed several security vulnerabilities in Ruby (CVE-2017-14033, CVE-2017-0898, CVE-2017-10784, CVE-2017-14064)
+* Updated GNU Patch to 2.7.5 (Security fix CVE-2014-9637)
+* Updated Python to 2.7.14
+* Updated Apache to 2.4.29
+* Updated Open edX to ginkgo.1
+* Updated Erlang to 20.1
+* Updated Java to 1.8.0_151
+* Updated Memcached to 1.5.3
+* Updated MySQL to 5.6.38
+* Updated Node.js to 6.12.0
+* Updated OpenSSL to 1.0.2m
+* Updated RabbitMQ to 3.6.14
+* Updated Ruby to 2.3.5
+
+Version ficus.3-4      2017-09-07
+* Update Rubygems to version 2.6.13 (several security fixes)
+* Updated Memcached to 1.5.1
+* Updated Node.js to 6.11.3
+
+Version ficus.3-3      2017-08-18
+* Removed Pagespeed
+* Updated Node.js to 6.11.1
+* Updated Apache to 2.4.27
+* Updated Memcached to 1.4.39
+* Updated MongoDB to 3.4.5
+* Updated Git to 2.14.1
+* Updated MySQL to 5.6.37
+* Updated Java to 1.8.0_144
+* Updated RabbitMQ to 3.6.11
+
+Version ficus.3-2      2017-06-16
+* Updated Ruby to 2.3.4
+* Fix sudo vulnerability (CVE-2017-1000367)
+* Updated OpenSSL to 1.0.2l
+
+Version ficus.3-1      2017-05-17
+* Fix issue where courses would not appear for non-staff users
+* Updated Memcached to 1.4.36
+* Updated Nodejs to 6.10.3
+* Updated MySQL to 5.6.36
+* Updated MongoDB to 3.4.4
+* Updated Java to 1.8.0_131
+
+Version ficus.3-0      2017-04-25
+* Updated Open edX to Ficus
+* Updated Erlang to 18.0
+* Updated Passenger to 5.1.2
+* Updated ImageMagick to 6.9.8 (Security fixes for CVE-2015-8902, CVE-2016-5240, CVE-2015-8903, CVE-2015-8900 and CVE-2015-8901)
+* Updated Node.js to 6.10.1
+
+Version eucalyptus.3-1      2017-03-30
+* Fixed problem on Apache Configuration
+
+Version eucalyptus.3-0      2017-03-23
+* Updated Open edX to Eucalyptus
+* Updated Memcached to 1.4.35
+* Updated Node.js to 6.10.0
+* Updated OpenSSL to 1.0.2k (Security fixes for CVE-2017-3731, CVE-2017-3731, CVE-2017-3731, and CVE-2016-7055)
+* Updated Java to 1.8.0_121
+* Updated Python to 2.7.13
+* Updated Apache to 2.4.25
+* Updated MySQL to 5.6.35
+
+Version 20160414-5      2016-09-29
+* Updated OpenSSL to 1.0.2j (Security fix CVE-2016-6304)
+* Updated MySQL to 5.6.33
+* Updated NodeJs to 6.5.0
+
+Version 20160414-4      2016-08-29
+* Updated Memcached to 1.4.31
+* Updated Nodejs to 6.4.0
+
+Version 20160414-3      2016-08-17
+* Patched Off-Path TCP Linux Kernel Vulnerability in Cloud Images and Virtual Machines (Security release CVE-2016-5696)
+* Updated MySQL to 5.6.32
+* Updated Ruby to 2.1.10
+* Updated Java to 1.8.0_101
+* Updated Memcached to 1.4.29
+* Blocked Proxy request header in the web server (Security issue CVE-2016-5385, CVE-2016-5387, CVE-2016-1000110)
+* Updated Apache to 2.4.23
+* Updated Python to 2.7.12
+* Updated Nodejs to 6.3.0
+
+
+Version 20160414-2      2016-05-06
+* Updated policy of ImageMagick (disabled TEXT, SHOW, WIN, PLT) (Security CVE-2016-3714)
+* Updated OpenSSL to 1.0.2h (Security release CVE-2016-2108 CVE-2016-2107)
+
+Version 20160414-1      2016-05-04
+* Modified policy of ImageMagick (Security CVE-2016-3714)
+
+Version 20160414-0      2016-04-29
+* Updated PageSpeed to 1.9.32.14
+* Updated Java to 1.8.0_91 (Security release CVE-2016-3427, CVE-2016-3427, CVE-2016-3425)
+* Updated edX to dogwood (20160414)
+
+Version cypress-4      2016-01-19
+* Updated libpng to 1.5.26 (Security release CVE-2015-8540)
+* Updated Ruby to 2.1.8
+* Updated Apache to 2.4.18
+* Updated Python to 2.7.11
+* Updated MySQL to 5.6.28
+* Updated Node.js to 4.2.3 (Security release CVE-2015-8027, CVE-2015-6764, CVE-2015-3193 and CVE-2015-3194)
+* Updated OpenSSL to 1.0.1q
+
+Version cypress-3      2015-11-20
+* Updated libpng to 1.5.24 (security issue)
+* Updated Node.js to 5.1.0
+
+Version cypress-2      2015-10-27
+* Updated Java to 1.8.0_65
+* Updated MySQL to 5.6.27
+* Updated Node.js to 4.2.1
+* Updated Apache to 2.4.17
+
+Version cypress-0      2015-09-11
+* Updated Open edX to Cypress
+* Included XQueue Cypress
+* Included RabbitMQ 3.5.4
+* Included XBlock File Storage and Office Mix
+* Updated Apache to 2.4.16
+* Updated Node.js to 0.12.7
+
+Version birch-4      2015-07-10
+* Updated OpenSSL to 1.0.1p
+
+Version birch-3      2015-06-30
+* Updated Node.js to 0.12.5
+* Fixed application links for Cloud Images
+
+Version birch-2      2015-06-24
+* Update Open edX logo
+
+Version birch-1      2015-06-11
+* Fixed link to edX Studio
+
+Version birch-0      2015-06-10
+* Initial release, bundles Apache  2.4.12, Ruby  2.0.0-p645, Passenger  5.0.6, PHP  5.4.39, OpenSSL  1.0.1m, Java 1.7.0_76, Git 1.9.5, Python to 2.7.9

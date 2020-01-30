@@ -1,0 +1,5 @@
+#!/bin/sh
+
+
+
+exec /bin/bash --rcfile "/home/css/edx-edutech/.bashrc"

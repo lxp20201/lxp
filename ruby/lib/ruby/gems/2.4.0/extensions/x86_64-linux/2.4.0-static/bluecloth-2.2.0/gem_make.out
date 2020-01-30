@@ -1,0 +1,37 @@
+current directory: /bitnami/ruby24stack-linux-x64/output/ruby/lib/ruby/gems/2.4.0/gems/bluecloth-2.2.0/ext
+/bitnami/ruby24stack-linux-x64/output/ruby/bin/ruby -r ./siteconf20200107-11193-iyskqw.rb extconf.rb
+checking for srand()... yes
+checking for random()... yes
+checking for bzero() in string.h,strings.h... yes
+checking for strcasecmp()... yes
+checking for strncasecmp()... yes
+checking for mkdio.h... yes
+checking for ruby/encoding.h... yes
+creating extconf.h
+creating Makefile
+
+current directory: /bitnami/ruby24stack-linux-x64/output/ruby/lib/ruby/gems/2.4.0/gems/bluecloth-2.2.0/ext
+make "DESTDIR=" clean
+
+current directory: /bitnami/ruby24stack-linux-x64/output/ruby/lib/ruby/gems/2.4.0/gems/bluecloth-2.2.0/ext
+make "DESTDIR="
+compiling Csio.c
+compiling bluecloth.c
+compiling css.c
+compiling docheader.c
+compiling emmatch.c
+compiling generate.c
+compiling html5.c
+compiling markdown.c
+compiling mkdio.c
+compiling resource.c
+compiling setup.c
+compiling tags.c
+compiling version.c
+compiling xml.c
+compiling xmlpage.c
+linking shared-object bluecloth_ext.so
+
+current directory: /bitnami/ruby24stack-linux-x64/output/ruby/lib/ruby/gems/2.4.0/gems/bluecloth-2.2.0/ext
+make "DESTDIR=" install
+/bin/install -c -m 0755 bluecloth_ext.so ./.gem.20200107-11193-1ts4fs2

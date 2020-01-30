@@ -1,0 +1,11 @@
+#!/bin/sh
+. /home/css/edx-edutech/scripts/setenv.sh
+. /home/css/edx-edutech/apps/edx/venvs/edxapp/bin/activate
+export SKIP_WS_MIGRATIONS=1
+export NO_PREREQ_INSTALL=1
+export CONFIG_ROOT=/home/css/edx-edutech/apps/edx/conf
+export EDX_PLATFORM_SETTINGS=bitnami
+# AWS settings file is used, but not with AWS integration
+export BOTO_CONFIG=""
+# Celery workers require some additional Python modules
+export PYTHONPATH=$PYTHONPATH:/home/css/edx-edutech/apps/edx/edx-platform/cms/djangoapps

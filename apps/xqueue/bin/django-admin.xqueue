@@ -1,0 +1,4 @@
+#!/bin/sh
+. /home/css/edx-edutech/apps/xqueue/conf/xqueue_env
+cd /home/css/edx-edutech/apps/xqueue/xqueue
+python /home/css/edx-edutech/apps/xqueue/venvs/xqueue/bin/django-admin.py $@

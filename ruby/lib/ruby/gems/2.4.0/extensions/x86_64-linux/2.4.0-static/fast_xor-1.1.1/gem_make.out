@@ -1,0 +1,15 @@
+current directory: /bitnami/ruby24stack-linux-x64/output/ruby/lib/ruby/gems/2.4.0/gems/fast_xor-1.1.1/ext/xor
+/bitnami/ruby24stack-linux-x64/output/ruby/bin/ruby -r ./siteconf20200107-31092-1ca5crc.rb extconf.rb
+creating Makefile
+
+current directory: /bitnami/ruby24stack-linux-x64/output/ruby/lib/ruby/gems/2.4.0/gems/fast_xor-1.1.1/ext/xor
+make "DESTDIR=" clean
+
+current directory: /bitnami/ruby24stack-linux-x64/output/ruby/lib/ruby/gems/2.4.0/gems/fast_xor-1.1.1/ext/xor
+make "DESTDIR="
+compiling xor.c
+linking shared-object xor.so
+
+current directory: /bitnami/ruby24stack-linux-x64/output/ruby/lib/ruby/gems/2.4.0/gems/fast_xor-1.1.1/ext/xor
+make "DESTDIR=" install
+/bin/install -c -m 0755 xor.so ./.gem.20200107-31092-1m5rpjh

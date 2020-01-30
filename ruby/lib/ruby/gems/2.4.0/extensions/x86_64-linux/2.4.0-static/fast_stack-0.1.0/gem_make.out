@@ -1,0 +1,15 @@
+current directory: /bitnami/ruby24stack-linux-x64/output/ruby/lib/ruby/gems/2.4.0/gems/fast_stack-0.1.0/ext/fast_stack
+/bitnami/ruby24stack-linux-x64/output/ruby/bin/ruby -r ./siteconf20200107-31510-5o2gqt.rb extconf.rb
+creating Makefile
+
+current directory: /bitnami/ruby24stack-linux-x64/output/ruby/lib/ruby/gems/2.4.0/gems/fast_stack-0.1.0/ext/fast_stack
+make "DESTDIR=" clean
+
+current directory: /bitnami/ruby24stack-linux-x64/output/ruby/lib/ruby/gems/2.4.0/gems/fast_stack-0.1.0/ext/fast_stack
+make "DESTDIR="
+compiling fast_stack.c
+linking shared-object fast_stack/fast_stack.so
+
+current directory: /bitnami/ruby24stack-linux-x64/output/ruby/lib/ruby/gems/2.4.0/gems/fast_stack-0.1.0/ext/fast_stack
+make "DESTDIR=" install
+/bin/install -c -m 0755 fast_stack.so ./.gem.20200107-31510-17u27qa/fast_stack

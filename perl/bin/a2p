@@ -1,0 +1,5 @@
+#!/bin/sh
+
+. /home/css/edx-edutech/scripts/setenv.sh
+
+exec /home/css/edx-edutech/perl/bin/.a2p.bin  "$@"

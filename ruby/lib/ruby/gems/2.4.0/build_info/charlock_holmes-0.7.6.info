@@ -1,0 +1,2 @@
+--with-icu-dir=/bitnami/ruby24stack-linux-x64/output/common
+--with-icu-lib=/bitnami/ruby24stack-linux-x64/output/common/lib

@@ -1,0 +1,11 @@
+#!/bin/sh
+. /home/css/edx-edutech/scripts/setenv.sh
+. /home/css/edx-edutech/apps/xqueue/venvs/xqueue/bin/activate
+export XQUEUE_CFG=/home/css/edx-edutech/apps/xqueue/conf/xqueue.yml
+export DJANGO_SETTINGS_MODULE=xqueue.bitnami_settings
+export PYTHONPATH=$PYTHONPATH:/home/css/edx-edutech/apps/xqueue/xqueue
+# Configuration for XQueue testing environment
+export NOSE_XUNIT_FILE="/home/css/edx-edutech/apps/xqueue/var/reports/nosetests.xml"
+export NOSE_COVER_HTML_DIR="/home/css/edx-edutech/apps/xqueue/var/reports/cover"
+# Necessary for the virtualenv binaries to work
+export BITNAMI_ROOT=/home/css/edx-edutech

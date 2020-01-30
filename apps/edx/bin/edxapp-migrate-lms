@@ -1,0 +1,5 @@
+#!/bin/sh
+. /home/css/edx-edutech/apps/edx/conf/edxapp_env
+cd /home/css/edx-edutech/apps/edx/edx-platform
+python manage.py lms migrate --database default --noinput --settings=$EDX_PLATFORM_SETTINGS $@
+python manage.py lms migrate --database student_module_history --noinput --settings=$EDX_PLATFORM_SETTINGS $@

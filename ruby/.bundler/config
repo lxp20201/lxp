@@ -1,0 +1,4 @@
+BUNDLE_BUILD__NOKOGIRI: --with-xml2-dir=/home/css/edx-edutech/common --with-xslt-dir=/home/css/edx-edutech/common --with-xml2-include=/home/css/edx-edutech/common/include/libxml2 --with-xslt-include=/home/css/edx-edutech/common/include --with-xml2-lib=/home/css/edx-edutech/common/lib --with-xslt-lib=/home/css/edx-edutech/common/lib 
+BUNDLE_BUILD__BUNDLER: -f 
+BUNDLE_BUILD__SQLITE3: --with-sqlite3-dir=/home/css/edx-edutech/sqlite --with-sqlite3-lib=/home/css/edx-edutech/sqlite/lib --with-sqlite3-include=/home/css/edx-edutech/sqlite/include 
+BUNDLE_BUILD__CHARLOCK_HOLMES: --with-icu-dir=/home/css/edx-edutech/common --with-icu-lib=/home/css/edx-edutech/common/lib 

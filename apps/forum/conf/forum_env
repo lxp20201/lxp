@@ -1,0 +1,7 @@
+
+export API_KEY="56014118c44a449e7391a66ac593ffec67f4"
+export MONGOHQ_URL="mongodb://bn_forum:c265248c05@127.0.0.1:27017/bitnami_cs_comments_service"
+export SEARCH_SERVER="http://127.0.0.1:9200"
+export RACK_ENV="production"
+export SINATRA_ENV="production"
+export NEWRELIC_ENABLE="False"

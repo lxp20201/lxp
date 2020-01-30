@@ -1,0 +1,132 @@
+=head2 Tue Jan  7 08:03:03 2020: C<Module> L<Switch|Switch>
+
+=over 4
+
+=item *
+
+C<installed into: /bitnami/ruby24stack-linux-x64/output/perl/lib/site_perl/5.16.3>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 2.16>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Tue Jan  7 08:03:11 2020: C<Module> L<DBI|DBI>
+
+=over 4
+
+=item *
+
+C<installed into: /bitnami/ruby24stack-linux-x64/output/perl/lib/site_perl/5.16.3>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.625>
+
+=item *
+
+C<EXE_FILES: dbiproxy dbiprof dbilogstrip>
+
+=back
+
+=head2 Tue Jan  7 08:03:13 2020: C<Module> L<Test::Simple|Test::Simple>
+
+=over 4
+
+=item *
+
+C<installed into: /bitnami/ruby24stack-linux-x64/output/perl/lib/5.16.3>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.80>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Tue Jan  7 08:03:14 2020: C<Module> L<Digest::SHA|Digest::SHA>
+
+=over 4
+
+=item *
+
+C<installed into: /bitnami/ruby24stack-linux-x64/output/perl/lib/5.16.3>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 5.62>
+
+=item *
+
+C<EXE_FILES: shasum>
+
+=back
+
+=head2 Tue Jan  7 08:03:15 2020: C<Module> L<Digest::SHA1|Digest::SHA1>
+
+=over 4
+
+=item *
+
+C<installed into: /bitnami/ruby24stack-linux-x64/output/perl/lib/site_perl/5.16.3>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 2.11>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Tue Jan  7 08:04:41 2020: C<Module> L<mod_perl2|mod_perl2>
+
+=over 4
+
+=item *
+
+C<installed into: /bitnami/ruby24stack-linux-x64/output/perl/lib/site_perl/5.16.3>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 2.0.8-dev>
+
+=item *
+
+C<EXE_FILES: bin/mp2bug>
+
+=back
+

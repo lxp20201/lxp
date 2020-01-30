@@ -1,0 +1,6 @@
+#!/bin/sh
+
+. /home/css/edx-edutech/scripts/setenv.sh
+SASL_PATH="/home/css/edx-edutech/common/lib/sasl2"
+                export SASL_PATH
+exec /home/css/edx-edutech/common/sbin/.sasldblistusers2.bin -f "/home/css/edx-edutech/common/etc/sasldb2" "$@"

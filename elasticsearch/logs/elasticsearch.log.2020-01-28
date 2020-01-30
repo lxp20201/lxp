@@ -1,0 +1,30 @@
+[2020-01-28 16:24:03,590][INFO ][node                     ] [Runner] version[1.5.2], pid[4615], build[62ff986/2015-04-27T09:21:06Z]
+[2020-01-28 16:24:03,591][INFO ][node                     ] [Runner] initializing ...
+[2020-01-28 16:24:03,594][INFO ][plugins                  ] [Runner] loaded [], sites []
+[2020-01-28 16:24:05,667][INFO ][node                     ] [Runner] initialized
+[2020-01-28 16:24:05,667][INFO ][node                     ] [Runner] starting ...
+[2020-01-28 16:24:05,854][INFO ][transport                ] [Runner] bound_address {inet[/127.0.0.1:9300]}, publish_address {inet[/127.0.0.1:9300]}
+[2020-01-28 16:24:05,877][INFO ][discovery                ] [Runner] elasticsearch/rV5gLN32QiK6l9piRknSkQ
+[2020-01-28 16:24:09,655][INFO ][cluster.service          ] [Runner] new_master [Runner][rV5gLN32QiK6l9piRknSkQ][css-Latitude-E6440][inet[/127.0.0.1:9300]], reason: zen-disco-join (elected_as_master)
+[2020-01-28 16:24:09,704][INFO ][http                     ] [Runner] bound_address {inet[/127.0.0.1:9200]}, publish_address {inet[/127.0.0.1:9200]}
+[2020-01-28 16:24:09,704][INFO ][node                     ] [Runner] started
+[2020-01-28 16:24:09,781][INFO ][gateway                  ] [Runner] recovered [0] indices into cluster_state
+[2020-01-28 18:55:01,689][INFO ][node                     ] [Runner] stopping ...
+[2020-01-28 18:55:01,708][INFO ][node                     ] [Runner] stopped
+[2020-01-28 18:55:01,708][INFO ][node                     ] [Runner] closing ...
+[2020-01-28 18:55:01,713][INFO ][node                     ] [Runner] closed
+[2020-01-28 18:56:02,653][INFO ][node                     ] [Jerry Jaxon] version[1.5.2], pid[16942], build[62ff986/2015-04-27T09:21:06Z]
+[2020-01-28 18:56:02,654][INFO ][node                     ] [Jerry Jaxon] initializing ...
+[2020-01-28 18:56:02,658][INFO ][plugins                  ] [Jerry Jaxon] loaded [], sites []
+[2020-01-28 18:56:05,135][INFO ][node                     ] [Jerry Jaxon] initialized
+[2020-01-28 18:56:05,136][INFO ][node                     ] [Jerry Jaxon] starting ...
+[2020-01-28 18:56:05,345][INFO ][transport                ] [Jerry Jaxon] bound_address {inet[/127.0.0.1:9300]}, publish_address {inet[/127.0.0.1:9300]}
+[2020-01-28 18:56:05,399][INFO ][discovery                ] [Jerry Jaxon] elasticsearch/J-CiWrNwQeKlwUYaCwN3sA
+[2020-01-28 18:56:09,179][INFO ][cluster.service          ] [Jerry Jaxon] new_master [Jerry Jaxon][J-CiWrNwQeKlwUYaCwN3sA][css-Latitude-E6440][inet[/127.0.0.1:9300]], reason: zen-disco-join (elected_as_master)
+[2020-01-28 18:56:09,213][INFO ][http                     ] [Jerry Jaxon] bound_address {inet[/127.0.0.1:9200]}, publish_address {inet[/127.0.0.1:9200]}
+[2020-01-28 18:56:09,213][INFO ][node                     ] [Jerry Jaxon] started
+[2020-01-28 18:56:09,315][INFO ][gateway                  ] [Jerry Jaxon] recovered [0] indices into cluster_state
+[2020-01-28 21:30:46,930][INFO ][node                     ] [Jerry Jaxon] stopping ...
+[2020-01-28 21:30:47,579][INFO ][node                     ] [Jerry Jaxon] stopped
+[2020-01-28 21:30:47,733][INFO ][node                     ] [Jerry Jaxon] closing ...
+[2020-01-28 21:30:47,744][INFO ][node                     ] [Jerry Jaxon] closed

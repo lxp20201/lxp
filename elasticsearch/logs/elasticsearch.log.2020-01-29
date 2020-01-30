@@ -1,0 +1,15 @@
+[2020-01-29 10:31:36,331][INFO ][node                     ] [Gabriel Summers] version[1.5.2], pid[7300], build[62ff986/2015-04-27T09:21:06Z]
+[2020-01-29 10:31:36,331][INFO ][node                     ] [Gabriel Summers] initializing ...
+[2020-01-29 10:31:36,395][INFO ][plugins                  ] [Gabriel Summers] loaded [], sites []
+[2020-01-29 10:31:52,351][INFO ][node                     ] [Gabriel Summers] initialized
+[2020-01-29 10:31:52,352][INFO ][node                     ] [Gabriel Summers] starting ...
+[2020-01-29 10:31:53,032][INFO ][transport                ] [Gabriel Summers] bound_address {inet[/127.0.0.1:9300]}, publish_address {inet[/127.0.0.1:9300]}
+[2020-01-29 10:31:53,147][INFO ][discovery                ] [Gabriel Summers] elasticsearch/62hBhiWcQvSutJy8T_QKNg
+[2020-01-29 10:31:56,994][INFO ][cluster.service          ] [Gabriel Summers] new_master [Gabriel Summers][62hBhiWcQvSutJy8T_QKNg][css-Latitude-E6440][inet[/127.0.0.1:9300]], reason: zen-disco-join (elected_as_master)
+[2020-01-29 10:31:57,088][INFO ][http                     ] [Gabriel Summers] bound_address {inet[/127.0.0.1:9200]}, publish_address {inet[/127.0.0.1:9200]}
+[2020-01-29 10:31:57,088][INFO ][node                     ] [Gabriel Summers] started
+[2020-01-29 10:31:57,163][INFO ][gateway                  ] [Gabriel Summers] recovered [0] indices into cluster_state
+[2020-01-29 23:45:16,971][INFO ][node                     ] [Gabriel Summers] stopping ...
+[2020-01-29 23:45:17,099][INFO ][node                     ] [Gabriel Summers] stopped
+[2020-01-29 23:45:17,099][INFO ][node                     ] [Gabriel Summers] closing ...
+[2020-01-29 23:45:17,130][INFO ][node                     ] [Gabriel Summers] closed

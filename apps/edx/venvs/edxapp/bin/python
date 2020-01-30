@@ -1,0 +1,3 @@
+#!/bin/sh
+. /home/css/edx-edutech/scripts/setenv.sh
+exec /home/css/edx-edutech/apps/edx/venvs/edxapp/bin/.python2.7.bin "$@"

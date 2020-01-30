@@ -1,0 +1,22 @@
+current directory: /bitnami/ruby24stack-linux-x64/output/ruby/lib/ruby/gems/2.4.0/gems/iconv-1.0.3/ext/iconv
+/bitnami/ruby24stack-linux-x64/output/ruby/bin/ruby -r ./siteconf20200107-31542-c4ahm4.rb extconf.rb
+checking for rb_enc_get() in ruby/encoding.h... yes
+checking for iconv() in iconv.h... no
+checking for iconv() in -liconv... yes
+checking signedness of size_t... unsigned
+checking for const of iconv() 2nd argument... no
+checking for iconvlist() in iconv.h... yes
+checking for __iconv_free_list() in iconv.h... no
+creating Makefile
+
+current directory: /bitnami/ruby24stack-linux-x64/output/ruby/lib/ruby/gems/2.4.0/gems/iconv-1.0.3/ext/iconv
+make "DESTDIR=" clean
+
+current directory: /bitnami/ruby24stack-linux-x64/output/ruby/lib/ruby/gems/2.4.0/gems/iconv-1.0.3/ext/iconv
+make "DESTDIR="
+compiling iconv.c
+linking shared-object iconv/iconv.so
+
+current directory: /bitnami/ruby24stack-linux-x64/output/ruby/lib/ruby/gems/2.4.0/gems/iconv-1.0.3/ext/iconv
+make "DESTDIR=" install
+/bin/install -c -m 0755 iconv.so ./.gem.20200107-31542-1m1pgh7/iconv

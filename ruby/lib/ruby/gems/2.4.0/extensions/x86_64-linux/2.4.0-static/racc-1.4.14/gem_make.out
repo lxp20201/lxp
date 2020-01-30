@@ -1,0 +1,16 @@
+current directory: /bitnami/ruby24stack-linux-x64/output/ruby/lib/ruby/gems/2.4.0/gems/racc-1.4.14/ext/racc
+/bitnami/ruby24stack-linux-x64/output/ruby/bin/ruby -r ./siteconf20200107-11860-14mrjfr.rb extconf.rb
+checking for rb_ary_subseq()... yes
+creating Makefile
+
+current directory: /bitnami/ruby24stack-linux-x64/output/ruby/lib/ruby/gems/2.4.0/gems/racc-1.4.14/ext/racc
+make "DESTDIR=" clean
+
+current directory: /bitnami/ruby24stack-linux-x64/output/ruby/lib/ruby/gems/2.4.0/gems/racc-1.4.14/ext/racc
+make "DESTDIR="
+compiling cparse.c
+linking shared-object racc/cparse.so
+
+current directory: /bitnami/ruby24stack-linux-x64/output/ruby/lib/ruby/gems/2.4.0/gems/racc-1.4.14/ext/racc
+make "DESTDIR=" install
+/bin/install -c -m 0755 cparse.so ./.gem.20200107-11860-75r4qv/racc
